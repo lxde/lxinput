@@ -1,0 +1,4 @@
+src/lxinput.c
+[type:gettext/glade]data/lxinput.ui
+
+
