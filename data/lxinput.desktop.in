@@ -9,3 +9,5 @@ Comment[zh_TW]=設定鍵盤、滑鼠、及其他輸入裝置
 StartupNotify=true
 Terminal=false
 Categories=GTK;Settings;HardwareSettings;
+OnlyShowIn=LXDE;
+

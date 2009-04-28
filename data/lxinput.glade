@@ -394,7 +394,6 @@
                 <child>
                   <object class="GtkCheckButton" id="beep">
                     <property name="label" translatable="yes">Beep when there is an error of keyboard input</property>
-                    <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="receives_default">False</property>
                     <property name="draw_indicator">True</property>
