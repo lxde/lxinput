@@ -1,5 +1,4 @@
 [Desktop Entry]
-Encoding=UTF-8
 Type=Application
 Name=Keyboard and Mouse
 Name[zh_TW]=鍵盤及滑鼠
@@ -8,3 +7,5 @@ Exec=lxinput
 Comment=Configure keyboard, mouse, and other input devices
 Comment[zh_TW]=設定鍵盤、滑鼠、及其他輸入裝置
 StartupNotify=true
+Terminal=false
+Categories=GTK;Settings;HardwareSettings;
