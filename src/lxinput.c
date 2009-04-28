@@ -32,7 +32,9 @@
 #include <X11/Xlib.h>
 #include <X11/XKBlib.h>
 
+static char* file = NULL;
 static GKeyFile* kf;
+
 static GtkWidget *dlg;
 static GtkRange *mouse_accel;
 static GtkRange *mouse_threshold;
@@ -53,7 +55,6 @@ static gboolean beep = TRUE, old_beep = TRUE;
 static void on_mouse_accel_changed(GtkRange* range, gpointer user_data)
 {
     accel = (int)gtk_range_get_value(range);
-    g_debug("accel:%d", accel);
     XChangePointerControl(GDK_DISPLAY(), True, False,
                              accel, 10, 0);
 }
@@ -135,7 +136,33 @@ static void set_range_stops(GtkRange* range, int interval )
 
 static void load_settings()
 {
+    /* load settings form LXDE config files */
+	file = g_build_filename( g_get_user_config_dir(), "lxde/config", NULL );
+	gboolean ret = g_key_file_load_from_file( kf, file, 0, NULL );
 
+    if( ret )
+    {
+        int val;
+        val = g_key_file_get_integer(kf, "Mouse", "AccFactor", NULL);
+        if( val > 0)
+            old_accel = accel = val;
+
+        val = g_key_file_get_integer(kf, "Mouse", "AccThreshold", NULL);
+        if( val > 0)
+            old_threshold = threshold = val;
+
+        old_left_handed = left_handed = g_key_file_get_boolean(kf, "Mouse", "LeftHanded", NULL);
+
+        val = g_key_file_get_integer(kf, "Keyboard", "Delay", NULL);
+        if(val > 0)
+            old_delay = delay = val;
+        val = g_key_file_get_integer(kf, "Keyboard", "Interval", NULL);
+        if(val > 0)
+            old_interval = interval = val;
+
+        if( g_key_file_has_key(kf, "Keyboard", "Beep", NULL ) )
+            old_beep = beep = g_key_file_get_boolean(kf, "Keyboard", "Beep", NULL);
+    }
 }
 
 int main(int argc, char** argv)
@@ -169,6 +196,12 @@ int main(int argc, char** argv)
 
     g_object_unref( builder );
 
+
+    /* read the config flie */
+    kf = g_key_file_new();
+    load_settings();
+
+    /* init the UI */
     gtk_range_set_value(mouse_accel, accel);
     gtk_range_set_value(mouse_threshold, 110-threshold);
     gtk_toggle_button_set_active(mouse_left_handed, left_handed);
@@ -176,7 +209,6 @@ int main(int argc, char** argv)
     gtk_range_set_value(kb_delay, delay);
     gtk_range_set_value(kb_interval, interval);
     gtk_toggle_button_set_active(kb_beep, beep);
-
 
     set_range_stops(mouse_accel, 10);
     g_signal_connect(mouse_accel, "value-changed", G_CALLBACK(on_mouse_accel_changed), NULL);
@@ -190,20 +222,30 @@ int main(int argc, char** argv)
     g_signal_connect(kb_interval, "value-changed", G_CALLBACK(on_kb_range_changed), &kb_interval);
     g_signal_connect(kb_beep, "toggled", G_CALLBACK(on_kb_beep_toggle), NULL);
 
-    /* read the config flie */
-    kf = g_key_file_new();
-
     if( gtk_dialog_run( (GtkDialog*)dlg ) == GTK_RESPONSE_OK )
     {
         gsize len;
+
+        g_key_file_set_integer(kf, "Mouse", "AccFactor", accel);
+        g_key_file_set_integer(kf, "Mouse", "AccThreshold", threshold);
+        g_key_file_set_boolean(kf, "Mouse", "LeftHanded", left_handed);
+
+        g_key_file_set_integer(kf, "Keyboard", "Delay", delay);
+        g_key_file_set_integer(kf, "Keyboard", "Interval", interval);
+        g_key_file_set_boolean(kf, "Keyboard", "Beep", beep);
+
         if( str = g_key_file_to_data( kf, &len, NULL ) )
         {
-/*
-            if( ! g_file_set_contents( ofile, str, len, &err ) )
+            if( g_file_set_contents( file, str, len, &err ) )
+            {
+                /* ask the settigns daemon to reload */
+                /* FIXME: is this needed? */
+                /* g_spawn_command_line_sync("lxde-settings-daemon reload", NULL, NULL, NULL, NULL); */
+            }
+            else
             {
                 g_error_free( err );
             }
-*/
             g_free(str);
         }
     }
@@ -229,6 +271,7 @@ int main(int argc, char** argv)
 
     gtk_widget_destroy( dlg );
 
+	g_free( file );
     g_key_file_free( kf );
 
     return 0;
