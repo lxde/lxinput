@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-28 22:24+0800\n"
+"POT-Creation-Date: 2009-04-28 22:37+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,15 +73,15 @@ msgid "Mouse"
 msgstr ""
 
 #: ../data/lxinput.glade.h:15
-msgid "Repeat delay: "
+msgid "Repeat delay:"
 msgstr ""
 
 #: ../data/lxinput.glade.h:16
-msgid "Repeat interval: "
+msgid "Repeat interval:"
 msgstr ""
 
 #: ../data/lxinput.glade.h:17
-msgid "Sensitivity"
+msgid "Sensitivity:"
 msgstr ""
 
 #: ../data/lxinput.glade.h:18
