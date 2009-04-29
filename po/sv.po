@@ -3,99 +3,99 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-29 10:11+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2009-04-29 10:38+0200\n"
+"Last-Translator: Martin Bagge <brother@bsnet.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../data/lxinput.glade.h:1
 msgid "<b>Character Repeat</b>"
-msgstr ""
+msgstr "<b>Teckenupprepning</b>"
 
 #: ../data/lxinput.glade.h:2
 msgid "<b>Motion</b>"
-msgstr ""
+msgstr "<b>Förflyttning</b>"
 
 #: ../data/lxinput.glade.h:3
 msgid "Acceleration:"
-msgstr ""
+msgstr "Acceleration:"
 
 #: ../data/lxinput.glade.h:4
 msgid "Beep when there is an error of keyboard input"
-msgstr ""
+msgstr "Avge ett pip när ett fel uppstår vid tangentbordsinmatning"
 
 #: ../data/lxinput.glade.h:5
 msgid "Delay before each key starts repeating"
-msgstr ""
+msgstr "Tid innan varje tangent repeteras"
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
-msgstr ""
+msgstr "Snabb"
 
 #: ../data/lxinput.glade.h:7
 msgid "High"
-msgstr ""
+msgstr "Hög"
 
 #: ../data/lxinput.glade.h:8
 msgid "Input Device Preferences"
-msgstr ""
+msgstr "Egenskaper för inmatningsenhet"
 
 #: ../data/lxinput.glade.h:9
 msgid "Interval between each key repeat"
-msgstr ""
+msgstr "Intervall mellan upprening av tangenter"
 
 #: ../data/lxinput.glade.h:10
 msgid "Keyboard"
-msgstr ""
+msgstr "Tangentbord"
 
 #: ../data/lxinput.glade.h:11
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr ""
+msgstr "Vänsterhänt (byt funktioner för vänster och höger musknapp)"
 
 #: ../data/lxinput.glade.h:12
 msgid "Long"
-msgstr ""
+msgstr "Lång"
 
 #: ../data/lxinput.glade.h:13
 msgid "Low"
-msgstr ""
+msgstr "Låg"
 
 #: ../data/lxinput.glade.h:14
 msgid "Mouse"
-msgstr ""
+msgstr "Mus"
 
 #: ../data/lxinput.glade.h:15
 msgid "Repeat delay:"
-msgstr ""
+msgstr "Tid innan upprepning:"
 
 #: ../data/lxinput.glade.h:16
 msgid "Repeat interval:"
-msgstr ""
+msgstr "Tid mellan upprepningar:"
 
 #: ../data/lxinput.glade.h:17
 msgid "Sensitivity:"
-msgstr ""
+msgstr "Känslighet"
 
 #: ../data/lxinput.glade.h:18
 msgid "Short"
-msgstr ""
+msgstr "Kort"
 
 #: ../data/lxinput.glade.h:19
 msgid "Slow"
-msgstr ""
+msgstr "Långsam"
 
 #: ../data/lxinput.glade.h:20
 msgid "Touch Pad"
-msgstr ""
+msgstr "Pekplatta"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
-msgstr ""
+msgstr "För att pröva dina inställningar kan du skriva i följande ruta"
