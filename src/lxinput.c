@@ -115,8 +115,10 @@ static void on_left_handed_toggle(GtkToggleButton* btn, gpointer user_data)
 
 static void on_kb_beep_toggle(GtkToggleButton* btn, gpointer user_data)
 {
+    XKeyboardControl values;
     beep = gtk_toggle_button_get_active(btn);
-
+    values.bell_percent = beep ? -1 : 0;
+    XChangeKeyboardControl(GDK_DISPLAY(), KBBellPercent, &values);
 }
 
 static gboolean on_change_val(GtkRange *range, GtkScrollType scroll,
@@ -228,11 +230,11 @@ int main(int argc, char** argv)
 
         g_key_file_set_integer(kf, "Mouse", "AccFactor", accel);
         g_key_file_set_integer(kf, "Mouse", "AccThreshold", threshold);
-        g_key_file_set_boolean(kf, "Mouse", "LeftHanded", left_handed);
+        g_key_file_set_integer(kf, "Mouse", "LeftHanded", !!left_handed);
 
         g_key_file_set_integer(kf, "Keyboard", "Delay", delay);
         g_key_file_set_integer(kf, "Keyboard", "Interval", interval);
-        g_key_file_set_boolean(kf, "Keyboard", "Beep", beep);
+        g_key_file_set_integer(kf, "Keyboard", "Beep", !!beep);
 
         if( str = g_key_file_to_data( kf, &len, NULL ) )
         {
