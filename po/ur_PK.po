@@ -1,0 +1,106 @@
+# Japanese translations for lxinput package
+# lxinput パッケージに対する日本語訳
+# Copyright (C) 2009 THE lxinput'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lxinput package.
+# Hironao Komatsu <hironao@users.sourceforge.net>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxinput 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-05-01 18:21+0900\n"
+"PO-Revision-Date: 2009-05-12 04:08+0500\n"
+"Last-Translator: Muhammad Ali Makki <makki.ma@gmail.com>\n"
+"Language-Team: Urdu <makki.ma@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Urdu\n"
+"X-Poedit-Country: PAKISTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../data/lxinput.glade.h:1
+msgid "<b>Character Repeat</b>"
+msgstr "<b>حروف کا دہراؤ</b>"
+
+#: ../data/lxinput.glade.h:2
+msgid "<b>Motion</b>"
+msgstr "<b>حرکت</b>"
+
+#: ../data/lxinput.glade.h:3
+msgid "Acceleration:"
+msgstr "مسرع:"
+
+#: ../data/lxinput.glade.h:4
+msgid "Beep when there is an error of keyboard input"
+msgstr "کیبورد کے ماداخل میں غلطی پر بیپ دیں"
+
+#: ../data/lxinput.glade.h:5
+msgid "Delay before each key starts repeating"
+msgstr "ہر کلید کا دہراؤ شروع کرنے سے پہلے وقفہ"
+
+#: ../data/lxinput.glade.h:6
+msgid "Fast"
+msgstr "تیز"
+
+#: ../data/lxinput.glade.h:7
+msgid "High"
+msgstr "اونچا"
+
+#: ../data/lxinput.glade.h:8
+msgid "Input Device Preferences"
+msgstr "ماداخل ڈیوائس ترجیحات"
+
+#: ../data/lxinput.glade.h:9
+msgid "Interval between each key repeat"
+msgstr "ہر کلید کے دہراؤ کے درمیان وقفہ"
+
+#: ../data/lxinput.glade.h:10
+msgid "Keyboard"
+msgstr "کیبورڈ"
+
+#: ../data/lxinput.glade.h:11
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "بایاں بازو (بائیں اور دائیں ماؤس بٹن میں ادل بدل)"
+
+#: ../data/lxinput.glade.h:12
+msgid "Long"
+msgstr "طویل"
+
+#: ../data/lxinput.glade.h:13
+msgid "Low"
+msgstr "کم"
+
+#: ../data/lxinput.glade.h:14
+msgid "Mouse"
+msgstr "ماؤس"
+
+#: ../data/lxinput.glade.h:15
+msgid "Repeat delay:"
+msgstr "دہراؤ تاخیر:"
+
+#: ../data/lxinput.glade.h:16
+msgid "Repeat interval:"
+msgstr "دہراؤ وقفہ:"
+
+#: ../data/lxinput.glade.h:17
+msgid "Sensitivity:"
+msgstr "حساسیت:"
+
+#: ../data/lxinput.glade.h:18
+msgid "Short"
+msgstr "قصیر"
+
+#: ../data/lxinput.glade.h:19
+msgid "Slow"
+msgstr "آہستہ"
+
+#: ../data/lxinput.glade.h:20
+msgid "Touch Pad"
+msgstr "ٹچ پیڈ"
+
+#: ../data/lxinput.glade.h:21
+msgid "Type in the following box to test your keyboard settings"
+msgstr "اپنے کیبورد کی ترتیبات دیکھنے کے لیے ذیل کے بکس میں لکھیں"
+
