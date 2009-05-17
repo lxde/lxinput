@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-29 10:11+0200\n"
-"PO-Revision-Date: 2009-04-29 12:20+0200\n"
+"PO-Revision-Date: 2009-05-17 12:48+0200\n"
 "Last-Translator: Matej <paxmanpwnz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:3
 msgid "Acceleration:"
-msgstr ""
+msgstr "Pospeševanje:"
 
 #: ../data/lxinput.glade.h:4
 msgid "Beep when there is an error of keyboard input"
@@ -38,15 +38,15 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
-msgstr ""
+msgstr "Hitro"
 
 #: ../data/lxinput.glade.h:7
 msgid "High"
-msgstr ""
+msgstr "Visoko"
 
 #: ../data/lxinput.glade.h:8
 msgid "Input Device Preferences"
-msgstr ""
+msgstr "Nastavitve vhodne naprave"
 
 #: ../data/lxinput.glade.h:9
 msgid "Interval between each key repeat"
@@ -54,15 +54,15 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:10
 msgid "Keyboard"
-msgstr ""
+msgstr "Tipkovnica"
 
 #: ../data/lxinput.glade.h:11
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr ""
+msgstr "Levoročno (zamenjaj levi in desni miškin gumb)"
 
 #: ../data/lxinput.glade.h:12
 msgid "Long"
-msgstr ""
+msgstr "Dolgo"
 
 #: ../data/lxinput.glade.h:13
 msgid "Low"
@@ -74,7 +74,7 @@ msgstr "Miš"
 
 #: ../data/lxinput.glade.h:15
 msgid "Repeat delay:"
-msgstr ""
+msgstr "Zakasnitev ponavljanja:"
 
 #: ../data/lxinput.glade.h:16
 #, fuzzy
@@ -100,3 +100,5 @@ msgstr "Sledilna ploščica"
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
 msgstr ""
+"Testiraj nastavitve tipkovnice tako, da vtipkaš besedilo v pričujoče "
+"besedilno polje"
