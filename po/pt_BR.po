@@ -1,101 +1,101 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Brazilian Portuguese translation of lxpanel package.
+# Copyright (C) 2009 The LXDE Team.
+# This file is distributed under the same license as the lxinput package.
+# Thiago Avelino <thiagoavelinoster@gmail.com>, 2009.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-29 10:11+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2009-05-14 12:42-0300\n"
+"Last-Translator: Thiago Avelino <thiagoavelinoster@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../data/lxinput.glade.h:1
 msgid "<b>Character Repeat</b>"
-msgstr ""
+msgstr "<b>Repetir caractere</b>"
 
 #: ../data/lxinput.glade.h:2
 msgid "<b>Motion</b>"
-msgstr ""
+msgstr "<b>Movimento</b>"
 
 #: ../data/lxinput.glade.h:3
 msgid "Acceleration:"
-msgstr ""
+msgstr "Aceleração:"
 
 #: ../data/lxinput.glade.h:4
 msgid "Beep when there is an error of keyboard input"
-msgstr ""
+msgstr "Beep quando houver um erro de entrada do teclado"
 
 #: ../data/lxinput.glade.h:5
 msgid "Delay before each key starts repeating"
-msgstr ""
+msgstr "Atraso antes que cada tecla comece a repetir"
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
-msgstr ""
+msgstr "Rápido"
 
 #: ../data/lxinput.glade.h:7
 msgid "High"
-msgstr ""
+msgstr "Alto"
 
 #: ../data/lxinput.glade.h:8
 msgid "Input Device Preferences"
-msgstr ""
+msgstr "Preferências de dispositivo de entrada"
 
 #: ../data/lxinput.glade.h:9
 msgid "Interval between each key repeat"
-msgstr ""
+msgstr "Intervalo entre cada repetição de tecla"
 
 #: ../data/lxinput.glade.h:10
 msgid "Keyboard"
-msgstr ""
+msgstr "Teclado"
 
 #: ../data/lxinput.glade.h:11
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr ""
+msgstr "Canhoto (Alterna o botão esquerdo e direito do mouse)"
 
 #: ../data/lxinput.glade.h:12
 msgid "Long"
-msgstr ""
+msgstr "Longo"
 
 #: ../data/lxinput.glade.h:13
 msgid "Low"
-msgstr ""
+msgstr "Baixo"
 
 #: ../data/lxinput.glade.h:14
 msgid "Mouse"
-msgstr ""
+msgstr "Mouse"
 
 #: ../data/lxinput.glade.h:15
 msgid "Repeat delay:"
-msgstr ""
+msgstr "Atraso de repetição:"
 
 #: ../data/lxinput.glade.h:16
 msgid "Repeat interval:"
-msgstr ""
+msgstr "Intervalo de repetição:"
 
 #: ../data/lxinput.glade.h:17
 msgid "Sensitivity:"
-msgstr ""
+msgstr "Sensibilidade:"
 
 #: ../data/lxinput.glade.h:18
 msgid "Short"
-msgstr ""
+msgstr "Curto"
 
 #: ../data/lxinput.glade.h:19
 msgid "Slow"
-msgstr ""
+msgstr "Lento"
 
 #: ../data/lxinput.glade.h:20
 msgid "Touch Pad"
-msgstr ""
+msgstr "Touch Pad"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
-msgstr ""
+msgstr "Digite no seguinte campo para testar a configuração do teclado"
