@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-29 10:11+0200\n"
-"PO-Revision-Date: 2009-05-17 12:48+0200\n"
+"PO-Revision-Date: 2009-06-01 14:33+0200\n"
 "Last-Translator: Matej <paxmanpwnz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,12 +17,14 @@ msgstr ""
 "X-Generator: Pootle 1.1.0\n"
 
 #: ../data/lxinput.glade.h:1
+#, fuzzy
 msgid "<b>Character Repeat</b>"
-msgstr ""
+msgstr "<b>Ponavljanje znaka</b>"
 
 #: ../data/lxinput.glade.h:2
+#, fuzzy
 msgid "<b>Motion</b>"
-msgstr ""
+msgstr "<b>Premikanje</b>"
 
 #: ../data/lxinput.glade.h:3
 msgid "Acceleration:"
