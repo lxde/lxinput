@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-18 09:23-0400\n"
-"PO-Revision-Date: 2009-05-24 07:04+0200\n"
+"PO-Revision-Date: 2009-06-09 02:57+0200\n"
 "Last-Translator: Payne Samad Loh <sploh77@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr "Tinggi"
 # by phyz
 #: ../data/lxinput.glade.h:8
 msgid "Input Device Preferences"
-msgstr "Kegemaran Peranti Input"
+msgstr "Input Peranti Kesukaan"
 
 #: ../data/lxinput.glade.h:9
 msgid "Interval between each key repeat"
