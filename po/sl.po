@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-29 10:11+0200\n"
-"PO-Revision-Date: 2009-06-01 14:33+0200\n"
+"PO-Revision-Date: 2009-06-13 15:39+0200\n"
 "Last-Translator: Matej <paxmanpwnz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -35,8 +35,9 @@ msgid "Beep when there is an error of keyboard input"
 msgstr ""
 
 #: ../data/lxinput.glade.h:5
+#, fuzzy
 msgid "Delay before each key starts repeating"
-msgstr ""
+msgstr "Zakasnitev, po preteku katere se znaki začno ponavljati"
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
@@ -51,8 +52,9 @@ msgid "Input Device Preferences"
 msgstr "Nastavitve vhodne naprave"
 
 #: ../data/lxinput.glade.h:9
+#, fuzzy
 msgid "Interval between each key repeat"
-msgstr ""
+msgstr "Interval med vsako posamezno ponavitvijo znaka"
 
 #: ../data/lxinput.glade.h:10
 msgid "Keyboard"
