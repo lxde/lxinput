@@ -30,4 +30,5 @@ Makefile
 src/Makefile
 po/Makefile.in
 data/lxinput.desktop
+man/Makefile
 ])

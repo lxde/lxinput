@@ -1,6 +1,6 @@
 NULL=
 
-SUBDIRS = src po
+SUBDIRS = src po man
 
 ui_in_files= \
 	data/lxinput.glade \
