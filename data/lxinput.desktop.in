@@ -1,10 +1,12 @@
 [Desktop Entry]
 Type=Application
 Name=Keyboard and Mouse
+Name[ja]=キーボードとマウス
 Name[zh_TW]=鍵盤及滑鼠
 Icon=input-keyboard
 Exec=lxinput
 Comment=Configure keyboard, mouse, and other input devices
+Comment[ja]=キーボードやマウス、その他の入力機器の設定
 Comment[zh_TW]=設定鍵盤、滑鼠、及其他輸入裝置
 StartupNotify=true
 Terminal=false
