@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<refentry
+>  <refentryinfo
+>    <address
+>      <email
+>grandpaul@gmail.com</email>
+    </address>
+    <author
+>      <firstname
+>Ying-Chun</firstname>
+      <surname
+>Liu</surname>
+    </author>
+    <copyright
+>      <year
+>2008</year>
+      <holder
+>paulliu</holder>
+    </copyright>
+    <date
+>March  2, 2008</date>
+  </refentryinfo>
+  <refmeta
+>    <refentrytitle
+>LXINPUT</refentrytitle>
+
+    <manvolnum
+>1</manvolnum>
+  </refmeta>
+  <refnamediv
+>    <refname
+>lxinput</refname>
+
+    <refpurpose
+>a light-weight program to configure keyboard and mouse</refpurpose>
+  </refnamediv>
+  <refsynopsisdiv
+>    <cmdsynopsis
+>      <command
+>lxinput</command>
+    </cmdsynopsis>
+  </refsynopsisdiv>
+  <refsect1
+>    <title
+>DESCRIPTION</title>
+
+    <para
+>This manual page documents briefly the
+      <command
+>lxinput</command> command.</para>
+
+    <para
+><command
+>lxinput</command> is a program to configure keyboard
+    and mouse for desktop, usually for LXDE.
+    </para>
+   
+  </refsect1>
+  <refsect1
+>    <title
+>AUTHOR</title>
+
+    <para
+>This manual page was written by paulliu <email
+>grandpaul@gmail.com</email> for
+      the <productname
+>Debian</productname> system (but may be used by others).  Permission is
+      granted to copy, distribute and/or modify this document under
+      the terms of the <acronym
+>GNU</acronym> General Public License, Version 2 any 
+      later version published by the Free Software Foundation.
+    </para>
+    <para
+>	  On Debian systems, the complete text of the GNU General Public
+	  License can be found in /usr/share/common-licenses/GPL.
+    </para>
+
+  </refsect1></refentry>
