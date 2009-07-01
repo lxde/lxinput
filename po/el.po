@@ -5,101 +5,99 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: LXInput\n"
+"Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-29 10:11+0200\n"
-"PO-Revision-Date: 2009-06-28 16:44+0100\n"
-"Last-Translator: Matej Gačnik <paxmanpwnz@gmail.com>\n"
-"Language-Team: Slovenian <paxmanpwnz@gmail.com>\n"
+"POT-Creation-Date: 2009-05-18 09:23-0400\n"
+"PO-Revision-Date: 2009-06-29 01:09+0200\n"
+"Last-Translator: George Vasilakos <forfolias@gmail.com>\n"
+"Language-Team: Greek <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
-"X-Poedit-Language: slovenian\n"
-"X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
 
 #: ../data/lxinput.glade.h:1
 msgid "<b>Character Repeat</b>"
-msgstr "<b>Ponavljanje znaka</b>"
+msgstr "<b>Επανάληψη χαρακτήρα</b>"
 
 #: ../data/lxinput.glade.h:2
 msgid "<b>Motion</b>"
-msgstr "<b>Premikanje</b>"
+msgstr "<b>Κίνηση</b>"
 
 #: ../data/lxinput.glade.h:3
 msgid "Acceleration:"
-msgstr "Pospeševanje:"
+msgstr "Επιτάχυνση"
 
 #: ../data/lxinput.glade.h:4
 msgid "Beep when there is an error of keyboard input"
-msgstr "Sproži zvočno opozorilo, če pride do napake pri tipkovniškem vnosu"
+msgstr "Κουδούνισμα σε περίπτωση σφάλματος κατά την πληκτρολόγηση"
 
 #: ../data/lxinput.glade.h:5
 msgid "Delay before each key starts repeating"
-msgstr "Zakasnitev, po preteku katere se znaki začno ponavljati"
+msgstr "Καθυστέριση πριν την επανάληψη του πλήκτρου"
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
-msgstr "Hitro"
+msgstr "Γρήγορα"
 
 #: ../data/lxinput.glade.h:7
 msgid "High"
-msgstr "Visoko"
+msgstr "Υψηλά"
 
 #: ../data/lxinput.glade.h:8
 msgid "Input Device Preferences"
-msgstr "Nastavitve vhodne naprave"
+msgstr "Ιδιότητες συσκευής εισόδου"
 
 #: ../data/lxinput.glade.h:9
 msgid "Interval between each key repeat"
-msgstr "Interval med vsako posamezno ponavitvijo znaka"
+msgstr "Διάστημα μεταξύ επανάληψης πλήκτρου"
 
 #: ../data/lxinput.glade.h:10
 msgid "Keyboard"
-msgstr "Tipkovnica"
+msgstr "Πληκτρολόγιο"
 
 #: ../data/lxinput.glade.h:11
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Levoročno (zamenjaj levi in desni miškin gumb)"
+msgstr "Αριστερόχειρας (Εναλλαγή αριστερού και δεξιού κουμπιού του ποντικιού)"
 
 #: ../data/lxinput.glade.h:12
 msgid "Long"
-msgstr "Dolgo"
+msgstr "Μακριά"
 
 #: ../data/lxinput.glade.h:13
 msgid "Low"
-msgstr "Nizko"
+msgstr "Χαμηλά"
 
 #: ../data/lxinput.glade.h:14
 msgid "Mouse"
-msgstr "Miš"
+msgstr "Ποντίκι"
 
 #: ../data/lxinput.glade.h:15
 msgid "Repeat delay:"
-msgstr "Zakasnitev ponavljanja:"
+msgstr "Επανάληψη καθυστέρησης:"
 
 #: ../data/lxinput.glade.h:16
 msgid "Repeat interval:"
-msgstr "Interval ponavljanja:"
+msgstr "Διάστημα επανάληψης:"
 
 #: ../data/lxinput.glade.h:17
 msgid "Sensitivity:"
-msgstr "Občutljivost:"
+msgstr "Ευαισθησία:"
 
 #: ../data/lxinput.glade.h:18
 msgid "Short"
-msgstr "Kratko"
+msgstr "Κοντά"
 
 #: ../data/lxinput.glade.h:19
 msgid "Slow"
-msgstr "Počasno"
+msgstr "Αργά"
 
 #: ../data/lxinput.glade.h:20
 msgid "Touch Pad"
-msgstr "Sledilna ploščica"
+msgstr ""
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
-msgstr "Testiraj nastavitve tipkovnice tako, da vtipkaš besedilo v pričujoče besedilno polje"
+msgstr "Πληκτρολογίστε στο παρόν κουτάκι για να δοκιμάστε τις ρυθμίσεις πληκτρολογίου"
 
