@@ -181,6 +181,8 @@ int main(int argc, char** argv)
 
     gtk_init(&argc, &argv);
 
+    gtk_icon_theme_prepend_search_path(gtk_icon_theme_get_default(), PACKAGE_DATA_DIR);
+
     /* build the UI */
     builder = gtk_builder_new();
 
