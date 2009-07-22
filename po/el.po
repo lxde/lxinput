@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-18 09:23-0400\n"
-"PO-Revision-Date: 2009-06-29 01:09+0200\n"
+"PO-Revision-Date: 2009-06-30 14:50+0200\n"
 "Last-Translator: George Vasilakos <forfolias@gmail.com>\n"
 "Language-Team: Greek <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -94,8 +94,9 @@ msgid "Slow"
 msgstr "Αργά"
 
 #: ../data/lxinput.glade.h:20
+#, fuzzy
 msgid "Touch Pad"
-msgstr ""
+msgstr "Touch Pad"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
