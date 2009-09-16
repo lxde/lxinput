@@ -3,18 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-29 10:11+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2009-09-16 11:29+0200\n"
+"Last-Translator: Александр Голубев <ag@lhp.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../data/lxinput.glade.h:1
 msgid "<b>Character Repeat</b>"
@@ -38,15 +38,16 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
-msgstr ""
+msgstr "Быстро"
 
 #: ../data/lxinput.glade.h:7
 msgid "High"
-msgstr ""
+msgstr "Высокая"
 
 #: ../data/lxinput.glade.h:8
+#, fuzzy
 msgid "Input Device Preferences"
-msgstr ""
+msgstr "Настройки устройств ввода"
 
 #: ../data/lxinput.glade.h:9
 msgid "Interval between each key repeat"
@@ -54,11 +55,12 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:10
 msgid "Keyboard"
-msgstr ""
+msgstr "Клавиатура"
 
 #: ../data/lxinput.glade.h:11
+#, fuzzy
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr ""
+msgstr "Для левшей (поменять действия для левой и правой кнопок мыши)"
 
 #: ../data/lxinput.glade.h:12
 msgid "Long"
@@ -66,23 +68,25 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:13
 msgid "Low"
-msgstr ""
+msgstr "Низкая"
 
 #: ../data/lxinput.glade.h:14
 msgid "Mouse"
-msgstr ""
+msgstr "Мышь"
 
 #: ../data/lxinput.glade.h:15
+#, fuzzy
 msgid "Repeat delay:"
-msgstr ""
+msgstr "Задержка при автоповторе:"
 
 #: ../data/lxinput.glade.h:16
+#, fuzzy
 msgid "Repeat interval:"
-msgstr ""
+msgstr "Шаг автоповтора:"
 
 #: ../data/lxinput.glade.h:17
 msgid "Sensitivity:"
-msgstr ""
+msgstr "Чувствительность:"
 
 #: ../data/lxinput.glade.h:18
 msgid "Short"
@@ -90,11 +94,12 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:19
 msgid "Slow"
-msgstr ""
+msgstr "Медленно"
 
 #: ../data/lxinput.glade.h:20
+#, fuzzy
 msgid "Touch Pad"
-msgstr ""
+msgstr "Тачпад"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
