@@ -8,12 +8,13 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-29 10:11+0200\n"
-"PO-Revision-Date: 2009-05-04 18:17+0100\n"
-"Last-Translator: Sander De Voogdt <celettu@gmal.com>\n"
+"PO-Revision-Date: 2009-12-05 14:29+0100\n"
+"Last-Translator: Tim Van den Eynde <tim_vdeynde@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../data/lxinput.glade.h:1
 msgid "<b>Character Repeat</b>"
@@ -29,7 +30,7 @@ msgstr "Acceleratie:"
 
 #: ../data/lxinput.glade.h:4
 msgid "Beep when there is an error of keyboard input"
-msgstr "Bieptoon bij een toetsenbord input fout"
+msgstr "Bieptoon bij verkeerde toetsenbordinput"
 
 #: ../data/lxinput.glade.h:5
 msgid "Delay before each key starts repeating"
@@ -98,4 +99,3 @@ msgstr "Touchpad"
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Tiep in onderstaand kader om uw toetsenbordinstellingen te testen"
-
