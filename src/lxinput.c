@@ -139,7 +139,7 @@ static void set_range_stops(GtkRange* range, int interval )
 static void load_settings()
 {
     /* load settings form LXDE config files */
-	file = g_build_filename( g_get_user_config_dir(), "lxde/config", NULL );
+	file = g_build_filename( g_get_user_config_dir(), "lxde/desktop.conf", NULL );
 	gboolean ret = g_key_file_load_from_file( kf, file, 0, NULL );
 
     if( ret )
