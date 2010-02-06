@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Alexander Kazancev <kazancas@mandriva.ru>, 2010.
 #
 msgid ""
 msgstr ""
@@ -22,50 +22,47 @@ msgstr "<b>Автоповтор символов</b>"
 
 #: ../data/lxinput.glade.h:2
 msgid "<b>Motion</b>"
-msgstr ""
+msgstr "Движение"
 
 #: ../data/lxinput.glade.h:3
 msgid "Acceleration:"
-msgstr ""
+msgstr "Ускорение"
 
 #: ../data/lxinput.glade.h:4
 msgid "Beep when there is an error of keyboard input"
-msgstr ""
+msgstr "Звуковой сигнал при ошибках ввода с клавиатуры"
 
 #: ../data/lxinput.glade.h:5
-#, fuzzy
 msgid "Delay before each key starts repeating"
-msgstr "Задержка перед стартом автоповтора"
+msgstr "Задержка старта автоповтора"
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
-msgstr "Быстро"
+msgstr "Быстрое"
 
 #: ../data/lxinput.glade.h:7
 msgid "High"
 msgstr "Высокая"
 
 #: ../data/lxinput.glade.h:8
-#, fuzzy
 msgid "Input Device Preferences"
 msgstr "Настройки устройств ввода"
 
 #: ../data/lxinput.glade.h:9
 msgid "Interval between each key repeat"
-msgstr ""
+msgstr "Интервал автоповтора"
 
 #: ../data/lxinput.glade.h:10
 msgid "Keyboard"
 msgstr "Клавиатура"
 
 #: ../data/lxinput.glade.h:11
-#, fuzzy
 msgid "Left handed (Swap left and right mouse buttons)"
 msgstr "Для левшей (поменять действия для левой и правой кнопок мыши)"
 
 #: ../data/lxinput.glade.h:12
 msgid "Long"
-msgstr ""
+msgstr "Длиннее"
 
 #: ../data/lxinput.glade.h:13
 msgid "Low"
@@ -91,11 +88,11 @@ msgstr "Чувствительность:"
 
 #: ../data/lxinput.glade.h:18
 msgid "Short"
-msgstr ""
+msgstr "Короче"
 
 #: ../data/lxinput.glade.h:19
 msgid "Slow"
-msgstr "Медленно"
+msgstr "Медленное"
 
 #: ../data/lxinput.glade.h:20
 #, fuzzy
@@ -104,4 +101,6 @@ msgstr "Тачпад"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
-msgstr ""
+msgstr "Наберите текст в этом поле для проверки ваших настроек клавиатуры"
+
+ 	  	 
