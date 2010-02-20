@@ -1,20 +1,19 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Danish translation LXInput.
+# Copyright (C) 2010 LXInput & nedenstående oversættere.
+# This file is distributed under the same license as the LXInput package.
+# Joe Hansen (joedalton2@yahoo.dk), 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-29 10:11+0200\n"
-"PO-Revision-Date: 2009-05-19 18:48+0200\n"
-"Last-Translator: charlie tyrrestrup <chalze06@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2010-02-20 04:05+0000\n"
+"PO-Revision-Date: 2010-02-20 11:00+0000\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0\n"
 
 #: ../data/lxinput.glade.h:1
 msgid "<b>Character Repeat</b>"
@@ -30,7 +29,7 @@ msgstr "Acceleration:"
 
 #: ../data/lxinput.glade.h:4
 msgid "Beep when there is an error of keyboard input"
-msgstr "Bip ved fejl-indtastning fra tastaturet"
+msgstr "Bip ved fejlindtastning fra tastaturet"
 
 #: ../data/lxinput.glade.h:5
 msgid "Delay before each key starts repeating"
@@ -78,7 +77,7 @@ msgstr "Gentagelsesforsinkelse:"
 
 #: ../data/lxinput.glade.h:16
 msgid "Repeat interval:"
-msgstr "Gentag interval::"
+msgstr "Gentag interval:"
 
 #: ../data/lxinput.glade.h:17
 msgid "Sensitivity:"
@@ -94,8 +93,9 @@ msgstr "Langsom"
 
 #: ../data/lxinput.glade.h:20
 msgid "Touch Pad"
-msgstr "Touch Pad"
+msgstr "Pegeplade"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
-msgstr "Skriv i feltet for at teste dine indstillinger for tastaturet"
+msgstr "Skriv i feltet for at teste din tastaturopsætning"
+
