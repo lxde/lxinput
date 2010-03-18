@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Alexander Kazancev <kazancas@mandriva.ru>, 2010.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-29 10:11+0200\n"
+"POT-Creation-Date: 2010-03-18 04:09+0000\n"
 "PO-Revision-Date: 2009-09-17 09:05+0200\n"
 "Last-Translator: Александр Голубев <ag@lhp.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,12 +73,10 @@ msgid "Mouse"
 msgstr "Мышь"
 
 #: ../data/lxinput.glade.h:15
-#, fuzzy
 msgid "Repeat delay:"
 msgstr "Задержка при автоповторе:"
 
 #: ../data/lxinput.glade.h:16
-#, fuzzy
 msgid "Repeat interval:"
 msgstr "Шаг автоповтора:"
 
@@ -95,12 +93,9 @@ msgid "Slow"
 msgstr "Медленное"
 
 #: ../data/lxinput.glade.h:20
-#, fuzzy
 msgid "Touch Pad"
 msgstr "Тачпад"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Наберите текст в этом поле для проверки ваших настроек клавиатуры"
-
- 	  	 
