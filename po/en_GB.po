@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-28 04:10+0000\n"
+"PO-Revision-Date: 2010-03-28 17:45+0100\n"
+"Last-Translator: Steve Cook (Yorvyk) <yorvik.ubunto@googlemail.com>\n"
+"Language-Team: English UK en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/lxinput.glade.h:1
+msgid "<b>Character Repeat</b>"
+msgstr "<b>Character Repeat</b>"
+
+#: ../data/lxinput.glade.h:2
+msgid "<b>Motion</b>"
+msgstr "<b>Motion</b>"
+
+#: ../data/lxinput.glade.h:3
+msgid "Acceleration:"
+msgstr "Acceleration:"
+
+#: ../data/lxinput.glade.h:4
+msgid "Beep when there is an error of keyboard input"
+msgstr "Beep when there is an error of keyboard input"
+
+#: ../data/lxinput.glade.h:5
+msgid "Delay before each key starts repeating"
+msgstr "Delay before each key starts repeating"
+
+#: ../data/lxinput.glade.h:6
+msgid "Fast"
+msgstr "Fast"
+
+#: ../data/lxinput.glade.h:7
+msgid "High"
+msgstr "High"
+
+#: ../data/lxinput.glade.h:8
+msgid "Input Device Preferences"
+msgstr "Input Device Preferences"
+
+#: ../data/lxinput.glade.h:9
+msgid "Interval between each key repeat"
+msgstr "Interval between each key repeat"
+
+#: ../data/lxinput.glade.h:10
+msgid "Keyboard"
+msgstr "Keyboard"
+
+#: ../data/lxinput.glade.h:11
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "Left handed (Swap left and right mouse buttons)"
+
+#: ../data/lxinput.glade.h:12
+msgid "Long"
+msgstr "Long"
+
+#: ../data/lxinput.glade.h:13
+msgid "Low"
+msgstr "Low"
+
+#: ../data/lxinput.glade.h:14
+msgid "Mouse"
+msgstr "Mouse"
+
+#: ../data/lxinput.glade.h:15
+msgid "Repeat delay:"
+msgstr "Repeat delay:"
+
+#: ../data/lxinput.glade.h:16
+msgid "Repeat interval:"
+msgstr "Repeat interval:"
+
+#: ../data/lxinput.glade.h:17
+msgid "Sensitivity:"
+msgstr "Sensitivity:"
+
+#: ../data/lxinput.glade.h:18
+msgid "Short"
+msgstr "Short"
+
+#: ../data/lxinput.glade.h:19
+msgid "Slow"
+msgstr "Slow"
+
+#: ../data/lxinput.glade.h:20
+msgid "Touch Pad"
+msgstr "Touch Pad"
+
+#: ../data/lxinput.glade.h:21
+msgid "Type in the following box to test your keyboard settings"
+msgstr "Type in the following box to test your keyboard settings"
+
