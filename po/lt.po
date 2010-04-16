@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-29 10:11+0200\n"
+"POT-Creation-Date: 2010-04-16 04:10+0000\n"
 "PO-Revision-Date: 2009-05-21 18:12+0200\n"
 "Last-Translator: Julius Vitkauskas <zadintuvas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,11 +38,11 @@ msgstr "Uždelsimas prieš kartojant klavišus"
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
-msgstr "Greitas"
+msgstr "Greita"
 
 #: ../data/lxinput.glade.h:7
 msgid "High"
-msgstr "Aukštas"
+msgstr "Didelis"
 
 #: ../data/lxinput.glade.h:8
 msgid "Input Device Preferences"
@@ -58,7 +58,7 @@ msgstr "Klaviatūra"
 
 #: ../data/lxinput.glade.h:11
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Kairiarankiams (sukeisti kairiojo ir dešiniojo pelės mygtuko funkcijas)"
+msgstr "Sukeisti kairiojo ir dešiniojo pelės mygtuko funkcijas (kairiarankiams)"
 
 #: ../data/lxinput.glade.h:12
 msgid "Long"
@@ -66,7 +66,7 @@ msgstr "Ilgas"
 
 #: ../data/lxinput.glade.h:13
 msgid "Low"
-msgstr "Žemas"
+msgstr "Mažas"
 
 #: ../data/lxinput.glade.h:14
 msgid "Mouse"
@@ -90,7 +90,7 @@ msgstr "Trumpas"
 
 #: ../data/lxinput.glade.h:19
 msgid "Slow"
-msgstr "Lėtas"
+msgstr "Lėta"
 
 #: ../data/lxinput.glade.h:20
 msgid "Touch Pad"
@@ -98,4 +98,4 @@ msgstr "Touchpad"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
-msgstr "Įveskite šį tekstą išbandyti jūsų klaviatūros nustatymams"
+msgstr "Čia galite įvesti tekstą ir taip išbandyti jūsų klaviatūros nustatymams:"
