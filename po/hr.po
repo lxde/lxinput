@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:2
 msgid "<b>Motion</b>"
-msgstr ""
+msgstr "Pokret"
 
 #: ../data/lxinput.glade.h:3
 msgid "Acceleration:"
