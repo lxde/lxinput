@@ -2,13 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-29 10:11+0200\n"
+"POT-Creation-Date: 2010-05-18 04:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +25,7 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:3
 msgid "Acceleration:"
-msgstr ""
+msgstr "Ubrzanje"
 
 #: ../data/lxinput.glade.h:4
 msgid "Beep when there is an error of keyboard input"
@@ -38,11 +37,11 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
-msgstr ""
+msgstr "Brzo"
 
 #: ../data/lxinput.glade.h:7
 msgid "High"
-msgstr ""
+msgstr "Visoko"
 
 #: ../data/lxinput.glade.h:8
 msgid "Input Device Preferences"
@@ -54,43 +53,43 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:10
 msgid "Keyboard"
-msgstr ""
+msgstr "Tipkovnica"
 
 #: ../data/lxinput.glade.h:11
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr ""
+msgstr "Ljevoruki (zamjeni lijevo i desno dugme miša"
 
 #: ../data/lxinput.glade.h:12
 msgid "Long"
-msgstr ""
+msgstr "Dugo"
 
 #: ../data/lxinput.glade.h:13
 msgid "Low"
-msgstr ""
+msgstr "Nisko"
 
 #: ../data/lxinput.glade.h:14
 msgid "Mouse"
-msgstr ""
+msgstr "Miš"
 
 #: ../data/lxinput.glade.h:15
 msgid "Repeat delay:"
-msgstr ""
+msgstr "Odgoda ponavljanja"
 
 #: ../data/lxinput.glade.h:16
 msgid "Repeat interval:"
-msgstr ""
+msgstr "Interval ponavljanja"
 
 #: ../data/lxinput.glade.h:17
 msgid "Sensitivity:"
-msgstr ""
+msgstr "Osjetljivost"
 
 #: ../data/lxinput.glade.h:18
 msgid "Short"
-msgstr ""
+msgstr "Kratko"
 
 #: ../data/lxinput.glade.h:19
 msgid "Slow"
-msgstr ""
+msgstr "Sporo"
 
 #: ../data/lxinput.glade.h:20
 msgid "Touch Pad"
