@@ -8,8 +8,13 @@ ui_in_files= \
 uidir=$(datadir)/lxinput
 ui_DATA = $(ui_in_files:.glade=.ui)
 
-desktopfiledir=$(datadir)/applications
-desktopfile_DATA=data/lxinput.desktop
+desktopdir=$(datadir)/applications
+desktop_in_files = \
+	lxinput.desktop.in \
+	$(NULL)
+desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
+@INTLTOOL_DESKTOP_RULE@
+
 
 iconsdir=$(datadir)/lxinput
 icons_DATA= \
@@ -18,7 +23,7 @@ icons_DATA= \
 
 EXTRA_DIST = \
 	$(ui_DATA) \
-	$(desktopfile_DATA) \
+	$(desktop_DATA) \
 	$(icons_DATA) \
 	$(NULL)
 

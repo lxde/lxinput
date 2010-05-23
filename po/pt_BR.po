@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-29 10:11+0200\n"
+"POT-Creation-Date: 2010-05-24 01:27+0800\n"
 "PO-Revision-Date: 2009-05-14 12:42-0300\n"
 "Last-Translator: Thiago Avelino <thiagoavelinoster@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
@@ -99,3 +99,16 @@ msgstr "Touch Pad"
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Digite no seguinte campo para testar a configuração do teclado"
+
+#: ../data/lxinput.desktop.in.h:1
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr ""
+
+#: ../data/lxinput.desktop.in.h:2
+#, fuzzy
+msgid "Keyboard and Mouse"
+msgstr "Teclado"
+
+#, fuzzy
+#~ msgid "input-keyboard"
+#~ msgstr "Teclado"

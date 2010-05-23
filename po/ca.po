@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-22 22:47+0200\n"
+"POT-Creation-Date: 2010-05-24 01:27+0800\n"
 "PO-Revision-Date: 2009-09-14 00:29+0100\n"
 "Last-Translator: \n"
 "Language-Team: LXDE Catalan translators group\n"
@@ -97,5 +97,18 @@ msgstr "Touchpad"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
-msgstr "Introduïu text a la següent caixa per verificar els paràmetres de teclat"
+msgstr ""
+"Introduïu text a la següent caixa per verificar els paràmetres de teclat"
 
+#: ../data/lxinput.desktop.in.h:1
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr ""
+
+#: ../data/lxinput.desktop.in.h:2
+#, fuzzy
+msgid "Keyboard and Mouse"
+msgstr "Teclat"
+
+#, fuzzy
+#~ msgid "input-keyboard"
+#~ msgstr "Teclat"

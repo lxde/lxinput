@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-20 04:05+0000\n"
+"POT-Creation-Date: 2010-05-24 01:27+0800\n"
 "PO-Revision-Date: 2010-02-20 11:00+0000\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -99,3 +99,15 @@ msgstr "Pegeplade"
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Skriv i feltet for at teste din tastaturopsætning"
 
+#: ../data/lxinput.desktop.in.h:1
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr ""
+
+#: ../data/lxinput.desktop.in.h:2
+#, fuzzy
+msgid "Keyboard and Mouse"
+msgstr "Tastatur"
+
+#, fuzzy
+#~ msgid "input-keyboard"
+#~ msgstr "Tastatur"

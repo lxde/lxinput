@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-28 04:10+0000\n"
+"POT-Creation-Date: 2010-05-24 01:27+0800\n"
 "PO-Revision-Date: 2010-03-28 17:45+0100\n"
 "Last-Translator: Steve Cook (Yorvyk) <yorvik.ubunto@googlemail.com>\n"
 "Language-Team: English UK en_GB\n"
@@ -98,3 +98,16 @@ msgstr "Touch Pad"
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Type in the following box to test your keyboard settings"
+
+#: ../data/lxinput.desktop.in.h:1
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr ""
+
+#: ../data/lxinput.desktop.in.h:2
+#, fuzzy
+msgid "Keyboard and Mouse"
+msgstr "Keyboard"
+
+#, fuzzy
+#~ msgid "input-keyboard"
+#~ msgstr "Keyboard"

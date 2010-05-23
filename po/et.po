@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-29 10:11+0200\n"
+"POT-Creation-Date: 2010-05-24 01:27+0800\n"
 "PO-Revision-Date: 2009-08-23 17:38+0300\n"
 "Last-Translator: Mattias Põldaru <mahfiaz gmail com>\n"
 "Language-Team: Gnome Estonian Translation Team <gnome-et@linux.ee>\n"
@@ -101,3 +101,15 @@ msgstr "Puuteplaat"
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Klaviatuurisätete proovimiseks võid siia tekstikasti trükkida"
 
+#: ../data/lxinput.desktop.in.h:1
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr ""
+
+#: ../data/lxinput.desktop.in.h:2
+#, fuzzy
+msgid "Keyboard and Mouse"
+msgstr "Klaviatuur"
+
+#, fuzzy
+#~ msgid "input-keyboard"
+#~ msgstr "Klaviatuur"

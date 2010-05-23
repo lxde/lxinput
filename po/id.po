@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Rahman Yusri Aftian <aftian@yahoo.com>, 2009.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: lxinput-id\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-29 10:11+0200\n"
+"POT-Creation-Date: 2010-05-24 01:27+0800\n"
 "PO-Revision-Date: 2009-05-23 03:54+0200\n"
 "Last-Translator: Rahman Yusri Aftian <aftian@yahoo.com>\n"
 "Language-Team: LANGUAGE <id@li.org>\n"
@@ -99,3 +99,16 @@ msgstr "Touch Pad"
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Tipe yang berikut untuk menguji papan tombol mu menentukan"
+
+#: ../data/lxinput.desktop.in.h:1
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr ""
+
+#: ../data/lxinput.desktop.in.h:2
+#, fuzzy
+msgid "Keyboard and Mouse"
+msgstr "Papan Ketik"
+
+#, fuzzy
+#~ msgid "input-keyboard"
+#~ msgstr "Papan Ketik"

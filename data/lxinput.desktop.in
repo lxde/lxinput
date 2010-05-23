@@ -1,15 +1,10 @@
 [Desktop Entry]
 Type=Application
-Name=Keyboard and Mouse
-Name[ja]=キーボードとマウス
-Name[zh_TW]=鍵盤及滑鼠
+_Name=Keyboard and Mouse
 Icon=input-keyboard
 Exec=lxinput
-Comment=Configure keyboard, mouse, and other input devices
-Comment[ja]=キーボードやマウス、その他の入力機器の設定
-Comment[zh_TW]=設定鍵盤、滑鼠、及其他輸入裝置
+_Comment=Configure keyboard, mouse, and other input devices
 StartupNotify=true
 Terminal=false
 Categories=GTK;Settings;HardwareSettings;
 OnlyShowIn=LXDE;
-

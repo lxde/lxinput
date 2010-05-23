@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-01 18:21+0900\n"
+"POT-Creation-Date: 2010-05-24 01:27+0800\n"
 "PO-Revision-Date: 2009-05-12 04:08+0500\n"
 "Last-Translator: Muhammad Ali Makki <makki.ma@gmail.com>\n"
 "Language-Team: Urdu <makki.ma@gmail.com>\n"
@@ -104,3 +104,15 @@ msgstr "ٹچ پیڈ"
 msgid "Type in the following box to test your keyboard settings"
 msgstr "اپنے کیبورد کی ترتیبات دیکھنے کے لیے ذیل کے بکس میں لکھیں"
 
+#: ../data/lxinput.desktop.in.h:1
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr ""
+
+#: ../data/lxinput.desktop.in.h:2
+#, fuzzy
+msgid "Keyboard and Mouse"
+msgstr "کیبورڈ"
+
+#, fuzzy
+#~ msgid "input-keyboard"
+#~ msgstr "کیبورڈ"
