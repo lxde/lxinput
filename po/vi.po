@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-24 01:27+0800\n"
-"PO-Revision-Date: 2010-01-26 11:50+0200\n"
-"Last-Translator: Hiếu <scamemiv@gmail.com>\n"
+"PO-Revision-Date: 2010-05-24 03:04+0200\n"
+"Last-Translator: Mario <mb@mariobehling.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.0.1\n"
 
@@ -104,12 +104,11 @@ msgstr "Nhập vào hộp thoại sau để kiểm tra thiết lập bàn phím 
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Cấu hình bàn phím, chuột, và các thiết bị đầu vào khác"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "Bàn phím"
+msgstr "Bàn phím và chuột"
 
 #, fuzzy
 #~ msgid "input-keyboard"
