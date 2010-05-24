@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: LXInput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 01:27+0800\n"
-"PO-Revision-Date: 2010-02-20 11:00+0000\n"
+"POT-Creation-Date: 2010-05-24 04:46+0000\n"
+"PO-Revision-Date: 2010-05-24 11:00+0000\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
@@ -101,13 +101,10 @@ msgstr "Skriv i feltet for at teste din tastaturopsætning"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Konfigurer tastatur, mus og andre inddataenheder"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "Tastatur"
+msgstr "Tastatur og mus"
 
-#, fuzzy
-#~ msgid "input-keyboard"
-#~ msgstr "Tastatur"
+
