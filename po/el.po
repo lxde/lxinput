@@ -2,23 +2,23 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 01:27+0800\n"
+"POT-Creation-Date: 2010-05-24 04:46+0000\n"
 "PO-Revision-Date: 2010-04-08 22:38+0200\n"
-"Last-Translator:  <edhunter@sidux.com>\n"
+"Last-Translator: <edhunter@sidux.com>\n"
 "Language-Team: Greek <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.1\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
+"X-Generator: Pootle 2.0.1\n"
 
 #: ../data/lxinput.glade.h:1
 msgid "<b>Character Repeat</b>"
@@ -102,18 +102,15 @@ msgstr "Touch Pad"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
-msgstr ""
-"Πληκτρολογίστε στο παρόν κουτάκι για να δοκιμάστε τις ρυθμίσεις πληκτρολογίου"
+msgstr "Πληκτρολογίστε στο παρόν κουτάκι για να δοκιμάστε τις ρυθμίσεις πληκτρολογίου"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Ρυθμίσεις πληκτρολογίου, ποντικιού και άλλων συσκευών εισόδου"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "Πληκτρολόγιο"
+msgstr "Πληκτρολόγιο και ποντίκι"
 
-#, fuzzy
 #~ msgid "input-keyboard"
 #~ msgstr "Πληκτρολόγιο"
