@@ -2,13 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 01:27+0800\n"
+"POT-Creation-Date: 2010-05-25 04:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,83 +17,85 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:1
 msgid "<b>Character Repeat</b>"
-msgstr ""
+msgstr "<b>Понављање карактера</b>"
 
 #: ../data/lxinput.glade.h:2
 msgid "<b>Motion</b>"
-msgstr ""
+msgstr "<b>Кретање</b>"
 
 #: ../data/lxinput.glade.h:3
 msgid "Acceleration:"
-msgstr ""
+msgstr "Убрзање:"
 
 #: ../data/lxinput.glade.h:4
 msgid "Beep when there is an error of keyboard input"
-msgstr ""
+msgstr "Пусти звук на грешке код уноса са тататуре"
 
 #: ../data/lxinput.glade.h:5
+#, fuzzy
 msgid "Delay before each key starts repeating"
-msgstr ""
+msgstr "Кашњење пре него што сваки тастер покреће се понављају"
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
-msgstr ""
+msgstr "Брзо"
 
 #: ../data/lxinput.glade.h:7
 msgid "High"
-msgstr ""
+msgstr "Високо"
 
 #: ../data/lxinput.glade.h:8
 msgid "Input Device Preferences"
-msgstr ""
+msgstr "Подешавања улазног уређаја"
 
 #: ../data/lxinput.glade.h:9
 msgid "Interval between each key repeat"
-msgstr ""
+msgstr "Интервал између сваког поновљеног тастера"
 
 #: ../data/lxinput.glade.h:10
 msgid "Keyboard"
-msgstr ""
+msgstr "Тастатура"
 
 #: ../data/lxinput.glade.h:11
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr ""
+msgstr "Леворуки (Замени лево и десно дугме миша)"
 
 #: ../data/lxinput.glade.h:12
 msgid "Long"
-msgstr ""
+msgstr "Дуго"
 
 #: ../data/lxinput.glade.h:13
 msgid "Low"
-msgstr ""
+msgstr "Ниско"
 
 #: ../data/lxinput.glade.h:14
 msgid "Mouse"
-msgstr ""
+msgstr "Миш"
 
 #: ../data/lxinput.glade.h:15
 msgid "Repeat delay:"
-msgstr ""
+msgstr "Кашњење код понављања:"
 
 #: ../data/lxinput.glade.h:16
 msgid "Repeat interval:"
-msgstr ""
+msgstr "Интервал понављања:"
 
 #: ../data/lxinput.glade.h:17
 msgid "Sensitivity:"
-msgstr ""
+msgstr "Осетљивост:"
 
 #: ../data/lxinput.glade.h:18
 msgid "Short"
-msgstr ""
+msgstr "Кратко"
 
 #: ../data/lxinput.glade.h:19
 msgid "Slow"
-msgstr ""
+msgstr "Споро"
 
 #: ../data/lxinput.glade.h:20
+#, fuzzy
 msgid "Touch Pad"
-msgstr ""
+msgstr "Додирна табла"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
