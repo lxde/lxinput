@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 01:27+0800\n"
+"POT-Creation-Date: 2010-05-25 04:46+0000\n"
 "PO-Revision-Date: 2009-09-21 08:53+0200\n"
 "Last-Translator: Yaron Shahrbani <sh.yaron@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,13 +102,11 @@ msgstr "ניתן להקליד את בתיבת הטקסט שלהלן כדי לב�
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "הגדרת המקלדת, העכבר והתקני קלט נוספים"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "מקלדת"
+msgstr "מקלדת ועכבר"
 
-#, fuzzy
 #~ msgid "input-keyboard"
 #~ msgstr "מקלדת"
