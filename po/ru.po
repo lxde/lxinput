@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-24 01:27+0800\n"
-"PO-Revision-Date: 2009-09-17 09:05+0200\n"
-"Last-Translator: Александр Голубев <ag@lhp.ru>\n"
+"PO-Revision-Date: 2010-05-25 17:52+0200\n"
+"Last-Translator: Max <mpui@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.0.1\n"
 
 #: ../data/lxinput.glade.h:1
 msgid "<b>Character Repeat</b>"
@@ -22,11 +25,11 @@ msgstr "<b>Автоповтор символов</b>"
 
 #: ../data/lxinput.glade.h:2
 msgid "<b>Motion</b>"
-msgstr "Движение"
+msgstr "<b>Движение</b>"
 
 #: ../data/lxinput.glade.h:3
 msgid "Acceleration:"
-msgstr "Ускорение"
+msgstr "Ускорение:"
 
 #: ../data/lxinput.glade.h:4
 msgid "Beep when there is an error of keyboard input"
@@ -102,12 +105,11 @@ msgstr "Наберите текст в этом поле для проверки
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Настроить клавиатуру, мышь и другие устройства ввода"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "Клавиатура"
+msgstr "Клавиатура и мышь"
 
 #, fuzzy
 #~ msgid "input-keyboard"
