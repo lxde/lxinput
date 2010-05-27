@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:5
 msgid "Delay before each key starts repeating"
-msgstr ""
+msgstr "Odgoda prije početka ponavljanja svake tipke"
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
@@ -45,7 +45,7 @@ msgstr "Visoko"
 
 #: ../data/lxinput.glade.h:8
 msgid "Input Device Preferences"
-msgstr ""
+msgstr "Postavke ulaznog uređaja"
 
 #: ../data/lxinput.glade.h:9
 msgid "Interval between each key repeat"
