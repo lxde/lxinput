@@ -49,7 +49,7 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:9
 msgid "Interval between each key repeat"
-msgstr ""
+msgstr "Interval između ponavljanja svake tipke "
 
 #: ../data/lxinput.glade.h:10
 msgid "Keyboard"
@@ -97,16 +97,15 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
-msgstr ""
+msgstr "Pišite u okvir za testiranje postavki tipkovnice"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Konfiguriraj tipkovnicu, miš, i druge ulazne uređaje"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "Tipkovnica"
+msgstr "Tipkovnica i miš"
 
 #~ msgid "input-keyboard"
 #~ msgstr "Tipkovnica"
