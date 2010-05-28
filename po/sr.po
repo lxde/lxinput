@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-25 04:46+0000\n"
+"POT-Creation-Date: 2010-05-28 04:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgstr "Пусти звук на грешке код уноса са татат�
 #: ../data/lxinput.glade.h:5
 #, fuzzy
 msgid "Delay before each key starts repeating"
-msgstr "Кашњење пре него што сваки тастер покреће се понављају"
+msgstr "Кашњење пре понављања сваког тастера"
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
@@ -93,18 +93,17 @@ msgid "Slow"
 msgstr "Споро"
 
 #: ../data/lxinput.glade.h:20
-#, fuzzy
 msgid "Touch Pad"
-msgstr "Додирна табла"
+msgstr "Табла за контролу додиром"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
-msgstr ""
+msgstr "За проверу распореда ваше тастатуре куцајте у ово поље"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Подесите тастатуру, миш и друге улазне уређаје"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Keyboard and Mouse"
-msgstr ""
+msgstr "Тастатура и миш"
