@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 04:46+0000\n"
+"POT-Creation-Date: 2010-05-31 04:48+0000\n"
 "PO-Revision-Date: 2009-05-16 12:37+0200\n"
 "Last-Translator: Y P <yupadmin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,7 @@ msgstr "Високо"
 
 #: ../data/lxinput.glade.h:8
 msgid "Input Device Preferences"
-msgstr "Налаштування Пристрою Вводу"
+msgstr "Налаштування пристрою вводу"
 
 #: ../data/lxinput.glade.h:9
 msgid "Interval between each key repeat"
