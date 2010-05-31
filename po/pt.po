@@ -2,21 +2,21 @@
 # Copyright (C) 2009, THE lxinput COPYRIGHT HOLDER
 # This file is distributed under the same license as the lxinput package
 # Sérgio Marques (smarquespt@gmail.com), 2009
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 01:27+0800\n"
+"POT-Creation-Date: 2010-05-31 04:48+0000\n"
 "PO-Revision-Date: 2010-02-13 19:31-0000\n"
 "Last-Translator: Sergio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Portuguese\n"
 "X-Poedit-Country: PORTUGAL\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/lxinput.glade.h:1
 msgid "<b>Character Repeat</b>"
@@ -104,13 +104,11 @@ msgstr "Digite os caracteres na caixa seguinte para testar o teclado"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Configurar teclado, rato e outros dispositivos"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "Teclado"
+msgstr "Teclado e Rato"
 
-#, fuzzy
 #~ msgid "input-keyboard"
 #~ msgstr "Teclado"
