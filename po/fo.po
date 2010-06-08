@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-24 01:27+0800\n"
-"PO-Revision-Date: 2010-06-07 15:59+0200\n"
+"PO-Revision-Date: 2010-06-08 17:54+0200\n"
 "Last-Translator: Gunleif <gunleif@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fo\n"
@@ -104,12 +104,11 @@ msgstr "Skriva í kassan, fyri at royna knappaborðs-setingina"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Samanset knappaborð, mús, og arðar inntøkutóleindir"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "Knappaborð"
+msgstr "Knappaborð og mús"
 
 #, fuzzy
 #~ msgid "input-keyboard"
