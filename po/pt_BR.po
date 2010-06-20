@@ -2,12 +2,12 @@
 # Copyright (C) 2009 The LXDE Team.
 # This file is distributed under the same license as the lxinput package.
 # Thiago Avelino <thiagoavelinoster@gmail.com>, 2009.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 01:27+0800\n"
+"POT-Creation-Date: 2010-06-20 05:45+0000\n"
 "PO-Revision-Date: 2009-05-14 12:42-0300\n"
 "Last-Translator: Thiago Avelino <thiagoavelinoster@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
@@ -30,7 +30,7 @@ msgstr "Aceleração:"
 
 #: ../data/lxinput.glade.h:4
 msgid "Beep when there is an error of keyboard input"
-msgstr "Beep quando houver um erro de entrada do teclado"
+msgstr "Bipar quando houver um erro de entrada do teclado"
 
 #: ../data/lxinput.glade.h:5
 msgid "Delay before each key starts repeating"
@@ -58,7 +58,7 @@ msgstr "Teclado"
 
 #: ../data/lxinput.glade.h:11
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Canhoto (Alterna o botão esquerdo e direito do mouse)"
+msgstr "Canhoto (alterna o botão esquerdo e direito do mouse)"
 
 #: ../data/lxinput.glade.h:12
 msgid "Long"
@@ -102,13 +102,11 @@ msgstr "Digite no seguinte campo para testar a configuração do teclado"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Configurar teclado, mouse e outros dispositivos de entrada"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "Teclado"
+msgstr "Teclado e mouse"
 
-#, fuzzy
 #~ msgid "input-keyboard"
 #~ msgstr "Teclado"
