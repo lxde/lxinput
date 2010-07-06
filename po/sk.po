@@ -1,14 +1,14 @@
 # Slovak translation of lxinput
 # Copyright (C) 2006 lxde team
 # This file is distributed under the same license as the lxinput package.
-# Ivan Masár <helix84@centrum.sk>, 2009.
+# Ivan Masár <helix84@centrum.sk>, 2009, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 01:27+0800\n"
-"PO-Revision-Date: 2009-05-04 12:59+0100\n"
+"POT-Creation-Date: 2010-07-06 08:47+0000\n"
+"PO-Revision-Date: 2010-07-06 12:17+0100\n"
 "Last-Translator: Ivan Masár <helix84@centrum.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "MIME-Version: 1.0\n"
@@ -97,17 +97,15 @@ msgstr "Touchpad"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
-msgstr ""
-"Ak chcete otestovať svoje nastavenia klávesnice, píšte do nasledovného poľa"
+msgstr "Ak chcete otestovať svoje nastavenia klávesnice, píšte do nasledovného poľa"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Nastaviť klávesnicu, myš a ostatné vstupné zariadenia"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "Klávesnica"
+msgstr "Klávesnica a myš"
 
 #, fuzzy
 #~ msgid "input-keyboard"
