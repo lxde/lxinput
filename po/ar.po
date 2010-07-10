@@ -1,16 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Ahmad Farghal <ahmad.farghal@gmail.com>, 2009.
+# Tareq Al Jurf <taljurf@fedoraproject.org>, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: lxde.lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 01:27+0800\n"
-"PO-Revision-Date: 2009-05-01 12:00+0200\n"
-"Last-Translator: Ahmad Farghal <ahmad.farghal@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2010-07-10 05:29+0000\n"
+"PO-Revision-Date: 2010-07-11 01:18+0300\n"
+"Last-Translator: Tareq Al Jurf <taljurf@fedoraproject.org>\n"
+"Language-Team: Arabic <trans-ar@lists.fedoraproject.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -102,12 +103,11 @@ msgstr "اكتب في الصندوق التالي لتختبر إعدادات ل
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "اضبط لوحة المفاتيح، الفأرة وأجهزة الإدخال الأخرى"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "لوحة المفاتيح"
+msgstr "لوحة المفاتيح والفأرة"
 
 #, fuzzy
 #~ msgid "input-keyboard"
