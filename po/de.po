@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 01:27+0800\n"
+"POT-Creation-Date: 2010-08-02 05:38+0000\n"
 "PO-Revision-Date: 2009-04-30 00:51+0200\n"
 "Last-Translator: Christoph Wickert <christoph.wickert@googlemail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,13 +105,11 @@ msgstr "Zum Testen der Tastatureinstellungen in dem Feld tippen"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Maus, Tastatur und andere Eingabegeräte konfigurieren"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "Tastatur"
+msgstr "Tastatur und Maus"
 
-#, fuzzy
 #~ msgid "input-keyboard"
 #~ msgstr "Tastatur"
