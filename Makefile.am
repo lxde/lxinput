@@ -10,7 +10,7 @@ ui_DATA = $(ui_in_files:.glade=.ui)
 
 desktopdir=$(datadir)/applications
 desktop_in_files = \
-	lxinput.desktop.in \
+	data/lxinput.desktop.in \
 	$(NULL)
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 @INTLTOOL_DESKTOP_RULE@
