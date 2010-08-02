@@ -61,7 +61,7 @@ static void on_mouse_accel_changed(GtkRange* range, gpointer user_data)
 
 static void on_mouse_threshold_changed(GtkRange* range, gpointer user_data)
 {
-    /* threshold = sensitivity - 100. The lower the threshold, the higher the sensitivity */
+    /* threshold = 110 - sensitivity. The lower the threshold, the higher the sensitivity */
     threshold = 110 - (int)gtk_range_get_value(range);
     XChangePointerControl(GDK_DISPLAY(), False, True,
                              0, 10, threshold);
@@ -273,7 +273,7 @@ int main(int argc, char** argv)
         threshold = old_threshold;
         left_handed = old_left_handed;
         XChangePointerControl(GDK_DISPLAY(), True, True,
-                                 accel, 10, (110 - threshold));
+                                 accel, 10, threshold);
         set_left_handed_mouse();
     }
 
