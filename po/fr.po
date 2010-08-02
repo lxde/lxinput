@@ -8,13 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-24 01:27+0800\n"
-"PO-Revision-Date: 2009-05-09 03:10+0200\n"
-"Last-Translator: Cilyan Olowen <gaknar@gmail.com>\n"
+"PO-Revision-Date: 2010-08-02 19:52+0200\n"
+"Last-Translator: Cilyan <gaknar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxinput.glade.h:1
 msgid "<b>Character Repeat</b>"
@@ -34,7 +36,7 @@ msgstr "Émettre un son lors d'une erreur d'entrée sur le clavier"
 
 #: ../data/lxinput.glade.h:5
 msgid "Delay before each key starts repeating"
-msgstr "Délai avant que le caractère ne soit répété."
+msgstr "Délai avant que le caractère ne soit répété"
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
@@ -50,7 +52,7 @@ msgstr "Préférences des périphériques d'entrée"
 
 #: ../data/lxinput.glade.h:9
 msgid "Interval between each key repeat"
-msgstr "Intervalle entre chaque répétition de caractère."
+msgstr "Intervalle entre chaque répétition de caractère"
 
 #: ../data/lxinput.glade.h:10
 msgid "Keyboard"
@@ -102,12 +104,11 @@ msgstr "Tapez dans le champ ci-dessous pour tester vos paramètres clavier"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Configure le clavier, la souris et d'autres périphériques d'entrée"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "Clavier"
+msgstr "Clavier et souris"
 
 #, fuzzy
 #~ msgid "input-keyboard"
