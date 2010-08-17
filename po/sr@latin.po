@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-28 04:53+0000\n"
+"POT-Creation-Date: 2010-08-17 05:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,9 +32,8 @@ msgid "Beep when there is an error of keyboard input"
 msgstr "Pusti zvuk na greške kod unosa sa tatature"
 
 #: ../data/lxinput.glade.h:5
-#, fuzzy
 msgid "Delay before each key starts repeating"
-msgstr "Kašnjenje pre ponavljanja svakog tastera"
+msgstr "Kašǌeǌe pre početka ponavǉaǌa svakog tastera"
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
