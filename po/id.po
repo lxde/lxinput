@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput-id\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 01:27+0800\n"
+"POT-Creation-Date: 2010-08-25 05:40+0000\n"
 "PO-Revision-Date: 2009-05-23 03:54+0200\n"
 "Last-Translator: Rahman Yusri Aftian <aftian@yahoo.com>\n"
 "Language-Team: LANGUAGE <id@li.org>\n"
@@ -102,13 +102,11 @@ msgstr "Tipe yang berikut untuk menguji papan tombol mu menentukan"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Tata papan tik, tetikus, dan perangkat masukan lain"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "Papan Ketik"
+msgstr "Papan Ketik dan Tetikus"
 
-#, fuzzy
 #~ msgid "input-keyboard"
 #~ msgstr "Papan Ketik"
