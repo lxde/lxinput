@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 01:27+0800\n"
+"POT-Creation-Date: 2010-09-03 05:42+0000\n"
 "PO-Revision-Date: 2009-10-27 15:17+0100\n"
 "Last-Translator: Indalecio Freiría Santos <ifreiria@gmail.com>\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
@@ -102,13 +102,11 @@ msgstr "Teclee no seguinte cadro para comprobar a configuración do seu teclado"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Configurar o teclado, o rato e outros dispositivos de entrada"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "Teclado"
+msgstr "Teclado e rato"
 
-#, fuzzy
 #~ msgid "input-keyboard"
 #~ msgstr "Teclado"
