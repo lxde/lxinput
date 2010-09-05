@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 01:27+0800\n"
+"POT-Creation-Date: 2010-09-05 05:43+0000\n"
 "PO-Revision-Date: 2010-01-26 04:19+0200\n"
 "Last-Translator: Kılıç <kilickoken@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,13 +104,11 @@ msgstr "Tuştakımı ayarlarınızı sınamak için aşağıdaki kutuya birşeyl
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Klavye, fare ve diğer girdi aygıtlarını yapılandırın"
 
 #: ../data/lxinput.desktop.in.h:2
-#, fuzzy
 msgid "Keyboard and Mouse"
-msgstr "Tuştakımı"
+msgstr "Klavye ve Fare"
 
-#, fuzzy
 #~ msgid "input-keyboard"
 #~ msgstr "Tuştakımı"
