@@ -3,107 +3,109 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-24 01:27+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2010-10-15 13:42+0200\n"
+"Last-Translator: Yinghua_Wang <wantinghard@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxinput.glade.h:1
 msgid "<b>Character Repeat</b>"
-msgstr ""
+msgstr "<b>字符重复</b>"
 
 #: ../data/lxinput.glade.h:2
 msgid "<b>Motion</b>"
-msgstr ""
+msgstr "<b>动作</b>"
 
 #: ../data/lxinput.glade.h:3
 msgid "Acceleration:"
-msgstr ""
+msgstr "加速："
 
 #: ../data/lxinput.glade.h:4
 msgid "Beep when there is an error of keyboard input"
-msgstr ""
+msgstr "在键盘输入有错误时发声"
 
 #: ../data/lxinput.glade.h:5
 msgid "Delay before each key starts repeating"
-msgstr ""
+msgstr "在按键开始重复前的延时"
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
-msgstr ""
+msgstr "快"
 
 #: ../data/lxinput.glade.h:7
 msgid "High"
-msgstr ""
+msgstr "高"
 
 #: ../data/lxinput.glade.h:8
 msgid "Input Device Preferences"
-msgstr ""
+msgstr "输入设备偏好设置"
 
 #: ../data/lxinput.glade.h:9
 msgid "Interval between each key repeat"
-msgstr ""
+msgstr "按键重复间隔"
 
 #: ../data/lxinput.glade.h:10
 msgid "Keyboard"
-msgstr ""
+msgstr "键盘"
 
 #: ../data/lxinput.glade.h:11
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr ""
+msgstr "左手习惯(切换左右鼠标键)"
 
 #: ../data/lxinput.glade.h:12
 msgid "Long"
-msgstr ""
+msgstr "长"
 
 #: ../data/lxinput.glade.h:13
 msgid "Low"
-msgstr ""
+msgstr "低"
 
 #: ../data/lxinput.glade.h:14
 msgid "Mouse"
-msgstr ""
+msgstr "鼠标"
 
 #: ../data/lxinput.glade.h:15
 msgid "Repeat delay:"
-msgstr ""
+msgstr "重复延迟："
 
 #: ../data/lxinput.glade.h:16
 msgid "Repeat interval:"
-msgstr ""
+msgstr "重复间隔："
 
 #: ../data/lxinput.glade.h:17
 msgid "Sensitivity:"
-msgstr ""
+msgstr "敏感度："
 
 #: ../data/lxinput.glade.h:18
 msgid "Short"
-msgstr ""
+msgstr "短"
 
 #: ../data/lxinput.glade.h:19
 msgid "Slow"
-msgstr ""
+msgstr "慢"
 
 #: ../data/lxinput.glade.h:20
 msgid "Touch Pad"
-msgstr ""
+msgstr "触摸板"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
-msgstr ""
+msgstr "在下面的框中输入来测试您的键盘设置"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "配置键盘、鼠标和其他输入设备"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Keyboard and Mouse"
-msgstr ""
+msgstr "键盘和鼠标"
