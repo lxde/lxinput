@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-03 11:52+0200\n"
+"PO-Revision-Date: 2010-11-01 15:40+0200\n"
+"Last-Translator: kizito <kbirabwa@yahoo.co.uk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: lg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../data/lxinput.glade.h:1
+msgid "<b>Character Repeat</b>"
+msgstr "<b>Obwangu bw'nziriŋŋana y'okuteekawo bubonero</b>"
+
+#: ../data/lxinput.glade.h:2
+msgid "<b>Motion</b>"
+msgstr "<b>Entambula</b>"
+
+#: ../data/lxinput.glade.h:3
+msgid "Acceleration:"
+msgstr "Enyanguwa:"
+
+#: ../data/lxinput.glade.h:4
+msgid "Beep when there is an error of keyboard input"
+msgstr "Akade kavuge nga wazzewo kiremya mu kuwandisa mapeesa"
+
+#: ../data/lxinput.glade.h:5
+msgid "Delay before each key starts repeating"
+msgstr "Akasirikiro akabawo eppeesa liryoke liddemu akabonero"
+
+#: ../data/lxinput.glade.h:6
+msgid "Fast"
+msgstr "Mangu"
+
+#: ../data/lxinput.glade.h:7
+msgid "High"
+msgstr ""
+
+#: ../data/lxinput.glade.h:8
+msgid "Input Device Preferences"
+msgstr "Nteekateeka z'ebikozesebwa okuyingiza bintu mu kompyuta"
+
+#: ../data/lxinput.glade.h:9
+msgid "Interval between each key repeat"
+msgstr ""
+"Akaseera akayitawo eppeesa liryoke liddemu okussawo akabonero nga "
+"erinwyezezza wansi"
+
+#: ../data/lxinput.glade.h:10
+msgid "Keyboard"
+msgstr "Mapeesa agawandisibwa"
+
+#: ../data/lxinput.glade.h:11
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr ""
+"Nkozesa kkono (wanyisa enkola y'amapeesa g'akasongesebwa aga kkono ne ddyo)"
+
+#: ../data/lxinput.glade.h:12
+msgid "Long"
+msgstr ""
+
+#: ../data/lxinput.glade.h:13
+msgid "Low"
+msgstr ""
+
+#: ../data/lxinput.glade.h:14
+msgid "Mouse"
+msgstr "Akasongesebwa"
+
+#: ../data/lxinput.glade.h:15
+msgid "Repeat delay:"
+msgstr "Okusikattira mu kuddiŋana:"
+
+#: ../data/lxinput.glade.h:16
+msgid "Repeat interval:"
+msgstr "Akaseera wakati w'enziriŋano:"
+
+#: ../data/lxinput.glade.h:17
+msgid "Sensitivity:"
+msgstr "Okuwulira:"
+
+#: ../data/lxinput.glade.h:18
+msgid "Short"
+msgstr "Kampi"
+
+#: ../data/lxinput.glade.h:19
+msgid "Slow"
+msgstr ""
+
+#: ../data/lxinput.glade.h:20
+msgid "Touch Pad"
+msgstr ""
+
+#: ../data/lxinput.glade.h:21
+msgid "Type in the following box to test your keyboard settings"
+msgstr ""
+
+#: ../data/lxinput.desktop.in.h:1
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr ""
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Keyboard and Mouse"
+msgstr ""
