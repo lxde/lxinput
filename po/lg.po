@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-03 11:52+0200\n"
-"PO-Revision-Date: 2010-11-01 15:40+0200\n"
+"PO-Revision-Date: 2010-11-03 14:43+0200\n"
 "Last-Translator: kizito <kbirabwa@yahoo.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lg\n"
@@ -99,16 +99,18 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:20
 msgid "Touch Pad"
-msgstr ""
+msgstr "Kasongesebwa k'osiisiriza"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
-msgstr ""
+msgstr "Wandika wano olabe by'otegese bwe bikola"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
 msgstr ""
+"Teekateeka enkola y'amapeesa agawandisibwa, akasongesebwa n'ebirala "
+"ebikozesebwa okuyingiza bintu mu kompyuta"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Keyboard and Mouse"
-msgstr ""
+msgstr "Mapeesa agawandisibwa n'akasongesebwa"
