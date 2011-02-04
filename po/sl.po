@@ -8,20 +8,22 @@ msgstr ""
 "Project-Id-Version: LXInput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-03 07:38+0000\n"
-"PO-Revision-Date: 2009-06-28 16:44+0100\n"
-"Last-Translator: Matej Gačnik <paxmanpwnz@gmail.com>\n"
+"PO-Revision-Date: 2011-02-04 21:39+0200\n"
+"Last-Translator: Klemen <klemen913@gmail.com>\n"
 "Language-Team: Slovenian <paxmanpwnz@gmail.com>\n"
+"Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
+"X-Generator: Pootle 2.0.5\n"
 "X-Poedit-Language: slovenian\n"
 "X-Poedit-Country: SLOVENIA\n"
-"X-Generator: Pootle 1.1.0\n"
 
 #: ../data/lxinput.glade.h:1
 msgid "<b>Character Repeat</b>"
-msgstr "<b>Ponavljanje znaka</b>"
+msgstr "<b>Ponavljanje znakov</b>"
 
 #: ../data/lxinput.glade.h:2
 msgid "<b>Motion</b>"
@@ -33,11 +35,11 @@ msgstr "Pospeševanje:"
 
 #: ../data/lxinput.glade.h:4
 msgid "Beep when there is an error of keyboard input"
-msgstr "Sproži zvočno opozorilo, če pride do napake pri tipkovniškem vnosu"
+msgstr "Sproži zvočno opozorilo, ko pride do napake pri vnosu s tipkovnico"
 
 #: ../data/lxinput.glade.h:5
 msgid "Delay before each key starts repeating"
-msgstr "Zakasnitev, po preteku katere se znaki začno ponavljati"
+msgstr "Zakasnitev, po preteku katere se tipke začno ponavljati"
 
 #: ../data/lxinput.glade.h:6
 msgid "Fast"
@@ -49,11 +51,11 @@ msgstr "Visoko"
 
 #: ../data/lxinput.glade.h:8
 msgid "Input Device Preferences"
-msgstr "Nastavitve vhodne naprave"
+msgstr "Nastavitve vhodnih naprav"
 
 #: ../data/lxinput.glade.h:9
 msgid "Interval between each key repeat"
-msgstr "Interval med vsako posamezno ponavitvijo znaka"
+msgstr "Časovni razmik med vsako posamezno ponovitvijo tipk"
 
 #: ../data/lxinput.glade.h:10
 msgid "Keyboard"
@@ -73,7 +75,7 @@ msgstr "Nizko"
 
 #: ../data/lxinput.glade.h:14
 msgid "Mouse"
-msgstr "Miš"
+msgstr "Miška"
 
 #: ../data/lxinput.glade.h:15
 msgid "Repeat delay:"
@@ -81,7 +83,7 @@ msgstr "Zakasnitev ponavljanja:"
 
 #: ../data/lxinput.glade.h:16
 msgid "Repeat interval:"
-msgstr "Interval ponavljanja:"
+msgstr "Hitrost ponavljanja:"
 
 #: ../data/lxinput.glade.h:17
 msgid "Sensitivity:"
@@ -101,11 +103,11 @@ msgstr "Sledilna ploščica"
 
 #: ../data/lxinput.glade.h:21
 msgid "Type in the following box to test your keyboard settings"
-msgstr "Testiraj nastavitve tipkovnice tako, da vtipkaš besedilo v pričujoče besedilno polje"
+msgstr "Za preizkus nastavitev vtipkajte besedilo:"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Nastavitve tipkovnice, miške in drugih vhodnih enot"
+msgstr "Nastavite tipkovnico, miško in druge vhodne naprave"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Keyboard and Mouse"
