@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: LXInput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-03 07:38+0000\n"
-"PO-Revision-Date: 2011-02-04 21:39+0200\n"
+"PO-Revision-Date: 2011-02-12 12:03+0200\n"
 "Last-Translator: Klemen <klemen913@gmail.com>\n"
 "Language-Team: Slovenian <paxmanpwnz@gmail.com>\n"
 "Language: sl\n"
@@ -51,7 +51,7 @@ msgstr "Visoko"
 
 #: ../data/lxinput.glade.h:8
 msgid "Input Device Preferences"
-msgstr "Nastavitve vhodnih naprav"
+msgstr "Nastavitve vnosnih naprav"
 
 #: ../data/lxinput.glade.h:9
 msgid "Interval between each key repeat"
@@ -107,7 +107,7 @@ msgstr "Za preizkus nastavitev vtipkajte besedilo:"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Nastavite tipkovnico, miško in druge vhodne naprave"
+msgstr "Nastavite tipkovnico, miško in druge vnosne naprave"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Keyboard and Mouse"
