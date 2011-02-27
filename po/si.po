@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-03 11:52+0200\n"
-"PO-Revision-Date: 2011-02-27 08:30+0200\n"
+"PO-Revision-Date: 2011-02-27 08:33+0200\n"
 "Last-Translator: Danishka <danishka@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: si\n"
@@ -24,15 +24,15 @@ msgstr ""
 
 #: ../data/lxinput.glade.h:2
 msgid "<b>Motion</b>"
-msgstr ""
+msgstr "<b>චලනය</b>"
 
 #: ../data/lxinput.glade.h:3
 msgid "Acceleration:"
-msgstr ""
+msgstr "ත්වරණය:"
 
 #: ../data/lxinput.glade.h:4
 msgid "Beep when there is an error of keyboard input"
-msgstr ""
+msgstr "යතුරුපුවරුවේ ප්‍රදාන දෝෂයක් ඇති විට බීබ් හඬක් දෙන්න"
 
 #: ../data/lxinput.glade.h:5
 msgid "Delay before each key starts repeating"
