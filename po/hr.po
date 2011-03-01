@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-27 04:20+0000\n"
-"PO-Revision-Date: 2010-12-30 23:43+0200\n"
+"PO-Revision-Date: 2011-03-01 14:43+0200\n"
 "Last-Translator: zvacet <ikoli@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -25,11 +25,11 @@ msgstr "<b>Ponavljanje znakova</b>"
 
 #: ../data/lxinput.glade.h:2
 msgid "<b>Motion</b>"
-msgstr "Pokret"
+msgstr "<b>Pokret</b>"
 
 #: ../data/lxinput.glade.h:3
 msgid "Acceleration:"
-msgstr "Ubrzanje"
+msgstr "Ubrzanje:"
 
 #: ../data/lxinput.glade.h:4
 msgid "Beep when there is an error of keyboard input"
@@ -61,7 +61,7 @@ msgstr "Tipkovnica"
 
 #: ../data/lxinput.glade.h:11
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Ljevoruki (zamjeni lijevo i desno dugme miša"
+msgstr "Ljevoruki (zamjeni lijevo i desno dugme miša)"
 
 #: ../data/lxinput.glade.h:12
 msgid "Long"
@@ -77,15 +77,15 @@ msgstr "Miš"
 
 #: ../data/lxinput.glade.h:15
 msgid "Repeat delay:"
-msgstr "Odgoda ponavljanja"
+msgstr "Odgoda ponavljanja:"
 
 #: ../data/lxinput.glade.h:16
 msgid "Repeat interval:"
-msgstr "Interval ponavljanja"
+msgstr "Interval ponavljanja:"
 
 #: ../data/lxinput.glade.h:17
 msgid "Sensitivity:"
-msgstr "Osjetljivost"
+msgstr "Osjetljivost:"
 
 #: ../data/lxinput.glade.h:18
 msgid "Short"
