@@ -2,11 +2,8 @@ NULL=
 
 SUBDIRS = src po man
 
-ui_in_files= \
-	data/lxinput.glade \
-	$(NULL)
-uidir=$(datadir)/lxinput
-ui_DATA = $(ui_in_files:.glade=.ui)
+uidir = $(datadir)/lxinput
+ui_DATA = data/lxinput.ui
 
 desktopdir=$(datadir)/applications
 desktop_in_files = \
@@ -28,9 +25,4 @@ EXTRA_DIST = \
 	$(NULL)
 
 CLEANFILES = \
-	$(ui_DATA) \
 	$(NULL)
-
-%.ui: %.glade
-	cp $< $@
-	$(top_builddir)/src/xml-purge $@
