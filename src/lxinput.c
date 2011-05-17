@@ -42,6 +42,8 @@ static GtkToggleButton* mouse_left_handed;
 static GtkRange *kb_delay;
 static GtkRange *kb_interval;
 static GtkToggleButton* kb_beep;
+static GtkButton* kb_layout;
+static GtkLabel* kb_layout_label;
 
 static int accel = 20, old_accel = 20;
 static int threshold = 10, old_threshold = 10;
@@ -128,6 +130,40 @@ static gboolean on_change_val(GtkRange *range, GtkScrollType scroll,
     return FALSE;
 }
 
+static const gchar* detect_keymap_program()
+{
+    const gchar *program = NULL;
+
+    /*find if lxkeymap is in the path*/
+    program = "lxkeymap";
+    if (g_find_program_in_path(program))
+    {
+        return program;
+    }
+    /*TODO
+    Add other keymap executable*/
+    else
+    {
+        return NULL;
+    }
+
+}
+
+static void on_kb_layout_clicked(GtkButton *button,  gpointer   user_data)
+{
+
+    int status;
+    char* output = NULL;
+    const gchar *program = detect_keymap_program();
+
+    if (program)
+    {
+        g_spawn_command_line_sync(program, &output, NULL, &status, NULL );
+    }
+
+}
+
+
 static void set_range_stops(GtkRange* range, int interval )
 {
 /*
@@ -201,6 +237,20 @@ int main(int argc, char** argv)
     kb_delay = (GtkRange*)gtk_builder_get_object(builder,"kb_delay");
     kb_interval = (GtkRange*)gtk_builder_get_object(builder,"kb_interval");
     kb_beep = (GtkToggleButton*)gtk_builder_get_object(builder,"beep");
+    kb_layout = (GtkButton*)gtk_builder_get_object(builder,"keyboard_layout");
+
+    const gchar *program = detect_keymap_program();
+    if (program == NULL)
+    {
+        /* Hide the button if there is no program to set keymap */
+        kb_layout_label = (GtkLabel*)gtk_builder_get_object(builder,"keyboard_layout_label");
+        gtk_widget_set_visible(kb_layout_label, FALSE);
+        gtk_widget_set_visible(kb_layout, FALSE);
+    }
+    else
+    {
+            gtk_button_set_label(kb_layout, program);
+    }
 
     g_object_unref( builder );
 
@@ -229,6 +279,7 @@ int main(int argc, char** argv)
     set_range_stops(kb_interval, 10);
     g_signal_connect(kb_interval, "value-changed", G_CALLBACK(on_kb_range_changed), &kb_interval);
     g_signal_connect(kb_beep, "toggled", G_CALLBACK(on_kb_beep_toggle), NULL);
+    g_signal_connect(kb_layout, "clicked", G_CALLBACK(on_kb_layout_clicked), NULL);
 
     if( gtk_dialog_run( (GtkDialog*)dlg ) == GTK_RESPONSE_OK )
     {
