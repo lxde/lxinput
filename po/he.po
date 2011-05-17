@@ -2,101 +2,107 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-25 04:46+0000\n"
+"POT-Creation-Date: 2011-05-17 22:55+0200\n"
 "PO-Revision-Date: 2009-09-21 08:53+0200\n"
 "Last-Translator: Yaron Shahrbani <sh.yaron@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 1.1.0\n"
 
-#: ../data/lxinput.glade.h:1
+#: ../data/lxinput.ui.h:1
 msgid "<b>Character Repeat</b>"
 msgstr "<b>חזרה על התווים</b>"
 
-#: ../data/lxinput.glade.h:2
+#: ../data/lxinput.ui.h:2
+#, fuzzy
+msgid "<b>Keyboard layout</b>"
+msgstr "מקלדת ועכבר"
+
+#: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
 msgstr "<b>תנועה</b>"
 
-#: ../data/lxinput.glade.h:3
+#: ../data/lxinput.ui.h:4
 msgid "Acceleration:"
 msgstr "האצה:"
 
-#: ../data/lxinput.glade.h:4
+#: ../data/lxinput.ui.h:5
 msgid "Beep when there is an error of keyboard input"
 msgstr "ישמע צפצוף כאשר מתרחשת שגיאה בקלט המקלדת"
 
-#: ../data/lxinput.glade.h:5
+#: ../data/lxinput.ui.h:6
 msgid "Delay before each key starts repeating"
 msgstr "השהיה בטרם החזרה לאחר לחיצה על תו"
 
-#: ../data/lxinput.glade.h:6
+#: ../data/lxinput.ui.h:7
 msgid "Fast"
 msgstr "מהירה"
 
-#: ../data/lxinput.glade.h:7
+#: ../data/lxinput.ui.h:8
 msgid "High"
 msgstr "גבוהה"
 
-#: ../data/lxinput.glade.h:8
+#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "העדפות התקן קלט"
 
-#: ../data/lxinput.glade.h:9
+#: ../data/lxinput.ui.h:10
 msgid "Interval between each key repeat"
 msgstr "משך ההשהיה עד לחזרה לאחר לחיצה על תו"
 
-#: ../data/lxinput.glade.h:10
+#: ../data/lxinput.ui.h:11
 msgid "Keyboard"
 msgstr "מקלדת"
 
-#: ../data/lxinput.glade.h:11
+#: ../data/lxinput.ui.h:12
 msgid "Left handed (Swap left and right mouse buttons)"
 msgstr "מותאם לשמאליים (החלפה בין הלחצן השמאלי לימני בעכבר)"
 
-#: ../data/lxinput.glade.h:12
+#: ../data/lxinput.ui.h:13
 msgid "Long"
 msgstr "ארוכה"
 
-#: ../data/lxinput.glade.h:13
+#: ../data/lxinput.ui.h:14
 msgid "Low"
 msgstr "נמוכה"
 
-#: ../data/lxinput.glade.h:14
+#: ../data/lxinput.ui.h:15
 msgid "Mouse"
 msgstr "עכבר"
 
-#: ../data/lxinput.glade.h:15
+#: ../data/lxinput.ui.h:16
 msgid "Repeat delay:"
 msgstr "השהיה עד לחזרה:"
 
-#: ../data/lxinput.glade.h:16
+#: ../data/lxinput.ui.h:17
 msgid "Repeat interval:"
 msgstr "משך ההמתנה בין החזרות:"
 
-#: ../data/lxinput.glade.h:17
+#: ../data/lxinput.ui.h:18
 msgid "Sensitivity:"
 msgstr "רגישות:"
 
-#: ../data/lxinput.glade.h:18
+#: ../data/lxinput.ui.h:19
 msgid "Short"
 msgstr "קצרה"
 
-#: ../data/lxinput.glade.h:19
+#: ../data/lxinput.ui.h:20
 msgid "Slow"
 msgstr "איטית"
 
-#: ../data/lxinput.glade.h:20
+#: ../data/lxinput.ui.h:21
 msgid "Touch Pad"
 msgstr "משטח מגע"
 
-#: ../data/lxinput.glade.h:21
+#: ../data/lxinput.ui.h:22
 msgid "Type in the following box to test your keyboard settings"
 msgstr "ניתן להקליד את בתיבת הטקסט שלהלן כדי לבדוק את הגדרות המקלדת שלך"
 

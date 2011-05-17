@@ -8,96 +8,102 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 01:27+0800\n"
+"POT-Creation-Date: 2011-05-17 22:55+0200\n"
 "PO-Revision-Date: 2009-08-23 17:38+0300\n"
 "Last-Translator: Mattias Põldaru <mahfiaz gmail com>\n"
 "Language-Team: Gnome Estonian Translation Team <gnome-et@linux.ee>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Estonian\n"
 
-#: ../data/lxinput.glade.h:1
+#: ../data/lxinput.ui.h:1
 msgid "<b>Character Repeat</b>"
 msgstr "<b>Märgikordus</b>"
 
-#: ../data/lxinput.glade.h:2
+#: ../data/lxinput.ui.h:2
+#, fuzzy
+msgid "<b>Keyboard layout</b>"
+msgstr "Klaviatuur"
+
+#: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
 msgstr "<b>Liikumine</b>"
 
-#: ../data/lxinput.glade.h:3
+#: ../data/lxinput.ui.h:4
 msgid "Acceleration:"
 msgstr "Kiirendus:"
 
-#: ../data/lxinput.glade.h:4
+#: ../data/lxinput.ui.h:5
 msgid "Beep when there is an error of keyboard input"
 msgstr "Piiks klaviatuurisisendi vea korral"
 
-#: ../data/lxinput.glade.h:5
+#: ../data/lxinput.ui.h:6
 msgid "Delay before each key starts repeating"
 msgstr "Viivitus enne klahvi kordumise algust"
 
-#: ../data/lxinput.glade.h:6
+#: ../data/lxinput.ui.h:7
 msgid "Fast"
 msgstr "Kiire"
 
-#: ../data/lxinput.glade.h:7
+#: ../data/lxinput.ui.h:8
 msgid "High"
 msgstr "Kõrge"
 
-#: ../data/lxinput.glade.h:8
+#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "Sisendseadme eelistused"
 
-#: ../data/lxinput.glade.h:9
+#: ../data/lxinput.ui.h:10
 msgid "Interval between each key repeat"
 msgstr "Vahemik klahvikorduste vahel"
 
-#: ../data/lxinput.glade.h:10
+#: ../data/lxinput.ui.h:11
 msgid "Keyboard"
 msgstr "Klaviatuur"
 
-#: ../data/lxinput.glade.h:11
+#: ../data/lxinput.ui.h:12
 msgid "Left handed (Swap left and right mouse buttons)"
 msgstr "Vasakukäeline (vasak ja parem hiireklahv on vahetuses)"
 
-#: ../data/lxinput.glade.h:12
+#: ../data/lxinput.ui.h:13
 msgid "Long"
 msgstr "Pikk"
 
-#: ../data/lxinput.glade.h:13
+#: ../data/lxinput.ui.h:14
 msgid "Low"
 msgstr "Madal"
 
-#: ../data/lxinput.glade.h:14
+#: ../data/lxinput.ui.h:15
 msgid "Mouse"
 msgstr "Hiir"
 
-#: ../data/lxinput.glade.h:15
+#: ../data/lxinput.ui.h:16
 msgid "Repeat delay:"
 msgstr "Korduse  viivitus:"
 
-#: ../data/lxinput.glade.h:16
+#: ../data/lxinput.ui.h:17
 msgid "Repeat interval:"
 msgstr "Korduse intervall:"
 
-#: ../data/lxinput.glade.h:17
+#: ../data/lxinput.ui.h:18
 msgid "Sensitivity:"
 msgstr "Tundlikkus:"
 
-#: ../data/lxinput.glade.h:18
+#: ../data/lxinput.ui.h:19
 msgid "Short"
 msgstr "Lühike"
 
-#: ../data/lxinput.glade.h:19
+#: ../data/lxinput.ui.h:20
 msgid "Slow"
 msgstr "Aeglane"
 
-#: ../data/lxinput.glade.h:20
+#: ../data/lxinput.ui.h:21
 msgid "Touch Pad"
 msgstr "Puuteplaat"
 
-#: ../data/lxinput.glade.h:21
+#: ../data/lxinput.ui.h:22
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Klaviatuurisätete proovimiseks võid siia tekstikasti trükkida"
 

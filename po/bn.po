@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 01:27+0800\n"
+"POT-Creation-Date: 2011-05-17 22:55+0200\n"
 "PO-Revision-Date: 2010-05-30 12:57+0200\n"
 "Last-Translator: Jamil <itsjamil@gmail.com>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
@@ -19,88 +19,93 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.0.1\n"
 
-#: ../data/lxinput.glade.h:1
+#: ../data/lxinput.ui.h:1
 msgid "<b>Character Repeat</b>"
 msgstr "<b>অক্ষর পুনরাবৃত্তি</b>"
 
-#: ../data/lxinput.glade.h:2
+#: ../data/lxinput.ui.h:2
+#, fuzzy
+msgid "<b>Keyboard layout</b>"
+msgstr "কী-বোর্ড এবং মাউস"
+
+#: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
 msgstr "<b>চালনা</b>"
 
-#: ../data/lxinput.glade.h:3
+#: ../data/lxinput.ui.h:4
 msgid "Acceleration:"
 msgstr "গতিবেগ:"
 
-#: ../data/lxinput.glade.h:4
+#: ../data/lxinput.ui.h:5
 msgid "Beep when there is an error of keyboard input"
 msgstr "কীবোর্ড ইনপুটে ত্রুটিতে আওয়াজ করা হবে"
 
-#: ../data/lxinput.glade.h:5
+#: ../data/lxinput.ui.h:6
 msgid "Delay before each key starts repeating"
 msgstr "প্রতি কী-এর পুনরাবৃত্তির পূর্বে যতক্ষণ দেরী হবে"
 
-#: ../data/lxinput.glade.h:6
+#: ../data/lxinput.ui.h:7
 msgid "Fast"
 msgstr "দ্রুত"
 
-#: ../data/lxinput.glade.h:7
+#: ../data/lxinput.ui.h:8
 msgid "High"
 msgstr "উচুঁ"
 
-#: ../data/lxinput.glade.h:8
+#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "ইনপুট ডিভাইসের পছন্দসমূহ"
 
-#: ../data/lxinput.glade.h:9
+#: ../data/lxinput.ui.h:10
 msgid "Interval between each key repeat"
 msgstr "প্রতি কী-এর মধ্যবর্তী বিরতি"
 
-#: ../data/lxinput.glade.h:10
+#: ../data/lxinput.ui.h:11
 msgid "Keyboard"
 msgstr "কী-বোর্ড"
 
-#: ../data/lxinput.glade.h:11
+#: ../data/lxinput.ui.h:12
 msgid "Left handed (Swap left and right mouse buttons)"
 msgstr "বামহাতী (বাম এবং ডান মাউস বোতামের মাঝে সোয়াপ করে)"
 
 # বিরাম সম্পন্ন ?
-#: ../data/lxinput.glade.h:12
+#: ../data/lxinput.ui.h:13
 msgid "Long"
 msgstr "দীর্ঘ"
 
-#: ../data/lxinput.glade.h:13
+#: ../data/lxinput.ui.h:14
 msgid "Low"
 msgstr "নীচের"
 
-#: ../data/lxinput.glade.h:14
+#: ../data/lxinput.ui.h:15
 msgid "Mouse"
 msgstr "মাউস"
 
-#: ../data/lxinput.glade.h:15
+#: ../data/lxinput.ui.h:16
 msgid "Repeat delay:"
 msgstr "পুনরাবৃত্তির বিরাম:"
 
-#: ../data/lxinput.glade.h:16
+#: ../data/lxinput.ui.h:17
 msgid "Repeat interval:"
 msgstr "পুনরাবৃত্তির বিরতি:"
 
-#: ../data/lxinput.glade.h:17
+#: ../data/lxinput.ui.h:18
 msgid "Sensitivity:"
 msgstr "স্পর্শকাতরতা:"
 
-#: ../data/lxinput.glade.h:18
+#: ../data/lxinput.ui.h:19
 msgid "Short"
 msgstr "ছোট"
 
-#: ../data/lxinput.glade.h:19
+#: ../data/lxinput.ui.h:20
 msgid "Slow"
 msgstr "ধীরে"
 
-#: ../data/lxinput.glade.h:20
+#: ../data/lxinput.ui.h:21
 msgid "Touch Pad"
 msgstr "টাচ-প্যাড"
 
-#: ../data/lxinput.glade.h:21
+#: ../data/lxinput.ui.h:22
 msgid "Type in the following box to test your keyboard settings"
 msgstr "কী-বোর্ড এর সেটিং পরীক্ষা করার জন্য নিচের বাক্সে এইটি টাইপ করুন"
 

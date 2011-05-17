@@ -2,102 +2,108 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-26 06:54+0000\n"
+"POT-Creation-Date: 2011-05-17 22:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../data/lxinput.glade.h:1
+#: ../data/lxinput.ui.h:1
 msgid "<b>Character Repeat</b>"
 msgstr ""
 
-#: ../data/lxinput.glade.h:2
+#: ../data/lxinput.ui.h:2
+#, fuzzy
+msgid "<b>Keyboard layout</b>"
+msgstr "Näppäinmistö ja hiiri"
+
+#: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
 msgstr ""
 
-#: ../data/lxinput.glade.h:3
+#: ../data/lxinput.ui.h:4
 msgid "Acceleration:"
 msgstr "Kiihtyvyys:"
 
-#: ../data/lxinput.glade.h:4
+#: ../data/lxinput.ui.h:5
 msgid "Beep when there is an error of keyboard input"
 msgstr "Piippaa kun näppäinmistön näppäilyssä tapahtuu virhe"
 
-#: ../data/lxinput.glade.h:5
+#: ../data/lxinput.ui.h:6
 msgid "Delay before each key starts repeating"
 msgstr "Odota hetki ennen kuin näppäintä aletaan toistamaan"
 
-#: ../data/lxinput.glade.h:6
+#: ../data/lxinput.ui.h:7
 msgid "Fast"
 msgstr "Nopea"
 
-#: ../data/lxinput.glade.h:7
+#: ../data/lxinput.ui.h:8
 msgid "High"
 msgstr "Korkea"
 
-#: ../data/lxinput.glade.h:8
+#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "Syötelaitteen ominaisuudet"
 
-#: ../data/lxinput.glade.h:9
+#: ../data/lxinput.ui.h:10
 msgid "Interval between each key repeat"
 msgstr "Näppäimen toiston viive"
 
-#: ../data/lxinput.glade.h:10
+#: ../data/lxinput.ui.h:11
 msgid "Keyboard"
 msgstr "Näppäinmistö"
 
-#: ../data/lxinput.glade.h:11
+#: ../data/lxinput.ui.h:12
 msgid "Left handed (Swap left and right mouse buttons)"
 msgstr "Vasenkätinen (Vaihda oikean ja vesamman hiiren napin paikkoja)"
 
-#: ../data/lxinput.glade.h:12
+#: ../data/lxinput.ui.h:13
 msgid "Long"
 msgstr "Pitkä"
 
-#: ../data/lxinput.glade.h:13
+#: ../data/lxinput.ui.h:14
 msgid "Low"
 msgstr "Matala"
 
-#: ../data/lxinput.glade.h:14
+#: ../data/lxinput.ui.h:15
 msgid "Mouse"
 msgstr "Hiiri"
 
-#: ../data/lxinput.glade.h:15
+#: ../data/lxinput.ui.h:16
 #, fuzzy
 msgid "Repeat delay:"
 msgstr "Toiston aloituksen viive:"
 
-#: ../data/lxinput.glade.h:16
+#: ../data/lxinput.ui.h:17
 #, fuzzy
 msgid "Repeat interval:"
 msgstr "Toiston viive:"
 
-#: ../data/lxinput.glade.h:17
+#: ../data/lxinput.ui.h:18
 msgid "Sensitivity:"
 msgstr "Herkkyys:"
 
-#: ../data/lxinput.glade.h:18
+#: ../data/lxinput.ui.h:19
 msgid "Short"
 msgstr "Lyhyt"
 
-#: ../data/lxinput.glade.h:19
+#: ../data/lxinput.ui.h:20
 msgid "Slow"
 msgstr "Hidas"
 
-#: ../data/lxinput.glade.h:20
+#: ../data/lxinput.ui.h:21
 msgid "Touch Pad"
 msgstr "Kosketuslevy"
 
-#: ../data/lxinput.glade.h:21
+#: ../data/lxinput.ui.h:22
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Voit kokeilla näppäinmistön asetuksia alla olevaan laatikkoon"
 
