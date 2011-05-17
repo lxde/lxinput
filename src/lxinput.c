@@ -57,7 +57,7 @@ static gboolean beep = TRUE, old_beep = TRUE;
 static void on_mouse_accel_changed(GtkRange* range, gpointer user_data)
 {
     accel = (int)gtk_range_get_value(range);
-    XChangePointerControl(GDK_DISPLAY(), True, False,
+    XChangePointerControl(GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), True, False,
                              accel, 10, 0);
 }
 
@@ -65,7 +65,7 @@ static void on_mouse_threshold_changed(GtkRange* range, gpointer user_data)
 {
     /* threshold = 110 - sensitivity. The lower the threshold, the higher the sensitivity */
     threshold = 110 - (int)gtk_range_get_value(range);
-    XChangePointerControl(GDK_DISPLAY(), False, True,
+    XChangePointerControl(GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), False, True,
                              0, 10, threshold);
 }
 
@@ -73,7 +73,7 @@ static void on_kb_range_changed(GtkRange* range, int* val)
 {
     *val = (int)gtk_range_get_value(range);
     /* apply keyboard values */
-    XkbSetAutoRepeatRate(GDK_DISPLAY(), XkbUseCoreKbd, delay, interval);
+    XkbSetAutoRepeatRate(GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), XkbUseCoreKbd, delay, interval);
 }
 
 /* This function is taken from Gnome's control-center 2.6.0.3 (gnome-settings-mouse.c) and was modified*/
@@ -85,11 +85,11 @@ static void set_left_handed_mouse()
     gint idx_1 = 0, idx_3 = 1;
 
     buttons = g_alloca (DEFAULT_PTR_MAP_SIZE);
-    n_buttons = XGetPointerMapping (GDK_DISPLAY(), buttons, DEFAULT_PTR_MAP_SIZE);
+    n_buttons = XGetPointerMapping (GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), buttons, DEFAULT_PTR_MAP_SIZE);
     if (n_buttons > DEFAULT_PTR_MAP_SIZE)
     {
         buttons = g_alloca (n_buttons);
-        n_buttons = XGetPointerMapping (GDK_DISPLAY(), buttons, n_buttons);
+        n_buttons = XGetPointerMapping (GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), buttons, n_buttons);
     }
 
     for (i = 0; i < n_buttons; i++)
@@ -105,7 +105,7 @@ static void set_left_handed_mouse()
     {
         buttons[idx_1] = ((n_buttons < 3) ? 2 : 3);
         buttons[idx_3] = 1;
-        XSetPointerMapping (GDK_DISPLAY(), buttons, n_buttons);
+        XSetPointerMapping (GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), buttons, n_buttons);
     }
 }
 
@@ -120,7 +120,7 @@ static void on_kb_beep_toggle(GtkToggleButton* btn, gpointer user_data)
     XKeyboardControl values;
     beep = gtk_toggle_button_get_active(btn);
     values.bell_percent = beep ? -1 : 0;
-    XChangeKeyboardControl(GDK_DISPLAY(), KBBellPercent, &values);
+    XChangeKeyboardControl(GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), KBBellPercent, &values);
 }
 
 static gboolean on_change_val(GtkRange *range, GtkScrollType scroll,
@@ -244,8 +244,8 @@ int main(int argc, char** argv)
     {
         /* Hide the button if there is no program to set keymap */
         kb_layout_label = (GtkLabel*)gtk_builder_get_object(builder,"keyboard_layout_label");
-        gtk_widget_set_visible(kb_layout_label, FALSE);
-        gtk_widget_set_visible(kb_layout, FALSE);
+        gtk_widget_set_visible(GTK_WIDGET(kb_layout_label), FALSE);
+        gtk_widget_set_visible(GTK_WIDGET(kb_layout), FALSE);
     }
     else
     {
@@ -316,14 +316,14 @@ int main(int argc, char** argv)
         delay = old_delay;
         interval = old_interval;
         beep = old_beep;
-        XkbSetAutoRepeatRate(GDK_DISPLAY(), XkbUseCoreKbd, delay, interval);
+        XkbSetAutoRepeatRate(GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), XkbUseCoreKbd, delay, interval);
         /* FIXME: beep? */
 
         /* mouse */
         accel = old_accel;
         threshold = old_threshold;
         left_handed = old_left_handed;
-        XChangePointerControl(GDK_DISPLAY(), True, True,
+        XChangePointerControl(GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), True, True,
                                  accel, 10, threshold);
         set_left_handed_mouse();
     }
