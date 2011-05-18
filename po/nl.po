@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-17 22:55+0200\n"
-"PO-Revision-Date: 2010-08-30 11:11+0200\n"
-"Last-Translator: Sander <celettu@gmail.com>\n"
+"PO-Revision-Date: 2011-05-18 21:04+0200\n"
+"Last-Translator: Pjotr <pliniusminor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -23,9 +23,8 @@ msgid "<b>Character Repeat</b>"
 msgstr "<b>Karakter herhaling</b>"
 
 #: ../data/lxinput.ui.h:2
-#, fuzzy
 msgid "<b>Keyboard layout</b>"
-msgstr "Toetsenbord en Muis"
+msgstr "<b>Toetsenbord-indeling</b>"
 
 #: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
@@ -37,11 +36,11 @@ msgstr "Acceleratie:"
 
 #: ../data/lxinput.ui.h:5
 msgid "Beep when there is an error of keyboard input"
-msgstr "Bieptoon bij verkeerde toetsenbordinput"
+msgstr "Pieptoon bij verkeerde toetsenbordinvoer"
 
 #: ../data/lxinput.ui.h:6
 msgid "Delay before each key starts repeating"
-msgstr "Pauze voor een toets zich herhaalt"
+msgstr "Vertraging voordat een toets begint met herhalen"
 
 #: ../data/lxinput.ui.h:7
 msgid "Fast"
@@ -57,7 +56,7 @@ msgstr "Voorkeuren Invoerapparaten"
 
 #: ../data/lxinput.ui.h:10
 msgid "Interval between each key repeat"
-msgstr "Interval tussen herhaling van elke toets"
+msgstr "Interval tussen elke toetsherhaling"
 
 #: ../data/lxinput.ui.h:11
 msgid "Keyboard"
@@ -65,7 +64,7 @@ msgstr "Toetsenbord"
 
 #: ../data/lxinput.ui.h:12
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Linkshandig (Wissel linker- en rechtermuisklik)"
+msgstr "Linkshandig (Wissel linker- en rechtermuisklik om)"
 
 #: ../data/lxinput.ui.h:13
 msgid "Long"
@@ -81,15 +80,15 @@ msgstr "Muis"
 
 #: ../data/lxinput.ui.h:16
 msgid "Repeat delay:"
-msgstr "Herhalingspauze"
+msgstr "Vertraging voor herhaling:"
 
 #: ../data/lxinput.ui.h:17
 msgid "Repeat interval:"
-msgstr "Herhalingsinterval"
+msgstr "Herhalingsinterval:"
 
 #: ../data/lxinput.ui.h:18
 msgid "Sensitivity:"
-msgstr "Gevoeligheid"
+msgstr "Gevoeligheid:"
 
 #: ../data/lxinput.ui.h:19
 msgid "Short"
@@ -101,11 +100,12 @@ msgstr "Traag"
 
 #: ../data/lxinput.ui.h:21
 msgid "Touch Pad"
-msgstr "Touchpad"
+msgstr "Aanraakveld"
 
 #: ../data/lxinput.ui.h:22
 msgid "Type in the following box to test your keyboard settings"
-msgstr "Tiep in onderstaand kader om uw toetsenbordinstellingen te testen"
+msgstr ""
+"Tik iets in onderstaand kader om uw toetsenbordinstellingen uit te proberen"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
