@@ -1,15 +1,16 @@
-# Brazilian Portuguese translation of lxpanel package.
+# Brazilian Portuguese translation of lxinput package.
 # Copyright (C) 2009 The LXDE Team.
 # This file is distributed under the same license as the lxinput package.
 # Thiago Avelino <thiagoavelinoster@gmail.com>, 2009.
+# Sérgio Cipolla <secipolla@gmail.com>, 2010, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-17 22:55+0200\n"
-"PO-Revision-Date: 2009-05-14 12:42-0300\n"
-"Last-Translator: Thiago Avelino <thiagoavelinoster@gmail.com>\n"
+"PO-Revision-Date: 2011-05-18 07:45-0300\n"
+"Last-Translator: Sérgio Cipolla <secipolla@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -19,12 +20,11 @@ msgstr ""
 
 #: ../data/lxinput.ui.h:1
 msgid "<b>Character Repeat</b>"
-msgstr "<b>Repetir caractere</b>"
+msgstr "<b>Repetição de caractere</b>"
 
 #: ../data/lxinput.ui.h:2
-#, fuzzy
 msgid "<b>Keyboard layout</b>"
-msgstr "Teclado e mouse"
+msgstr "<b>Disposição do teclado</b>"
 
 #: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
@@ -40,7 +40,7 @@ msgstr "Bipar quando houver um erro de entrada do teclado"
 
 #: ../data/lxinput.ui.h:6
 msgid "Delay before each key starts repeating"
-msgstr "Atraso antes que cada tecla comece a repetir"
+msgstr "Atraso antes que a tecla comece a repetir"
 
 #: ../data/lxinput.ui.h:7
 msgid "Fast"
@@ -52,11 +52,11 @@ msgstr "Alta"
 
 #: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
-msgstr "Preferências de dispositivo de entrada"
+msgstr "Preferências dos dispositivos de entrada"
 
 #: ../data/lxinput.ui.h:10
 msgid "Interval between each key repeat"
-msgstr "Intervalo entre cada repetição de tecla"
+msgstr "Intervalo entre cada repetição da tecla"
 
 #: ../data/lxinput.ui.h:11
 msgid "Keyboard"
@@ -108,7 +108,7 @@ msgstr "Digite no campo abaixo para testar a configuração do teclado"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Configurar teclado, mouse e outros dispositivos de entrada"
+msgstr "Configure o teclado, o mouse e outros dispositivos de entrada"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Keyboard and Mouse"
