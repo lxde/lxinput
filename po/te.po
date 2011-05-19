@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-17 22:55+0200\n"
-"PO-Revision-Date: 2011-04-16 09:05+0200\n"
-"Last-Translator: Praveen <mail2ipn@gmail.com>\n"
+"PO-Revision-Date: 2011-05-19 15:55+0200\n"
+"Last-Translator: PraveenIlla <mail2ipn@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
@@ -23,9 +23,8 @@ msgid "<b>Character Repeat</b>"
 msgstr "<b>అక్షర పునరావృతం</b>"
 
 #: ../data/lxinput.ui.h:2
-#, fuzzy
 msgid "<b>Keyboard layout</b>"
-msgstr "కీబోర్డు మరియు మౌస్"
+msgstr "<b>కీబోర్డు నమూనా</b>"
 
 #: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
@@ -37,11 +36,11 @@ msgstr "త్వరణం:"
 
 #: ../data/lxinput.ui.h:5
 msgid "Beep when there is an error of keyboard input"
-msgstr ""
+msgstr "కీబోర్డు ఇన్‌పుట్ నందు దోషము ఉన్నట్టయితే బీప్ వినిపించు"
 
 #: ../data/lxinput.ui.h:6
 msgid "Delay before each key starts repeating"
-msgstr ""
+msgstr "ప్రతీ కీ పునరావృతము ప్రారంభమవుటకు ముందు వ్యవధి"
 
 #: ../data/lxinput.ui.h:7
 msgid "Fast"
@@ -57,7 +56,7 @@ msgstr "ఇన్‌పుట్ పరికరం ప్రాధాన్య�
 
 #: ../data/lxinput.ui.h:10
 msgid "Interval between each key repeat"
-msgstr ""
+msgstr "ప్రతీ కీ పునరావృతమునకు మధ్య విరామం"
 
 #: ../data/lxinput.ui.h:11
 msgid "Keyboard"
@@ -65,15 +64,15 @@ msgstr "కీబోర్డు"
 
 #: ../data/lxinput.ui.h:12
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr ""
+msgstr "ఎడమ చేతివాటం (ఎడమ మరియు కుడి మౌస్ బటన్లను మార్చు)"
 
 #: ../data/lxinput.ui.h:13
 msgid "Long"
-msgstr ""
+msgstr "దీర్ఘ"
 
 #: ../data/lxinput.ui.h:14
 msgid "Low"
-msgstr ""
+msgstr "తక్కువ"
 
 #: ../data/lxinput.ui.h:15
 msgid "Mouse"
@@ -81,11 +80,11 @@ msgstr "మౌస్"
 
 #: ../data/lxinput.ui.h:16
 msgid "Repeat delay:"
-msgstr ""
+msgstr "పునరావృత ఆలస్యం:"
 
 #: ../data/lxinput.ui.h:17
 msgid "Repeat interval:"
-msgstr ""
+msgstr "పునరావృత విరామం:"
 
 #: ../data/lxinput.ui.h:18
 msgid "Sensitivity:"
@@ -93,19 +92,19 @@ msgstr "సూక్ష్మగ్రాహ్యత:"
 
 #: ../data/lxinput.ui.h:19
 msgid "Short"
-msgstr ""
+msgstr "పొట్టి"
 
 #: ../data/lxinput.ui.h:20
 msgid "Slow"
-msgstr ""
+msgstr "మెల్లగా"
 
 #: ../data/lxinput.ui.h:21
 msgid "Touch Pad"
-msgstr ""
+msgstr "టచ్ ప్యాడ్"
 
 #: ../data/lxinput.ui.h:22
 msgid "Type in the following box to test your keyboard settings"
-msgstr ""
+msgstr "మీ కీబోర్డు అమరికలను పరీక్షించుటకు కింది పేటికలో టైపు చేయండి"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
