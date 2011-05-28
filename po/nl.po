@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-17 22:55+0200\n"
-"PO-Revision-Date: 2011-05-18 21:04+0200\n"
+"PO-Revision-Date: 2011-05-28 17:18+0200\n"
 "Last-Translator: Pjotr <pliniusminor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../data/lxinput.ui.h:1
 msgid "<b>Character Repeat</b>"
-msgstr "<b>Karakter herhaling</b>"
+msgstr "<b>Tekenherhaling</b>"
 
 #: ../data/lxinput.ui.h:2
 msgid "<b>Keyboard layout</b>"
@@ -32,7 +32,7 @@ msgstr "<b>Beweging</b>"
 
 #: ../data/lxinput.ui.h:4
 msgid "Acceleration:"
-msgstr "Acceleratie:"
+msgstr "Versnelling:"
 
 #: ../data/lxinput.ui.h:5
 msgid "Beep when there is an error of keyboard input"
@@ -64,7 +64,7 @@ msgstr "Toetsenbord"
 
 #: ../data/lxinput.ui.h:12
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Linkshandig (Wissel linker- en rechtermuisklik om)"
+msgstr "Linkshandig (Wissel linker- en rechtermuisknop om)"
 
 #: ../data/lxinput.ui.h:13
 msgid "Long"
