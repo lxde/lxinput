@@ -17,6 +17,20 @@ AC_HEADER_STDC
 AM_GLIB_GNU_GETTEXT
 IT_PROG_INTLTOOL([0.40.0])
 
+AC_ARG_ENABLE(man,
+       [AC_HELP_STRING([--enable-man],
+               [regenerate roff man pages from Docbook @<:@default=no@:>@])],
+       [enable_man="${enableval}"],
+       [enable_man=no]
+)
+
+AC_ARG_ENABLE(more_warnings,
+       [AC_HELP_STRING([--enable-more-warnings],
+               [Add more warnings @<:@default=no@:>@])],
+       [enable_more_warnings="${enableval}"],
+       [enable_more_warnings=no]
+)
+
 pkg_modules="gtk+-2.0 >= 2.12.0 gthread-2.0"
 PKG_CHECK_MODULES(GTK, [$pkg_modules])
 AC_SUBST(GTK_CFLAGS)
@@ -26,18 +40,10 @@ PKG_CHECK_MODULES(XLIB, "x11")
 AC_SUBST(XLIB_CFLAGS)
 AC_SUBST(XLIB_LIBS)
 
-# Pass --enable-maintainer-mode to enable more CFLAGS
-if test "$USE_MAINTAINER_MODE" = "yes"; then
+if test x"$enable_more_warnings" = x"yes"; then
   ADDITIONAL_FLAGS="-Wall -Werror=all -Werror=format -Werror=implicit-function-declaration -Werror=implicit-int -Werror=missing-braces -Werror=parentheses -Werror=return-type -Werror=strict-aliasing -Werror=switch -Wuninitialized -Werror=unused-label -Werror=unused-value -Wextra -Wno-missing-field-initializers -Wno-unused-parameter -Werror=missing-declarations -Wredundant-decls -Wmissing-noreturn -Wpointer-arith -Wcast-align -Wwrite-strings -Werror=inline -Werror=format-nonliteral -Wformat-nonliteral -Werror=format-security -Wformat-security -Winit-self -Werror=missing-include-dirs -Werror=undef -Werror=aggregate-return -Wmissing-format-attribute -Werror=nested-externs -fno-strict-aliasing -fmessage-length=0 -Wp,-D_FORTIFY_SOURCE=2 -DG_DISABLE_DEPRECATED -DG_DISABLE_SINGLE_INCLUDES -DGDK_DISABLE_DEPRECATED -DGDK_PIXBUF_DISABLE_DEPRECATED -DGDK_PIXBUF_DISABLE_SINGLE_INCLUDES -DGTK_DISABLE_DEPRECATED -DGTK_DISABLE_SINGLE_INCLUDES"
 fi
 AC_SUBST(ADDITIONAL_FLAGS)
-
-AC_ARG_ENABLE(man,
-       [AC_HELP_STRING([--enable-man],
-               [regenerate roff man pages from Docbook @<:@default=no@:>@])],
-       [enable_man="${enableval}"],
-       [enable_man=no]
-)
 
 # Generate po/LINGUAS on the fly rather than relying on translators
 # to maintain it manually. This also overcome the problem that Transifex
