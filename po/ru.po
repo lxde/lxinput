@@ -24,9 +24,8 @@ msgid "<b>Character Repeat</b>"
 msgstr "<b>Автоповтор символов</b>"
 
 #: ../data/lxinput.ui.h:2
-#, fuzzy
 msgid "<b>Keyboard layout</b>"
-msgstr "Клавиатура и мышь"
+msgstr "<b>Раскладка клавиатуры</b>"
 
 #: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"

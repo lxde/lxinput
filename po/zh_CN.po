@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-17 22:55+0200\n"
-"PO-Revision-Date: 2010-10-15 13:42+0200\n"
+"PO-Revision-Date: 2011-05-19 09:32+0200\n"
 "Last-Translator: Yinghua_Wang <wantinghard@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -23,9 +23,8 @@ msgid "<b>Character Repeat</b>"
 msgstr "<b>字符重复</b>"
 
 #: ../data/lxinput.ui.h:2
-#, fuzzy
 msgid "<b>Keyboard layout</b>"
-msgstr "键盘和鼠标"
+msgstr "<b>键盘布局</b>"
 
 #: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
