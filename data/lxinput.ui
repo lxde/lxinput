@@ -498,7 +498,7 @@
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkFrame" id="keyboard_layout_label">
+                  <object class="GtkFrame" id="frame3">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="label_xalign">0</property>
@@ -532,7 +532,7 @@
                       </object>
                     </child>
                     <child type="label">
-                      <object class="GtkLabel" id="label19">
+                      <object class="GtkLabel" id="keyboard_layout_label">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="label" translatable="yes">&lt;b&gt;Keyboard layout&lt;/b&gt;</property>
