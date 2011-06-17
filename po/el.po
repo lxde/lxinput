@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-17 22:55+0200\n"
-"PO-Revision-Date: 2011-05-24 12:31+0200\n"
+"PO-Revision-Date: 2011-06-17 11:39+0200\n"
 "Last-Translator: George <forfolias@gmail.com>\n"
 "Language-Team: Greek <LL@li.org>\n"
 "Language: el\n"
@@ -50,7 +50,7 @@ msgstr "Γρήγορα"
 
 #: ../data/lxinput.ui.h:8
 msgid "High"
-msgstr "Υψηλά"
+msgstr "Υψηλή"
 
 #: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
@@ -70,11 +70,11 @@ msgstr "Αριστερόχειρας (Εναλλαγή αριστερού και
 
 #: ../data/lxinput.ui.h:13
 msgid "Long"
-msgstr "Μακριά"
+msgstr "Μεγάλο"
 
 #: ../data/lxinput.ui.h:14
 msgid "Low"
-msgstr "Χαμηλά"
+msgstr "Χαμηλή"
 
 #: ../data/lxinput.ui.h:15
 msgid "Mouse"
@@ -94,7 +94,7 @@ msgstr "Ευαισθησία:"
 
 #: ../data/lxinput.ui.h:19
 msgid "Short"
-msgstr "Κοντά"
+msgstr "Μικρό"
 
 #: ../data/lxinput.ui.h:20
 msgid "Slow"
