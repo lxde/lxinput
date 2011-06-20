@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-17 22:55+0200\n"
-"PO-Revision-Date: 2010-05-31 09:30+0200\n"
+"PO-Revision-Date: 2011-06-20 16:09+0200\n"
 "Last-Translator: Радослав <Rec.ku@hotmail.com>\n"
 "Language-Team: MIME-Version: 1.0\n"
 "Language: bg\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.1\n"
+"X-Generator: Pootle 2.0.5\n"
 "X-Poedit-Language: Bulgarian\n"
 "X-Poedit-Country: BULGARIA\n"
 
@@ -25,9 +25,8 @@ msgid "<b>Character Repeat</b>"
 msgstr "<b>Символно повтаряне</b>"
 
 #: ../data/lxinput.ui.h:2
-#, fuzzy
 msgid "<b>Keyboard layout</b>"
-msgstr "Клавиатура и мишка"
+msgstr "Клавиатурна подредба"
 
 #: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
@@ -43,7 +42,7 @@ msgstr "Бипни, когато има проблем с клавиатурни
 
 #: ../data/lxinput.ui.h:6
 msgid "Delay before each key starts repeating"
-msgstr "Забавяне преди да започне повторението на клавишите"
+msgstr "Забавяне до повторно въвеждане"
 
 #: ../data/lxinput.ui.h:7
 msgid "Fast"
@@ -67,7 +66,7 @@ msgstr "Клавиатура"
 
 #: ../data/lxinput.ui.h:12
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Лява ръка (Разменя ляв и десен бутон)"
+msgstr "Лява ръка (Размяна на ляв и десен бутон)"
 
 #: ../data/lxinput.ui.h:13
 msgid "Long"
@@ -83,7 +82,7 @@ msgstr "Мишка"
 
 #: ../data/lxinput.ui.h:16
 msgid "Repeat delay:"
-msgstr "Задържане на повторението:"
+msgstr "Забавяне на повторението:"
 
 #: ../data/lxinput.ui.h:17
 msgid "Repeat interval:"
@@ -103,15 +102,15 @@ msgstr "Бавна"
 
 #: ../data/lxinput.ui.h:21
 msgid "Touch Pad"
-msgstr "Посочващо устройство"
+msgstr "Тъчпад"
 
 #: ../data/lxinput.ui.h:22
 msgid "Type in the following box to test your keyboard settings"
-msgstr "Пишете в следващата кутия, за да тествате настройките на клавиатурата"
+msgstr "Пишете в следното поле, за да тествате настройките на клавиатурата"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Настройка на клавиатурата, мишката идруги входящи устройства"
+msgstr "Настройка на клавиатурата, мишката и други входни устройства"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Keyboard and Mouse"
