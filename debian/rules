@@ -1,0 +1,43 @@
+#!/usr/bin/make -f
+# -*- mode: makefile; coding: utf-8 -*-
+# Copyright (C) 2009-2010 Andrew Lee (李健秋) <ajqlee@debian.org>
+# Description: Main Debian packaging script for morituri
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation; either version 2, or (at
+# your option) any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+DISTRO = "$(shell lsb_release -si)"
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	./autogen.sh
+	dh_auto_configure -- --enable-man 
+
+override_dh_auto_clean:
+	rm -f man/lxpanel.1 man/lxpanelctl.1
+	dh_auto_clean
+
+override_dh_install:
+	dh_install
+	#Install apport hook only on Ubuntu
+ifeq ($(DISTRO),"Ubuntu")
+	dh_install -plxinput debian/apport/source_lxinput.py usr/share/apport/package-hooks
+endif
+
+override_dh_auto_test:
+        :       
+

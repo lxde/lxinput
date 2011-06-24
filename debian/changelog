@@ -1,0 +1,78 @@
+lxinput (0.3.0-1) unstable; urgency=low
+
+  [ Julien Lavergne ]
+  * debian/apport/source_lxinput.py
+   - Add apport hook for lxinput, to collect config file.
+  * debian/rules:
+   - Install apport hook only on Ubuntu.
+   - Remove autoreconf call, not needed for stable release.
+  * debian/control:
+   - Build-depends on lsb-release, needed to detect the distribution.
+   - Wrap depends and build-depends.
+
+  [ Andrew Lee (李健秋) ]
+  * New upstream release
+    - Fixed incorrect path of config file
+    - Fixed wrongly transformed mouse threshold parameter
+    - Fixed incorrect path of desktop entry file template
+    - Fixed broken translation in bg.po
+    - Fixed configure.in and Makefile.am to add proper xlib flags
+      (Closes: #555573)
+    - Translation updates
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sat, 07 Aug 2010 14:20:49 -0400
+
+lxinput (0.1.1+git20100807-1) experimental; urgency=low
+
+  * Fix FTBFS on kFreeBSD. (Closes:#591650)
+  * Sync with upstream.
+  * Drop depends on lxde-settings-daemon.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sat, 07 Aug 2010 12:55:00 -0400
+
+lxinput (0.1.1+git20100802-1) experimental; urgency=low
+
+  * Sync with upstream git version.
+  * Bumped Standard-version to 3.9.1
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Mon, 02 Aug 2010 17:38:40 -0400
+
+lxinput (0.1.1-3) unstable; urgency=low
+
+  * Applied ubuntu patch. (Closes:582545)
+    Thanks Julien Lavergne <gilir@ubuntu.com>
+  * Use DH7
+  * Use team maintenance address
+  * Aded Vcs-Git and Vcs-Browser tags
+  * Bumped Standard-Version to 3.8.4
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Mon, 24 May 2010 18:20:59 +0800
+
+lxinput (0.1.1-2) unstable; urgency=low
+
+  * Update depends on lxde-settings-daemon | lxsession (>=0.4.0)
+  * Bumped Standard-Version to 3.8.3
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Mon, 16 Nov 2009 11:29:31 +0800
+
+lxinput (0.1.1-1) unstable; urgency=low
+
+  * New upstream release
+    - Reworked lxinput man page generation
+      Use Docbook-XML instead of SGML 
+    - Bring along own icons
+  * debian/copyright
+    - Update for new Icons
+  * debian/rules
+    - Added --enable-man
+  * debian/control
+    - Build-depends on docbook-xsl
+  * Bumped Standard-version to 3.8.2
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 29 Jul 2009 19:20:48 +0200
+
+lxinput (0.1+svn20090614-1) unstable; urgency=low
+
+  * Initial release (Closes: #530900)
+
+ -- Andrew Lee <andrew@linux.org.tw>  Sun, 14 Jun 2009 14:58:12 +0800
