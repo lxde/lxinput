@@ -8,22 +8,23 @@ msgstr ""
 "Project-Id-Version: LXInput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-17 22:55+0200\n"
-"PO-Revision-Date: 2010-05-24 11:00+0000\n"
-"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"PO-Revision-Date: 2011-06-27 16:19+0200\n"
+"Last-Translator: Kristian <kristian9k@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxinput.ui.h:1
 msgid "<b>Character Repeat</b>"
 msgstr "<b>Gentagelse af tegn</b>"
 
 #: ../data/lxinput.ui.h:2
-#, fuzzy
 msgid "<b>Keyboard layout</b>"
-msgstr "Tastatur og mus"
+msgstr "Tastaturlayout"
 
 #: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
