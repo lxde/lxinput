@@ -16,7 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 # Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
+export DH_VERBOSE=1
 
 DISTRO = "$(shell lsb_release -si)"
 
@@ -24,8 +24,8 @@ DISTRO = "$(shell lsb_release -si)"
 	dh $@
 
 override_dh_auto_configure:
-	./autogen.sh
-	dh_auto_configure -- --enable-man 
+	./autogen.sh --enable-man
+	dh_auto_configure -- --enable-man
 
 override_dh_auto_clean:
 	rm -f man/lxpanel.1 man/lxpanelctl.1
