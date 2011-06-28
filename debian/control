@@ -4,11 +4,14 @@ Priority: optional
 Maintainer: Debian LXDE Packaging Team <pkg-lxde-maintainers@lists.alioth.debian.org>
 Uploaders: Andrew Lee (李健秋) <ajqlee@debian.org>
 Build-Depends: debhelper (>= 7.0.50~),
+# need by autogen.sh
                autotools-dev,
-               libgtk2.0-dev (>=2.12),
+               docbook-xml,
                intltool,
                docbook-xsl,
                libtool,
+# real build-depends
+               libgtk2.0-dev (>=2.12),
                libltdl-dev,
                lsb-release
 Standards-Version: 3.9.1
