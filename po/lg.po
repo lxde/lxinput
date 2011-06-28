@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-17 22:55+0200\n"
-"PO-Revision-Date: 2010-11-06 15:07+0000\n"
+"PO-Revision-Date: 2011-05-18 22:50+0200\n"
 "Last-Translator: kizito <kbirabwa@yahoo.co.uk>\n"
 "Language-Team: Luganda <kbirabwa@yahoo.co.uk>\n"
 "Language: lg\n"
@@ -23,9 +23,8 @@ msgid "<b>Character Repeat</b>"
 msgstr "<b>Obwangu bw'enziriŋŋana y'okuteekawo bubonero</b>"
 
 #: ../data/lxinput.ui.h:2
-#, fuzzy
 msgid "<b>Keyboard layout</b>"
-msgstr "Mapeesa agawandisibwa n'akasongesebwa"
+msgstr "<b>Entegeka y'amapeesa agawandisibwa</b>"
 
 #: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
