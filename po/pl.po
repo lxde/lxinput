@@ -9,24 +9,24 @@ msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-17 22:55+0200\n"
-"PO-Revision-Date: 2011-02-19 20:08+0100\n"
-"Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
+"PO-Revision-Date: 2011-07-13 02:08+0200\n"
+"Last-Translator: Piotr <psokol@jabster.pl>\n"
 "Language-Team: Polish <>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : ((n%10>=2 && n%10<=4 && (n"
-"%100<10 || n%100>=20)) ? 1 : 2));\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxinput.ui.h:1
 msgid "<b>Character Repeat</b>"
 msgstr "<b>Powtarzanie znaków</b>"
 
 #: ../data/lxinput.ui.h:2
-#, fuzzy
 msgid "<b>Keyboard layout</b>"
-msgstr "Klawiatura i mysz"
+msgstr "<b>Układ klawiatury</b>"
 
 #: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
@@ -102,7 +102,7 @@ msgstr "Małe"
 
 #: ../data/lxinput.ui.h:21
 msgid "Touch Pad"
-msgstr "Gładzik"
+msgstr "Panel dotykowy"
 
 #: ../data/lxinput.ui.h:22
 msgid "Type in the following box to test your keyboard settings"
