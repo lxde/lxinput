@@ -1,4 +1,4 @@
-# Dutch translation for the lxinput package.
+# Dutch translation of the lxinput package.
 # Copyright (C) the author of the lxinput package.
 # This file is distributed under the same license as the 
 # lxinput package.
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 15:08+0200\n"
-"PO-Revision-Date: 2011-06-13 11:34+0200\n"
+"PO-Revision-Date: 2011-09-08 11:34+0200\n"
 "Last-Translator: Pjotr\n"
 "Language-Team: Dutch\n"
 "Language: nl (Dutch)\n"
@@ -52,7 +52,7 @@ msgstr "Hoog"
 
 #: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
-msgstr "Voorkeuren Invoerapparaten"
+msgstr "Voorkeuren invoerapparaten"
 
 #: ../data/lxinput.ui.h:10
 msgid "Interval between each key repeat"
@@ -64,7 +64,7 @@ msgstr "Toetsenbord"
 
 #: ../data/lxinput.ui.h:12
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Linkshandig (Wissel linker- en rechtermuisknop om)"
+msgstr "Linkshandig (wissel linker- en rechtermuisknop om)"
 
 #: ../data/lxinput.ui.h:13
 msgid "Long"
@@ -105,7 +105,7 @@ msgstr "Aanraakveld"
 #: ../data/lxinput.ui.h:22
 msgid "Type in the following box to test your keyboard settings"
 msgstr ""
-"Tik iets in onderstaand kader om uw toetsenbordinstellingen uit te proberen"
+"Tik iets in onderstaand kader, om uw toetsenbordinstellingen uit te proberen"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
@@ -113,7 +113,7 @@ msgstr "Instellen van toetsenbord, muis, en andere invoerapparaten"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Keyboard and Mouse"
-msgstr "Toetsenbord en Muis"
+msgstr "Toetsenbord en muis"
 
 #~ msgid "input-keyboard"
 #~ msgstr "invoer-toetsenbord"
