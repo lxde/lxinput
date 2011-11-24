@@ -1,25 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Slovenian translation of lxinput.
+# Copyright (C) 2011 Free Software Foundation, Inc.
+# This file is distributed under the same license as the lxinput package.
+# Klemen Košir <klemen.kosir@gmx.com>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: LXInput\n"
+"Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 15:08+0200\n"
-"PO-Revision-Date: 2011-05-18 21:58+0200\n"
-"Last-Translator: Klemen <klemen.kosir@gmx.com>\n"
-"Language-Team: Slovenian <paxmanpwnz@gmail.com>\n"
+"PO-Revision-Date: 2011-11-21 21:19+0100\n"
+"Last-Translator: Klemen Košir <klemen.kosir@gmx.com>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
-"%100==4 ? 3 : 0);\n"
-"X-Generator: Pootle 2.0.5\n"
-"X-Poedit-Language: slovenian\n"
-"X-Poedit-Country: SLOVENIA\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
 
 #: ../data/lxinput.ui.h:1
 msgid "<b>Character Repeat</b>"
@@ -39,11 +35,11 @@ msgstr "Pospeševanje:"
 
 #: ../data/lxinput.ui.h:5
 msgid "Beep when there is an error of keyboard input"
-msgstr "Sproži zvočno opozorilo, ko pride do napake pri vnosu s tipkovnico"
+msgstr "Predvajaj zvočno opozorilo, če pride do napake pri vnosu"
 
 #: ../data/lxinput.ui.h:6
 msgid "Delay before each key starts repeating"
-msgstr "Zakasnitev, po preteku katere se tipke začno ponavljati"
+msgstr "Razmik med ponovitvami tipk"
 
 #: ../data/lxinput.ui.h:7
 msgid "Fast"
@@ -51,15 +47,15 @@ msgstr "Hitro"
 
 #: ../data/lxinput.ui.h:8
 msgid "High"
-msgstr "Visoko"
+msgstr "Visoka"
 
 #: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
-msgstr "Nastavitve vnosnih naprav"
+msgstr "Nastavitve vhodnih naprav"
 
 #: ../data/lxinput.ui.h:10
 msgid "Interval between each key repeat"
-msgstr "Časovni razmik med vsako posamezno ponovitvijo tipk"
+msgstr "Časovni razmik med vsako ponovitvijo tipke"
 
 #: ../data/lxinput.ui.h:11
 msgid "Keyboard"
@@ -67,7 +63,7 @@ msgstr "Tipkovnica"
 
 #: ../data/lxinput.ui.h:12
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Levoročno (zamenjaj levi in desni miškin gumb)"
+msgstr "Levoročno (levi in desni miškin gumb sta zamenjana)"
 
 #: ../data/lxinput.ui.h:13
 msgid "Long"
@@ -75,7 +71,7 @@ msgstr "Dolgo"
 
 #: ../data/lxinput.ui.h:14
 msgid "Low"
-msgstr "Nizko"
+msgstr "Nizka"
 
 #: ../data/lxinput.ui.h:15
 msgid "Mouse"
@@ -83,11 +79,11 @@ msgstr "Miška"
 
 #: ../data/lxinput.ui.h:16
 msgid "Repeat delay:"
-msgstr "Zakasnitev ponavljanja:"
+msgstr "Zakasnitev:"
 
 #: ../data/lxinput.ui.h:17
 msgid "Repeat interval:"
-msgstr "Hitrost ponavljanja:"
+msgstr "Razmik:"
 
 #: ../data/lxinput.ui.h:18
 msgid "Sensitivity:"
@@ -107,15 +103,13 @@ msgstr "Sledilna ploščica"
 
 #: ../data/lxinput.ui.h:22
 msgid "Type in the following box to test your keyboard settings"
-msgstr "Za preizkus nastavitev vtipkajte besedilo:"
+msgstr "Za preizkus nastavitev vnesite besedilo:"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Nastavite tipkovnico, miško in druge vnosne naprave"
+msgstr "Nastavitve tipkovnice, miške in drugih vhodnih naprav"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Keyboard and Mouse"
 msgstr "Tipkovnica in miška"
 
-#~ msgid "input-keyboard"
-#~ msgstr "Tipkovnica"
