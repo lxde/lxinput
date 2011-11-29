@@ -9,22 +9,23 @@ msgstr ""
 "Project-Id-Version: lxinput 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 15:08+0200\n"
-"PO-Revision-Date: 2010-05-24 01:27+0800\n"
-"Last-Translator: Hong Jen Yee (PCMan) <pcman.tw@gmail.com>\n"
+"PO-Revision-Date: 2011-11-29 08:34+0200\n"
+"Last-Translator: Hironao <hirkmt@gmail.com>\n"
 "Language-Team: ja_JP <LL@li.org>\n"
-"Language: \n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxinput.ui.h:1
 msgid "<b>Character Repeat</b>"
 msgstr "<b>文字リピート</b>"
 
 #: ../data/lxinput.ui.h:2
-#, fuzzy
 msgid "<b>Keyboard layout</b>"
-msgstr "キーボードとマウス"
+msgstr "<b>キーボード配列</b>"
 
 #: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
