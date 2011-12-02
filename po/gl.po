@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 15:08+0200\n"
-"PO-Revision-Date: 2011-05-25 11:49+0200\n"
+"PO-Revision-Date: 2011-12-02 14:41+0200\n"
 "Last-Translator: mbouzada <mbouzada@gmail.com>\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -40,7 +40,7 @@ msgstr "Emitir un ton de aviso cando haxa un erro de entrada polo teclado"
 
 #: ../data/lxinput.ui.h:6
 msgid "Delay before each key starts repeating"
-msgstr "Retardo antes de que cada tecla comece a repetirse"
+msgstr "Atraso antes de que cada tecla comece a repetirse"
 
 #: ../data/lxinput.ui.h:7
 msgid "Fast"
@@ -80,7 +80,7 @@ msgstr "Rato"
 
 #: ../data/lxinput.ui.h:16
 msgid "Repeat delay:"
-msgstr "Retardo da repetición:"
+msgstr "Atraso da repetición:"
 
 #: ../data/lxinput.ui.h:17
 msgid "Repeat interval:"
