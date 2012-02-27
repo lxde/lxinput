@@ -8,23 +8,23 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 15:08+0200\n"
-"PO-Revision-Date: 2009-09-21 08:53+0200\n"
-"Last-Translator: Yaron Shahrbani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2011-11-13 13:20+0200\n"
+"Last-Translator: Yaron <sh.yaron@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxinput.ui.h:1
 msgid "<b>Character Repeat</b>"
 msgstr "<b>חזרה על התווים</b>"
 
 #: ../data/lxinput.ui.h:2
-#, fuzzy
 msgid "<b>Keyboard layout</b>"
-msgstr "מקלדת ועכבר"
+msgstr "<b>פריסת המקלדת</b>"
 
 #: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
