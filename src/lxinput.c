@@ -33,7 +33,6 @@
 #include <X11/XKBlib.h>
 
 static char* file = NULL;
-static GKeyFile* kf;
 
 static GtkWidget *dlg;
 static GtkRange *mouse_accel;
@@ -174,37 +173,48 @@ static void set_range_stops(GtkRange* range, int interval )
 
 static void load_settings()
 {
-    gboolean ret;
     const char* session_name = g_getenv("DESKTOP_SESSION");
 	/* load settings from current session config files */
     if(!session_name)
         session_name = "LXDE";
-	file = g_build_filename( g_get_user_config_dir(), "lxsession", session_name, "desktop.conf", NULL );
-	ret = g_key_file_load_from_file( kf, file, 0, NULL );
 
-    if( ret )
+    char* rel_path = g_strconcat("lxsession/", session_name, "/desktop.conf", NULL);
+    char* user_config_file = g_build_filename(g_get_user_config_dir(), rel_path, NULL);
+    GKeyFile* kf = g_key_file_new();
+
+    if(!g_key_file_load_from_file(kf, user_config_file, G_KEY_FILE_KEEP_COMMENTS|G_KEY_FILE_KEEP_TRANSLATIONS, NULL))
     {
-        int val;
-        val = g_key_file_get_integer(kf, "Mouse", "AccFactor", NULL);
-        if( val > 0)
-            old_accel = accel = val;
-
-        val = g_key_file_get_integer(kf, "Mouse", "AccThreshold", NULL);
-        if( val > 0)
-            old_threshold = threshold = val;
-
-        old_left_handed = left_handed = g_key_file_get_boolean(kf, "Mouse", "LeftHanded", NULL);
-
-        val = g_key_file_get_integer(kf, "Keyboard", "Delay", NULL);
-        if(val > 0)
-            old_delay = delay = val;
-        val = g_key_file_get_integer(kf, "Keyboard", "Interval", NULL);
-        if(val > 0)
-            old_interval = interval = val;
-
-        if( g_key_file_has_key(kf, "Keyboard", "Beep", NULL ) )
-            old_beep = beep = g_key_file_get_boolean(kf, "Keyboard", "Beep", NULL);
+        g_key_file_load_from_dirs(kf, rel_path, (const char**)g_get_system_config_dirs(), NULL,
+                                  G_KEY_FILE_KEEP_COMMENTS|G_KEY_FILE_KEEP_TRANSLATIONS, NULL);
     }
+
+    g_free(rel_path);
+
+    int val;
+    val = g_key_file_get_integer(kf, "Mouse", "AccFactor", NULL);
+    if( val > 0)
+        old_accel = accel = val;
+
+    val = g_key_file_get_integer(kf, "Mouse", "AccThreshold", NULL);
+    if( val > 0)
+        old_threshold = threshold = val;
+
+    old_left_handed = left_handed = g_key_file_get_boolean(kf, "Mouse", "LeftHanded", NULL);
+
+    val = g_key_file_get_integer(kf, "Keyboard", "Delay", NULL);
+    if(val > 0)
+        old_delay = delay = val;
+    val = g_key_file_get_integer(kf, "Keyboard", "Interval", NULL);
+    if(val > 0)
+        old_interval = interval = val;
+
+    if( g_key_file_has_key(kf, "Keyboard", "Beep", NULL ) )
+        old_beep = beep = g_key_file_get_boolean(kf, "Keyboard", "Beep", NULL);
+
+    g_key_file_free(kf);
+
+    g_free(user_config_file);
+
 }
 
 int main(int argc, char** argv)
@@ -212,6 +222,15 @@ int main(int argc, char** argv)
     GtkBuilder* builder;
     GError* err = NULL;
     char* str = NULL;
+
+    GKeyFile* kf = g_key_file_new();
+    const char* session_name = g_getenv("DESKTOP_SESSION");
+    /* load settings from current session config files */
+    if(!session_name)
+        session_name = "LXDE";
+
+    char* rel_path = g_strconcat("lxsession/", session_name, "/desktop.conf", NULL);
+    char* user_config_file = g_build_filename(g_get_user_config_dir(), rel_path, NULL);
 
 #ifdef ENABLE_NLS
     bindtextdomain ( GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR );
@@ -256,7 +275,6 @@ int main(int argc, char** argv)
 
 
     /* read the config flie */
-    kf = g_key_file_new();
     load_settings();
 
     /* init the UI */
@@ -284,6 +302,22 @@ int main(int argc, char** argv)
     if( gtk_dialog_run( (GtkDialog*)dlg ) == GTK_RESPONSE_OK )
     {
         gsize len;
+        char* buf;
+
+        if(!g_key_file_load_from_file(kf, user_config_file, G_KEY_FILE_KEEP_COMMENTS|G_KEY_FILE_KEEP_TRANSLATIONS, NULL))
+        {
+            /* the user config file doesn't exist, create its parent dir */
+            len = strlen(user_config_file) - strlen("/desktop.conf");
+            user_config_file[len] = '\0';
+            g_debug("user_config_file = %s", user_config_file);
+            g_mkdir_with_parents(user_config_file, 0700);
+            user_config_file[len] = '/';
+
+            g_key_file_load_from_dirs(kf, rel_path, (const char**)g_get_system_config_dirs(), NULL,
+                                      G_KEY_FILE_KEEP_COMMENTS|G_KEY_FILE_KEEP_TRANSLATIONS, NULL);
+        }
+
+        g_free(rel_path);
 
         g_key_file_set_integer(kf, "Mouse", "AccFactor", accel);
         g_key_file_set_integer(kf, "Mouse", "AccThreshold", threshold);
@@ -293,20 +327,14 @@ int main(int argc, char** argv)
         g_key_file_set_integer(kf, "Keyboard", "Interval", interval);
         g_key_file_set_integer(kf, "Keyboard", "Beep", !!beep);
 
-        if( str = g_key_file_to_data( kf, &len, NULL ) )
-        {
-            if( g_file_set_contents( file, str, len, &err ) )
-            {
-                /* ask the settigns daemon to reload */
-                /* FIXME: is this needed? */
-                /* g_spawn_command_line_sync("lxde-settings-daemon reload", NULL, NULL, NULL, NULL); */
-            }
-            else
-            {
-                g_error_free( err );
-            }
-            g_free(str);
-        }
+        str = g_key_file_to_data(kf, &len, NULL);
+        g_file_set_contents(user_config_file, str, len, NULL);
+        g_free(str);
+
+        /* ask the settigns daemon to reload */
+        /* FIXME: is this needed? */
+        /* g_spawn_command_line_sync("lxde-settings-daemon reload", NULL, NULL, NULL, NULL); */
+
     }
     else
     {
@@ -332,6 +360,7 @@ int main(int argc, char** argv)
 
 	g_free( file );
     g_key_file_free( kf );
+    g_free(user_config_file);
 
     return 0;
 }
