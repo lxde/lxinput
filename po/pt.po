@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-29 15:08+0200\n"
-"PO-Revision-Date: 2011-07-08 11:06+0200\n"
-"Last-Translator: Sérgio <smarquespt@gmail.com>\n"
+"PO-Revision-Date: 2012-05-18 11:28-0000\n"
+"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgstr "<b>Esquema do teclado</b>"
 
 #: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
-msgstr "<b>Acção</b>"
+msgstr "<b>Ação</b>"
 
 #: ../data/lxinput.ui.h:4
 msgid "Acceleration:"
@@ -115,3 +115,4 @@ msgstr "Configurar teclado, rato e outros dispositivos"
 #: ../data/lxinput.desktop.in.h:2
 msgid "Keyboard and Mouse"
 msgstr "Teclado e rato"
+
