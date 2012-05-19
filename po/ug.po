@@ -1,0 +1,113 @@
+# Uyghur translation for lxinput.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Gheyret Kenji<gheyret@gmail.com>,2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxinput\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-09 21:06+0200\n"
+"PO-Revision-Date: 2011-11-09 16:10+0900\n"
+"Last-Translator: Gheyret Kenji<gheyret@gmail.com>\n"
+"Language-Team:  Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/lxinput.ui.h:1
+msgid "<b>Character Repeat</b>"
+msgstr "<b>ھەرپ قايتىلاش</b>"
+
+#: ../data/lxinput.ui.h:2
+msgid "<b>Keyboard layout</b>"
+msgstr "<b>ھەرپتاختا جايلاشتۇرۇلۇشى</b>"
+
+#: ../data/lxinput.ui.h:3
+msgid "<b>Motion</b>"
+msgstr "<b>ھەرىكەت</b>"
+
+#: ../data/lxinput.ui.h:4
+msgid "Acceleration:"
+msgstr "تېزلىتىش:"
+
+#: ../data/lxinput.ui.h:5
+msgid "Beep when there is an error of keyboard input"
+msgstr "ھەرپتاختىدىن كىرگۈزگەندە خاتالىق كۆرۈلسە زىل چال"
+
+#: ../data/lxinput.ui.h:6
+msgid "Delay before each key starts repeating"
+msgstr "ھەر بىر كۇنۇپكىنىڭ قايتىلىنىشتىن بۇرۇنقى كېچىكىش ۋاقتى"
+
+#: ../data/lxinput.ui.h:7
+msgid "Fast"
+msgstr "تېز"
+
+#: ../data/lxinput.ui.h:8
+msgid "High"
+msgstr "يۇقىرى"
+
+#: ../data/lxinput.ui.h:9
+msgid "Input Device Preferences"
+msgstr "كىرگۈزۈش ئۈسكۈنىسى مايىللىقى"
+
+#: ../data/lxinput.ui.h:10
+msgid "Interval between each key repeat"
+msgstr "ھەر بىر كۇنۇپكىنىڭ قايتىلىنىشى ئارىسىدىكى ئىنتېرۋال"
+
+#: ../data/lxinput.ui.h:11
+msgid "Keyboard"
+msgstr "ھەرپتاختا"
+
+#: ../data/lxinput.ui.h:12
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "سولخاي (چاشقىنەككە ئوڭ سول توپچىنى ئالماشتۇرىدۇ)"
+
+#: ../data/lxinput.ui.h:13
+msgid "Long"
+msgstr "ئۇزۇن"
+
+#: ../data/lxinput.ui.h:14
+msgid "Low"
+msgstr "تۆۋەن"
+
+#: ../data/lxinput.ui.h:15
+msgid "Mouse"
+msgstr "چاشقىنەك"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat delay:"
+msgstr "قايتىلاشنىڭ كېچىكىش ۋاقتى:"
+
+#: ../data/lxinput.ui.h:17
+msgid "Repeat interval:"
+msgstr "قايتىلاش ئىنتېرۋالى:"
+
+#: ../data/lxinput.ui.h:18
+msgid "Sensitivity:"
+msgstr "سەزگۈرلۈكى:"
+
+#: ../data/lxinput.ui.h:19
+msgid "Short"
+msgstr "قىسقا"
+
+#: ../data/lxinput.ui.h:20
+msgid "Slow"
+msgstr "ئاستا"
+
+#: ../data/lxinput.ui.h:21
+msgid "Touch Pad"
+msgstr "سەزگۈر تاختا"
+
+#: ../data/lxinput.ui.h:22
+msgid "Type in the following box to test your keyboard settings"
+msgstr "كۇنۇپكا تەڭشىكىنى سىناش ئۈچۈن تۆۋەندىكى كۆزنەكچىگە كىرگۈزۈش ئېلىپ بېرىڭ"
+
+#: ../data/lxinput.desktop.in.h:1
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "ھەرپتاختا، چاشقىنەك ۋە باشقا كىرگۈزۈش ئۈسكۈنىلىرىنى سەپلەش"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Keyboard and Mouse"
+msgstr "ھەرپتاختا ۋە چاشقىنەك"

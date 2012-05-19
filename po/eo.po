@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"PO-Revision-Date: 2012-02-27 02:08+0200\n"
+"Last-Translator: Christopher <shizen37@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../data/lxinput.ui.h:1
+msgid "<b>Character Repeat</b>"
+msgstr "<b>Signripeto</b>"
+
+#: ../data/lxinput.ui.h:2
+msgid "<b>Keyboard layout</b>"
+msgstr "<b>Klavarfasono</b>"
+
+#: ../data/lxinput.ui.h:3
+msgid "<b>Motion</b>"
+msgstr "<b>Movo</b>"
+
+#: ../data/lxinput.ui.h:4
+msgid "Acceleration:"
+msgstr "Akceliĝo"
+
+#: ../data/lxinput.ui.h:5
+msgid "Beep when there is an error of keyboard input"
+msgstr "Pepi kiam estas klavareniga eraro "
+
+#: ../data/lxinput.ui.h:6
+msgid "Delay before each key starts repeating"
+msgstr "Malfruiĝo antaŭ al ĉiu klavo ekripetas"
+
+#: ../data/lxinput.ui.h:7
+msgid "Fast"
+msgstr "Rapide"
+
+#: ../data/lxinput.ui.h:8
+msgid "High"
+msgstr "Alte"
+
+#: ../data/lxinput.ui.h:9
+msgid "Input Device Preferences"
+msgstr "Enigilaj Preferoj"
+
+#: ../data/lxinput.ui.h:10
+msgid "Interval between each key repeat"
+msgstr "Intervalo inter ĉiu klavripeto"
+
+#: ../data/lxinput.ui.h:11
+msgid "Keyboard"
+msgstr "Klavaro"
+
+#: ../data/lxinput.ui.h:12
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "Maldekstra Mano (Interŝanĝi maldekstrajn kaj dekstrajn musbutonojn)"
+
+#: ../data/lxinput.ui.h:13
+msgid "Long"
+msgstr "Longe"
+
+#: ../data/lxinput.ui.h:14
+msgid "Low"
+msgstr "Malalte"
+
+#: ../data/lxinput.ui.h:15
+msgid "Mouse"
+msgstr "Muso"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat delay:"
+msgstr "Ripetmalfruiĝo:"
+
+#: ../data/lxinput.ui.h:17
+msgid "Repeat interval:"
+msgstr "Ripetintervalo:"
+
+#: ../data/lxinput.ui.h:18
+msgid "Sensitivity:"
+msgstr "Sentiveco:"
+
+#: ../data/lxinput.ui.h:19
+msgid "Short"
+msgstr "Mallonge"
+
+#: ../data/lxinput.ui.h:20
+msgid "Slow"
+msgstr "Malrapide"
+
+#: ../data/lxinput.ui.h:21
+msgid "Touch Pad"
+msgstr "Tuŝplato"
+
+#: ../data/lxinput.ui.h:22
+msgid "Type in the following box to test your keyboard settings"
+msgstr "Klavi en la sekvanta signujo por provi viajn klavaragordojn"
+
+#: ../data/lxinput.desktop.in.h:1
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "Agordi klavoron, muson, kaj aliajn enigilojn"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Keyboard and Mouse"
+msgstr "Klavaro kaj Muso"
