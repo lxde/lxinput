@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"POT-Creation-Date: 2012-05-20 00:19+0200\n"
 "PO-Revision-Date: 2011-06-08 12:47+0200\n"
 "Last-Translator: Martin <brother@bsnet.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,100 +19,100 @@ msgstr ""
 "X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxinput.ui.h:1
-msgid "<b>Character Repeat</b>"
-msgstr "<b>Teckenupprepning</b>"
-
-#: ../data/lxinput.ui.h:2
-msgid "<b>Keyboard layout</b>"
-msgstr "<b>Tangentbordsupplägg</b>"
-
-#: ../data/lxinput.ui.h:3
-msgid "<b>Motion</b>"
-msgstr "<b>Förflyttning</b>"
-
-#: ../data/lxinput.ui.h:4
-msgid "Acceleration:"
-msgstr "Acceleration:"
-
-#: ../data/lxinput.ui.h:5
-msgid "Beep when there is an error of keyboard input"
-msgstr "Avge ett pip när ett fel uppstår vid tangentbordsinmatning"
-
-#: ../data/lxinput.ui.h:6
-msgid "Delay before each key starts repeating"
-msgstr "Tid innan varje tangent repeteras"
-
-#: ../data/lxinput.ui.h:7
-msgid "Fast"
-msgstr "Snabb"
-
-#: ../data/lxinput.ui.h:8
-msgid "High"
-msgstr "Hög"
-
-#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "Egenskaper för inmatningsenhet"
 
-#: ../data/lxinput.ui.h:10
-msgid "Interval between each key repeat"
-msgstr "Intervall mellan upprening av tangenter"
-
-#: ../data/lxinput.ui.h:11
-msgid "Keyboard"
-msgstr "Tangentbord"
-
-#: ../data/lxinput.ui.h:12
-msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Vänsterhänt (byt funktioner för vänster och höger musknapp)"
-
-#: ../data/lxinput.ui.h:13
-msgid "Long"
-msgstr "Lång"
-
-#: ../data/lxinput.ui.h:14
-msgid "Low"
-msgstr "Låg"
-
-#: ../data/lxinput.ui.h:15
-msgid "Mouse"
-msgstr "Mus"
-
-#: ../data/lxinput.ui.h:16
-msgid "Repeat delay:"
-msgstr "Tid innan upprepning:"
-
-#: ../data/lxinput.ui.h:17
-msgid "Repeat interval:"
-msgstr "Tid mellan upprepningar:"
-
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
 msgstr "Känslighet:"
 
-#: ../data/lxinput.ui.h:19
-msgid "Short"
-msgstr "Kort"
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "Hög"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "Låg"
+
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "Snabb"
+
+#: ../data/lxinput.ui.h:6
 msgid "Slow"
 msgstr "Långsam"
 
-#: ../data/lxinput.ui.h:21
-msgid "Touch Pad"
-msgstr "Pekplatta"
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "Acceleration:"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>Förflyttning</b>"
+
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "Vänsterhänt (byt funktioner för vänster och höger musknapp)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "Mus"
+
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "Tid innan varje tangent repeteras"
+
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "Tid innan upprepning:"
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "Intervall mellan upprening av tangenter"
+
+#: ../data/lxinput.ui.h:14
+msgid "Long"
+msgstr "Lång"
+
+#: ../data/lxinput.ui.h:15
+msgid "Short"
+msgstr "Kort"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat interval:"
+msgstr "Tid mellan upprepningar:"
+
+#: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
 msgstr "För att pröva dina inställningar kan du skriva i följande ruta"
 
-#: ../data/lxinput.desktop.in.h:1
-msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Inställningar för tangentbord, mus och andra inmatningsenheter"
+#: ../data/lxinput.ui.h:18
+msgid "<b>Character Repeat</b>"
+msgstr "<b>Teckenupprepning</b>"
 
-#: ../data/lxinput.desktop.in.h:2
+#: ../data/lxinput.ui.h:19
+msgid "Beep when there is an error of keyboard input"
+msgstr "Avge ett pip när ett fel uppstår vid tangentbordsinmatning"
+
+#: ../data/lxinput.ui.h:20
+msgid "<b>Keyboard layout</b>"
+msgstr "<b>Tangentbordsupplägg</b>"
+
+#: ../data/lxinput.ui.h:21
+msgid "Keyboard"
+msgstr "Tangentbord"
+
+#: ../data/lxinput.ui.h:22
+msgid "Touch Pad"
+msgstr "Pekplatta"
+
+#: ../data/lxinput.desktop.in.h:1
 msgid "Keyboard and Mouse"
 msgstr "Tangentbord och mus"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "Inställningar för tangentbord, mus och andra inmatningsenheter"
 
 #, fuzzy
 #~ msgid "input-keyboard"

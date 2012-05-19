@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxde.lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"POT-Creation-Date: 2012-05-20 00:19+0200\n"
 "PO-Revision-Date: 2010-07-11 01:18+0300\n"
 "Last-Translator: Tareq Al Jurf <taljurf@fedoraproject.org>\n"
 "Language-Team: Arabic <trans-ar@lists.fedoraproject.org>\n"
@@ -19,100 +19,100 @@ msgstr ""
 "X-Generator: Pootle 1.1.0\n"
 
 #: ../data/lxinput.ui.h:1
-msgid "<b>Character Repeat</b>"
-msgstr "<b>تكرار المحارف</b>"
-
-#: ../data/lxinput.ui.h:2
-msgid "<b>Keyboard layout</b>"
-msgstr "<b>تخطيط لوحة المفاتيح</b>"
-
-#: ../data/lxinput.ui.h:3
-msgid "<b>Motion</b>"
-msgstr "<b>الحركة</b>"
-
-#: ../data/lxinput.ui.h:4
-msgid "Acceleration:"
-msgstr "التسارع:"
-
-#: ../data/lxinput.ui.h:5
-msgid "Beep when there is an error of keyboard input"
-msgstr "أصدر صفارة عند حدوث خطأ متعلق بالإدخال من لوحة المفاتيح"
-
-#: ../data/lxinput.ui.h:6
-msgid "Delay before each key starts repeating"
-msgstr "مدة الانتظار قبل تكرار الحرف"
-
-#: ../data/lxinput.ui.h:7
-msgid "Fast"
-msgstr "سريع"
-
-#: ../data/lxinput.ui.h:8
-msgid "High"
-msgstr "عالية"
-
-#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "تفضيلات أجهزة الإدخال"
 
-#: ../data/lxinput.ui.h:10
-msgid "Interval between each key repeat"
-msgstr "الفاصل بين كل تكرار والذي يليه"
-
-#: ../data/lxinput.ui.h:11
-msgid "Keyboard"
-msgstr "لوحة المفاتيح"
-
-#: ../data/lxinput.ui.h:12
-msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "فأرة عسراء (تبديل زري الفأرة الأيمن والأيسر)"
-
-#: ../data/lxinput.ui.h:13
-msgid "Long"
-msgstr "طويلة"
-
-#: ../data/lxinput.ui.h:14
-msgid "Low"
-msgstr "منخفضة"
-
-#: ../data/lxinput.ui.h:15
-msgid "Mouse"
-msgstr "الفأرة"
-
-#: ../data/lxinput.ui.h:16
-msgid "Repeat delay:"
-msgstr "زمن تأخير التكرار:"
-
-#: ../data/lxinput.ui.h:17
-msgid "Repeat interval:"
-msgstr "المسافة بين التكرار:"
-
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
 msgstr "الحساسية:"
 
-#: ../data/lxinput.ui.h:19
-msgid "Short"
-msgstr "قصيرة"
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "عالية"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "منخفضة"
+
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "سريع"
+
+#: ../data/lxinput.ui.h:6
 msgid "Slow"
 msgstr "بطئ"
 
-#: ../data/lxinput.ui.h:21
-msgid "Touch Pad"
-msgstr "لوحة اللمس"
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "التسارع:"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>الحركة</b>"
+
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "فأرة عسراء (تبديل زري الفأرة الأيمن والأيسر)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "الفأرة"
+
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "مدة الانتظار قبل تكرار الحرف"
+
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "زمن تأخير التكرار:"
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "الفاصل بين كل تكرار والذي يليه"
+
+#: ../data/lxinput.ui.h:14
+msgid "Long"
+msgstr "طويلة"
+
+#: ../data/lxinput.ui.h:15
+msgid "Short"
+msgstr "قصيرة"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat interval:"
+msgstr "المسافة بين التكرار:"
+
+#: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
 msgstr "اكتب في الصندوق التالي لتختبر إعدادات لوحة المفاتيح"
 
-#: ../data/lxinput.desktop.in.h:1
-msgid "Configure keyboard, mouse, and other input devices"
-msgstr "اضبط لوحة المفاتيح، الفأرة وأجهزة الإدخال الأخرى"
+#: ../data/lxinput.ui.h:18
+msgid "<b>Character Repeat</b>"
+msgstr "<b>تكرار المحارف</b>"
 
-#: ../data/lxinput.desktop.in.h:2
+#: ../data/lxinput.ui.h:19
+msgid "Beep when there is an error of keyboard input"
+msgstr "أصدر صفارة عند حدوث خطأ متعلق بالإدخال من لوحة المفاتيح"
+
+#: ../data/lxinput.ui.h:20
+msgid "<b>Keyboard layout</b>"
+msgstr "<b>تخطيط لوحة المفاتيح</b>"
+
+#: ../data/lxinput.ui.h:21
+msgid "Keyboard"
+msgstr "لوحة المفاتيح"
+
+#: ../data/lxinput.ui.h:22
+msgid "Touch Pad"
+msgstr "لوحة اللمس"
+
+#: ../data/lxinput.desktop.in.h:1
 msgid "Keyboard and Mouse"
 msgstr "لوحة المفاتيح والفأرة"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "اضبط لوحة المفاتيح، الفأرة وأجهزة الإدخال الأخرى"
 
 #, fuzzy
 #~ msgid "input-keyboard"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"POT-Creation-Date: 2012-05-20 00:19+0200\n"
 "PO-Revision-Date: 2010-07-06 13:10+0200\n"
 "Last-Translator: Hamidreza <n3gb0y@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,101 +19,101 @@ msgstr ""
 "X-Generator: Pootle 2.0.1\n"
 
 #: ../data/lxinput.ui.h:1
+msgid "Input Device Preferences"
+msgstr "ترجیحات دستگاه ورودی"
+
+#: ../data/lxinput.ui.h:2
+msgid "Sensitivity:"
+msgstr "حساسیت:"
+
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "زیاد"
+
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "اندک"
+
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "سریع"
+
+#: ../data/lxinput.ui.h:6
+msgid "Slow"
+msgstr "کم"
+
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "شتاب:"
+
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>حرکت</b>"
+
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "چپ دست (تعویض کلیدهای چپ و راست موشواره)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "موشواره"
+
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "پیش از شروع تکرار هر کلید وقفه بینداز"
+
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "تاخیر تکرار:"
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "بین تکرار هر کلید فاصله بینداز"
+
+#: ../data/lxinput.ui.h:14
+msgid "Long"
+msgstr "طولانی"
+
+#: ../data/lxinput.ui.h:15
+msgid "Short"
+msgstr "کوتاه"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat interval:"
+msgstr "فاصله تکرار:"
+
+#: ../data/lxinput.ui.h:17
+msgid "Type in the following box to test your keyboard settings"
+msgstr "برای امتحان تنظیمات صفحه کلید در کادر زیر تایپ کنید"
+
+#: ../data/lxinput.ui.h:18
 msgid "<b>Character Repeat</b>"
 msgstr "<b>تکرار شخصیت</b>"
 
-#: ../data/lxinput.ui.h:2
+#: ../data/lxinput.ui.h:19
+msgid "Beep when there is an error of keyboard input"
+msgstr "هنگام خطا در ورودی صفحه کلید بوق بزن"
+
+#: ../data/lxinput.ui.h:20
 #, fuzzy
 msgid "<b>Keyboard layout</b>"
 msgstr "صفحه کلید و موشی"
 
-#: ../data/lxinput.ui.h:3
-msgid "<b>Motion</b>"
-msgstr "<b>حرکت</b>"
-
-#: ../data/lxinput.ui.h:4
-msgid "Acceleration:"
-msgstr "شتاب:"
-
-#: ../data/lxinput.ui.h:5
-msgid "Beep when there is an error of keyboard input"
-msgstr "هنگام خطا در ورودی صفحه کلید بوق بزن"
-
-#: ../data/lxinput.ui.h:6
-msgid "Delay before each key starts repeating"
-msgstr "پیش از شروع تکرار هر کلید وقفه بینداز"
-
-#: ../data/lxinput.ui.h:7
-msgid "Fast"
-msgstr "سریع"
-
-#: ../data/lxinput.ui.h:8
-msgid "High"
-msgstr "زیاد"
-
-#: ../data/lxinput.ui.h:9
-msgid "Input Device Preferences"
-msgstr "ترجیحات دستگاه ورودی"
-
-#: ../data/lxinput.ui.h:10
-msgid "Interval between each key repeat"
-msgstr "بین تکرار هر کلید فاصله بینداز"
-
-#: ../data/lxinput.ui.h:11
+#: ../data/lxinput.ui.h:21
 msgid "Keyboard"
 msgstr "صفحه کلید"
 
-#: ../data/lxinput.ui.h:12
-msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "چپ دست (تعویض کلیدهای چپ و راست موشواره)"
-
-#: ../data/lxinput.ui.h:13
-msgid "Long"
-msgstr "طولانی"
-
-#: ../data/lxinput.ui.h:14
-msgid "Low"
-msgstr "اندک"
-
-#: ../data/lxinput.ui.h:15
-msgid "Mouse"
-msgstr "موشواره"
-
-#: ../data/lxinput.ui.h:16
-msgid "Repeat delay:"
-msgstr "تاخیر تکرار:"
-
-#: ../data/lxinput.ui.h:17
-msgid "Repeat interval:"
-msgstr "فاصله تکرار:"
-
-#: ../data/lxinput.ui.h:18
-msgid "Sensitivity:"
-msgstr "حساسیت:"
-
-#: ../data/lxinput.ui.h:19
-msgid "Short"
-msgstr "کوتاه"
-
-#: ../data/lxinput.ui.h:20
-msgid "Slow"
-msgstr "کم"
-
-#: ../data/lxinput.ui.h:21
+#: ../data/lxinput.ui.h:22
 msgid "Touch Pad"
 msgstr "صفحه لمسی"
 
-#: ../data/lxinput.ui.h:22
-msgid "Type in the following box to test your keyboard settings"
-msgstr "برای امتحان تنظیمات صفحه کلید در کادر زیر تایپ کنید"
-
 #: ../data/lxinput.desktop.in.h:1
-msgid "Configure keyboard, mouse, and other input devices"
-msgstr "پیکربندی صفحه کلید، موشواره و دیگر دستگاه‌های ورودی"
-
-#: ../data/lxinput.desktop.in.h:2
 msgid "Keyboard and Mouse"
 msgstr "صفحه کلید و موشی"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "پیکربندی صفحه کلید، موشواره و دیگر دستگاه‌های ورودی"
 
 #~ msgid "input-keyboard"
 #~ msgstr "صفحه کلید"

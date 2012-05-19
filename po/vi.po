@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"POT-Creation-Date: 2012-05-20 00:19+0200\n"
 "PO-Revision-Date: 2011-05-28 10:06+0700\n"
 "Last-Translator: Hung Tran <nguyentieuhau@gmail.com>\n"
 "Language-Team: LXDE\n"
@@ -19,100 +19,100 @@ msgstr ""
 "X-Generator: Pootle 2.0.1\n"
 
 #: ../data/lxinput.ui.h:1
-msgid "<b>Character Repeat</b>"
-msgstr "<b>Lặp lại Ký tự</b>"
-
-#: ../data/lxinput.ui.h:2
-msgid "<b>Keyboard layout</b>"
-msgstr "Kiểu bàn phím"
-
-#: ../data/lxinput.ui.h:3
-msgid "<b>Motion</b>"
-msgstr "<b>Chuyển động</b>"
-
-#: ../data/lxinput.ui.h:4
-msgid "Acceleration:"
-msgstr "Tốc độ:"
-
-#: ../data/lxinput.ui.h:5
-msgid "Beep when there is an error of keyboard input"
-msgstr "Kêu bíp khi có lỗi bộ nhập bàn phím"
-
-#: ../data/lxinput.ui.h:6
-msgid "Delay before each key starts repeating"
-msgstr "Trễ trước khi mỗi phím bắt đầu lặp lại"
-
-#: ../data/lxinput.ui.h:7
-msgid "Fast"
-msgstr "Nhanh"
-
-#: ../data/lxinput.ui.h:8
-msgid "High"
-msgstr "Cao"
-
-#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "Tùy chỉnh Thiết bị Nhập"
 
-#: ../data/lxinput.ui.h:10
-msgid "Interval between each key repeat"
-msgstr "Khoảng thời gian giữa mỗi lần lặp lại phím"
-
-#: ../data/lxinput.ui.h:11
-msgid "Keyboard"
-msgstr "Bàn phím"
-
-#: ../data/lxinput.ui.h:12
-msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Thuận tay trái (Đổi chỗ nút chuột trái và chuột phải)"
-
-#: ../data/lxinput.ui.h:13
-msgid "Long"
-msgstr "Dài"
-
-#: ../data/lxinput.ui.h:14
-msgid "Low"
-msgstr "Thấp"
-
-#: ../data/lxinput.ui.h:15
-msgid "Mouse"
-msgstr "Chuột"
-
-#: ../data/lxinput.ui.h:16
-msgid "Repeat delay:"
-msgstr "Độ trễ lặp:"
-
-#: ../data/lxinput.ui.h:17
-msgid "Repeat interval:"
-msgstr "Khoảng thời gian lặp:"
-
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
 msgstr "Độ nhạy:"
 
-#: ../data/lxinput.ui.h:19
-msgid "Short"
-msgstr "Ngắn"
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "Cao"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "Thấp"
+
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "Nhanh"
+
+#: ../data/lxinput.ui.h:6
 msgid "Slow"
 msgstr "Chậm"
 
-#: ../data/lxinput.ui.h:21
-msgid "Touch Pad"
-msgstr "Tấm cảm ứng"
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "Tốc độ:"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>Chuyển động</b>"
+
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "Thuận tay trái (Đổi chỗ nút chuột trái và chuột phải)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "Chuột"
+
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "Trễ trước khi mỗi phím bắt đầu lặp lại"
+
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "Độ trễ lặp:"
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "Khoảng thời gian giữa mỗi lần lặp lại phím"
+
+#: ../data/lxinput.ui.h:14
+msgid "Long"
+msgstr "Dài"
+
+#: ../data/lxinput.ui.h:15
+msgid "Short"
+msgstr "Ngắn"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat interval:"
+msgstr "Khoảng thời gian lặp:"
+
+#: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Nhập vào hộp thoại sau để kiểm tra thiết lập bàn phím của bạn"
 
-#: ../data/lxinput.desktop.in.h:1
-msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Cấu hình bàn phím, chuột, và các thiết bị đầu vào khác"
+#: ../data/lxinput.ui.h:18
+msgid "<b>Character Repeat</b>"
+msgstr "<b>Lặp lại Ký tự</b>"
 
-#: ../data/lxinput.desktop.in.h:2
+#: ../data/lxinput.ui.h:19
+msgid "Beep when there is an error of keyboard input"
+msgstr "Kêu bíp khi có lỗi bộ nhập bàn phím"
+
+#: ../data/lxinput.ui.h:20
+msgid "<b>Keyboard layout</b>"
+msgstr "Kiểu bàn phím"
+
+#: ../data/lxinput.ui.h:21
+msgid "Keyboard"
+msgstr "Bàn phím"
+
+#: ../data/lxinput.ui.h:22
+msgid "Touch Pad"
+msgstr "Tấm cảm ứng"
+
+#: ../data/lxinput.desktop.in.h:1
 msgid "Keyboard and Mouse"
 msgstr "Bàn phím và chuột"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "Cấu hình bàn phím, chuột, và các thiết bị đầu vào khác"
 
 #, fuzzy
 #~ msgid "input-keyboard"

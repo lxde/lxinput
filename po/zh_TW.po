@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"POT-Creation-Date: 2012-05-20 00:19+0200\n"
 "PO-Revision-Date: 2012-04-14 07:15+0200\n"
 "Last-Translator: Walter <wwycheuk@gmail.com>\n"
 "Language-Team: zh_TW <LL@li.org>\n"
@@ -21,97 +21,97 @@ msgstr ""
 "X-Poedit-Country: TAIWAN\n"
 
 #: ../data/lxinput.ui.h:1
-msgid "<b>Character Repeat</b>"
-msgstr "<b>按鍵重複</b>"
-
-#: ../data/lxinput.ui.h:2
-msgid "<b>Keyboard layout</b>"
-msgstr "<b>鍵盤配置</b>"
-
-#: ../data/lxinput.ui.h:3
-msgid "<b>Motion</b>"
-msgstr "<b>移動</b>"
-
-#: ../data/lxinput.ui.h:4
-msgid "Acceleration:"
-msgstr "加速度："
-
-#: ../data/lxinput.ui.h:5
-msgid "Beep when there is an error of keyboard input"
-msgstr "當鍵盤輸入發生錯誤時發出嗶聲"
-
-#: ../data/lxinput.ui.h:6
-msgid "Delay before each key starts repeating"
-msgstr "按鍵開始重複輸入前的延遲時間"
-
-#: ../data/lxinput.ui.h:7
-msgid "Fast"
-msgstr "快"
-
-#: ../data/lxinput.ui.h:8
-msgid "High"
-msgstr "高"
-
-#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "輸入裝置偏好設定"
 
-#: ../data/lxinput.ui.h:10
-msgid "Interval between each key repeat"
-msgstr "按鍵重複的時間間隔"
-
-#: ../data/lxinput.ui.h:11
-msgid "Keyboard"
-msgstr "鍵盤"
-
-#: ../data/lxinput.ui.h:12
-msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "慣用左手 (滑鼠左右鍵交換)"
-
-#: ../data/lxinput.ui.h:13
-msgid "Long"
-msgstr "長"
-
-#: ../data/lxinput.ui.h:14
-msgid "Low"
-msgstr "低"
-
-#: ../data/lxinput.ui.h:15
-msgid "Mouse"
-msgstr "滑鼠"
-
-#: ../data/lxinput.ui.h:16
-msgid "Repeat delay:"
-msgstr "重複延遲："
-
-#: ../data/lxinput.ui.h:17
-msgid "Repeat interval:"
-msgstr "重複間隔："
-
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
 msgstr "敏感度："
 
-#: ../data/lxinput.ui.h:19
-msgid "Short"
-msgstr "短"
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "高"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "低"
+
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "快"
+
+#: ../data/lxinput.ui.h:6
 msgid "Slow"
 msgstr "慢"
 
-#: ../data/lxinput.ui.h:21
-msgid "Touch Pad"
-msgstr "觸控板"
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "加速度："
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>移動</b>"
+
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "慣用左手 (滑鼠左右鍵交換)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "滑鼠"
+
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "按鍵開始重複輸入前的延遲時間"
+
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "重複延遲："
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "按鍵重複的時間間隔"
+
+#: ../data/lxinput.ui.h:14
+msgid "Long"
+msgstr "長"
+
+#: ../data/lxinput.ui.h:15
+msgid "Short"
+msgstr "短"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat interval:"
+msgstr "重複間隔："
+
+#: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
 msgstr "在下列方塊中打字來測試你的鍵盤設定"
 
-#: ../data/lxinput.desktop.in.h:1
-msgid "Configure keyboard, mouse, and other input devices"
-msgstr "設定鍵盤、滑鼠、及其他輸入裝置"
+#: ../data/lxinput.ui.h:18
+msgid "<b>Character Repeat</b>"
+msgstr "<b>按鍵重複</b>"
 
-#: ../data/lxinput.desktop.in.h:2
+#: ../data/lxinput.ui.h:19
+msgid "Beep when there is an error of keyboard input"
+msgstr "當鍵盤輸入發生錯誤時發出嗶聲"
+
+#: ../data/lxinput.ui.h:20
+msgid "<b>Keyboard layout</b>"
+msgstr "<b>鍵盤配置</b>"
+
+#: ../data/lxinput.ui.h:21
+msgid "Keyboard"
+msgstr "鍵盤"
+
+#: ../data/lxinput.ui.h:22
+msgid "Touch Pad"
+msgstr "觸控板"
+
+#: ../data/lxinput.desktop.in.h:1
 msgid "Keyboard and Mouse"
 msgstr "鍵盤及滑鼠"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "設定鍵盤、滑鼠、及其他輸入裝置"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"POT-Creation-Date: 2012-05-20 00:19+0200\n"
 "PO-Revision-Date: 2011-12-02 14:41+0200\n"
 "Last-Translator: mbouzada <mbouzada@gmail.com>\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
@@ -19,100 +19,100 @@ msgstr ""
 "X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxinput.ui.h:1
-msgid "<b>Character Repeat</b>"
-msgstr "<b>Repetición de caracteres</b>"
-
-#: ../data/lxinput.ui.h:2
-msgid "<b>Keyboard layout</b>"
-msgstr "<b>Disposición do teclado</b>"
-
-#: ../data/lxinput.ui.h:3
-msgid "<b>Motion</b>"
-msgstr "<b>Movemento</b>"
-
-#: ../data/lxinput.ui.h:4
-msgid "Acceleration:"
-msgstr "Aceleración:"
-
-#: ../data/lxinput.ui.h:5
-msgid "Beep when there is an error of keyboard input"
-msgstr "Emitir un ton de aviso cando haxa un erro de entrada polo teclado"
-
-#: ../data/lxinput.ui.h:6
-msgid "Delay before each key starts repeating"
-msgstr "Atraso antes de que cada tecla comece a repetirse"
-
-#: ../data/lxinput.ui.h:7
-msgid "Fast"
-msgstr "Rápido"
-
-#: ../data/lxinput.ui.h:8
-msgid "High"
-msgstr "Alto"
-
-#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "Preferencias do dispositivo de entrada"
 
-#: ../data/lxinput.ui.h:10
-msgid "Interval between each key repeat"
-msgstr "Intervalo entre cada repetición dunha tecla"
-
-#: ../data/lxinput.ui.h:11
-msgid "Keyboard"
-msgstr "Teclado"
-
-#: ../data/lxinput.ui.h:12
-msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Zurdo (intercambiar botóns esquerdo e dereito do rato)"
-
-#: ../data/lxinput.ui.h:13
-msgid "Long"
-msgstr "Longo"
-
-#: ../data/lxinput.ui.h:14
-msgid "Low"
-msgstr "Baixo"
-
-#: ../data/lxinput.ui.h:15
-msgid "Mouse"
-msgstr "Rato"
-
-#: ../data/lxinput.ui.h:16
-msgid "Repeat delay:"
-msgstr "Atraso da repetición:"
-
-#: ../data/lxinput.ui.h:17
-msgid "Repeat interval:"
-msgstr "Intervalo da repetición:"
-
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
 msgstr "Sensibilidade:"
 
-#: ../data/lxinput.ui.h:19
-msgid "Short"
-msgstr "Curto"
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "Alto"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "Baixo"
+
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "Rápido"
+
+#: ../data/lxinput.ui.h:6
 msgid "Slow"
 msgstr "Lento"
 
-#: ../data/lxinput.ui.h:21
-msgid "Touch Pad"
-msgstr "Panel táctil"
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "Aceleración:"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>Movemento</b>"
+
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "Zurdo (intercambiar botóns esquerdo e dereito do rato)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "Rato"
+
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "Atraso antes de que cada tecla comece a repetirse"
+
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "Atraso da repetición:"
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "Intervalo entre cada repetición dunha tecla"
+
+#: ../data/lxinput.ui.h:14
+msgid "Long"
+msgstr "Longo"
+
+#: ../data/lxinput.ui.h:15
+msgid "Short"
+msgstr "Curto"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat interval:"
+msgstr "Intervalo da repetición:"
+
+#: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Teclee no seguinte cadro para comprobar a configuración do seu teclado"
 
-#: ../data/lxinput.desktop.in.h:1
-msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Configurar o teclado, o rato e outros dispositivos de entrada"
+#: ../data/lxinput.ui.h:18
+msgid "<b>Character Repeat</b>"
+msgstr "<b>Repetición de caracteres</b>"
 
-#: ../data/lxinput.desktop.in.h:2
+#: ../data/lxinput.ui.h:19
+msgid "Beep when there is an error of keyboard input"
+msgstr "Emitir un ton de aviso cando haxa un erro de entrada polo teclado"
+
+#: ../data/lxinput.ui.h:20
+msgid "<b>Keyboard layout</b>"
+msgstr "<b>Disposición do teclado</b>"
+
+#: ../data/lxinput.ui.h:21
+msgid "Keyboard"
+msgstr "Teclado"
+
+#: ../data/lxinput.ui.h:22
+msgid "Touch Pad"
+msgstr "Panel táctil"
+
+#: ../data/lxinput.desktop.in.h:1
 msgid "Keyboard and Mouse"
 msgstr "Teclado e rato"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "Configurar o teclado, o rato e outros dispositivos de entrada"
 
 #~ msgid "input-keyboard"
 #~ msgstr "Teclado"

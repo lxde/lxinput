@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"POT-Creation-Date: 2012-05-20 00:19+0200\n"
 "PO-Revision-Date: 2010-12-10 07:27+0200\n"
 "Last-Translator: Sam <wilsonsamm@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,98 +19,98 @@ msgstr ""
 "X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxinput.ui.h:1
+msgid "Input Device Preferences"
+msgstr "Innstillinger for inndataenheter"
+
+#: ../data/lxinput.ui.h:2
+msgid "Sensitivity:"
+msgstr "Følsomhet:"
+
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "Høy"
+
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "Lav"
+
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "Rask"
+
+#: ../data/lxinput.ui.h:6
+msgid "Slow"
+msgstr "Sakte"
+
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "Akselerasjon:"
+
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>Bevegelse</b>"
+
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "Venstrehendt (bytter om venstre og høyre museknapp)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "Mus"
+
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "Forsinkelse før tastetrykk gjentar seg"
+
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "Gjentagelsesforsinkelse:"
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "Intervall mellom hver tastegjentagelse"
+
+#: ../data/lxinput.ui.h:14
+msgid "Long"
+msgstr "Lang"
+
+#: ../data/lxinput.ui.h:15
+msgid "Short"
+msgstr "Kort"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat interval:"
+msgstr "Gjentagelsesinterval:"
+
+#: ../data/lxinput.ui.h:17
+msgid "Type in the following box to test your keyboard settings"
+msgstr "Skriv her for å prøve tastaturinnstillingene"
+
+#: ../data/lxinput.ui.h:18
 msgid "<b>Character Repeat</b>"
 msgstr "<b>Tegnrepetisjon</b>"
 
-#: ../data/lxinput.ui.h:2
+#: ../data/lxinput.ui.h:19
+msgid "Beep when there is an error of keyboard input"
+msgstr "Gi lydsignal ved feiltasting"
+
+#: ../data/lxinput.ui.h:20
 #, fuzzy
 msgid "<b>Keyboard layout</b>"
 msgstr "Tastatur og mus"
 
-#: ../data/lxinput.ui.h:3
-msgid "<b>Motion</b>"
-msgstr "<b>Bevegelse</b>"
-
-#: ../data/lxinput.ui.h:4
-msgid "Acceleration:"
-msgstr "Akselerasjon:"
-
-#: ../data/lxinput.ui.h:5
-msgid "Beep when there is an error of keyboard input"
-msgstr "Gi lydsignal ved feiltasting"
-
-#: ../data/lxinput.ui.h:6
-msgid "Delay before each key starts repeating"
-msgstr "Forsinkelse før tastetrykk gjentar seg"
-
-#: ../data/lxinput.ui.h:7
-msgid "Fast"
-msgstr "Rask"
-
-#: ../data/lxinput.ui.h:8
-msgid "High"
-msgstr "Høy"
-
-#: ../data/lxinput.ui.h:9
-msgid "Input Device Preferences"
-msgstr "Innstillinger for inndataenheter"
-
-#: ../data/lxinput.ui.h:10
-msgid "Interval between each key repeat"
-msgstr "Intervall mellom hver tastegjentagelse"
-
-#: ../data/lxinput.ui.h:11
+#: ../data/lxinput.ui.h:21
 msgid "Keyboard"
 msgstr "Tastatur"
 
-#: ../data/lxinput.ui.h:12
-msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Venstrehendt (bytter om venstre og høyre museknapp)"
-
-#: ../data/lxinput.ui.h:13
-msgid "Long"
-msgstr "Lang"
-
-#: ../data/lxinput.ui.h:14
-msgid "Low"
-msgstr "Lav"
-
-#: ../data/lxinput.ui.h:15
-msgid "Mouse"
-msgstr "Mus"
-
-#: ../data/lxinput.ui.h:16
-msgid "Repeat delay:"
-msgstr "Gjentagelsesforsinkelse:"
-
-#: ../data/lxinput.ui.h:17
-msgid "Repeat interval:"
-msgstr "Gjentagelsesinterval:"
-
-#: ../data/lxinput.ui.h:18
-msgid "Sensitivity:"
-msgstr "Følsomhet:"
-
-#: ../data/lxinput.ui.h:19
-msgid "Short"
-msgstr "Kort"
-
-#: ../data/lxinput.ui.h:20
-msgid "Slow"
-msgstr "Sakte"
-
-#: ../data/lxinput.ui.h:21
+#: ../data/lxinput.ui.h:22
 msgid "Touch Pad"
 msgstr "Styreplate"
 
-#: ../data/lxinput.ui.h:22
-msgid "Type in the following box to test your keyboard settings"
-msgstr "Skriv her for å prøve tastaturinnstillingene"
-
 #: ../data/lxinput.desktop.in.h:1
-msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Innstillinger for tastatur, mus og andre inndataenheter"
-
-#: ../data/lxinput.desktop.in.h:2
 msgid "Keyboard and Mouse"
 msgstr "Tastatur og mus"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "Innstillinger for tastatur, mus og andre inndataenheter"

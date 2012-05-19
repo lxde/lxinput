@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"POT-Creation-Date: 2012-05-20 00:19+0200\n"
 "PO-Revision-Date: 2011-09-06 10:44+0200\n"
 "Last-Translator: Anari <anari.jalakas@gmail.com>\n"
 "Language-Team: Gnome Estonian Translation Team <gnome-et@linux.ee>\n"
@@ -21,100 +21,100 @@ msgstr ""
 "X-Poedit-Language: Estonian\n"
 
 #: ../data/lxinput.ui.h:1
-msgid "<b>Character Repeat</b>"
-msgstr "<b>Märgikordus</b>"
-
-#: ../data/lxinput.ui.h:2
-msgid "<b>Keyboard layout</b>"
-msgstr "<b>Klaviatuuri asetus</b>"
-
-#: ../data/lxinput.ui.h:3
-msgid "<b>Motion</b>"
-msgstr "<b>Liikumine</b>"
-
-#: ../data/lxinput.ui.h:4
-msgid "Acceleration:"
-msgstr "Kiirendus:"
-
-#: ../data/lxinput.ui.h:5
-msgid "Beep when there is an error of keyboard input"
-msgstr "Piiks klaviatuurisisendi vea korral"
-
-#: ../data/lxinput.ui.h:6
-msgid "Delay before each key starts repeating"
-msgstr "Viivitus enne klahvi kordumise algust"
-
-#: ../data/lxinput.ui.h:7
-msgid "Fast"
-msgstr "Kiire"
-
-#: ../data/lxinput.ui.h:8
-msgid "High"
-msgstr "Kõrge"
-
-#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "Sisendseadme eelistused"
 
-#: ../data/lxinput.ui.h:10
-msgid "Interval between each key repeat"
-msgstr "Vahemik klahvikorduste vahel"
-
-#: ../data/lxinput.ui.h:11
-msgid "Keyboard"
-msgstr "Klaviatuur"
-
-#: ../data/lxinput.ui.h:12
-msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Vasakukäeline (vasak ja parem hiireklahv on vahetuses)"
-
-#: ../data/lxinput.ui.h:13
-msgid "Long"
-msgstr "Pikk"
-
-#: ../data/lxinput.ui.h:14
-msgid "Low"
-msgstr "Madal"
-
-#: ../data/lxinput.ui.h:15
-msgid "Mouse"
-msgstr "Hiir"
-
-#: ../data/lxinput.ui.h:16
-msgid "Repeat delay:"
-msgstr "Korduse viivitus:"
-
-#: ../data/lxinput.ui.h:17
-msgid "Repeat interval:"
-msgstr "Korduse intervall:"
-
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
 msgstr "Tundlikkus:"
 
-#: ../data/lxinput.ui.h:19
-msgid "Short"
-msgstr "Lühike"
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "Kõrge"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "Madal"
+
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "Kiire"
+
+#: ../data/lxinput.ui.h:6
 msgid "Slow"
 msgstr "Aeglane"
 
-#: ../data/lxinput.ui.h:21
-msgid "Touch Pad"
-msgstr "Puuteplaat"
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "Kiirendus:"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>Liikumine</b>"
+
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "Vasakukäeline (vasak ja parem hiireklahv on vahetuses)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "Hiir"
+
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "Viivitus enne klahvi kordumise algust"
+
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "Korduse viivitus:"
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "Vahemik klahvikorduste vahel"
+
+#: ../data/lxinput.ui.h:14
+msgid "Long"
+msgstr "Pikk"
+
+#: ../data/lxinput.ui.h:15
+msgid "Short"
+msgstr "Lühike"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat interval:"
+msgstr "Korduse intervall:"
+
+#: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Klaviatuurisätete proovimiseks võid siia tekstikasti trükkida"
 
-#: ../data/lxinput.desktop.in.h:1
-msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Klaviatuuri, hiire ja teiste sisendseadmete seadistamine"
+#: ../data/lxinput.ui.h:18
+msgid "<b>Character Repeat</b>"
+msgstr "<b>Märgikordus</b>"
 
-#: ../data/lxinput.desktop.in.h:2
+#: ../data/lxinput.ui.h:19
+msgid "Beep when there is an error of keyboard input"
+msgstr "Piiks klaviatuurisisendi vea korral"
+
+#: ../data/lxinput.ui.h:20
+msgid "<b>Keyboard layout</b>"
+msgstr "<b>Klaviatuuri asetus</b>"
+
+#: ../data/lxinput.ui.h:21
+msgid "Keyboard"
+msgstr "Klaviatuur"
+
+#: ../data/lxinput.ui.h:22
+msgid "Touch Pad"
+msgstr "Puuteplaat"
+
+#: ../data/lxinput.desktop.in.h:1
 msgid "Keyboard and Mouse"
 msgstr "Klaviatuur ja hiir"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "Klaviatuuri, hiire ja teiste sisendseadmete seadistamine"
 
 #, fuzzy
 #~ msgid "input-keyboard"

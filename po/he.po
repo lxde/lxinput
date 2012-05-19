@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"POT-Creation-Date: 2012-05-20 00:19+0200\n"
 "PO-Revision-Date: 2011-11-13 13:20+0200\n"
 "Last-Translator: Yaron <sh.yaron@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,100 +19,100 @@ msgstr ""
 "X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxinput.ui.h:1
-msgid "<b>Character Repeat</b>"
-msgstr "<b>חזרה על התווים</b>"
-
-#: ../data/lxinput.ui.h:2
-msgid "<b>Keyboard layout</b>"
-msgstr "<b>פריסת המקלדת</b>"
-
-#: ../data/lxinput.ui.h:3
-msgid "<b>Motion</b>"
-msgstr "<b>תנועה</b>"
-
-#: ../data/lxinput.ui.h:4
-msgid "Acceleration:"
-msgstr "האצה:"
-
-#: ../data/lxinput.ui.h:5
-msgid "Beep when there is an error of keyboard input"
-msgstr "ישמע צפצוף כאשר מתרחשת שגיאה בקלט המקלדת"
-
-#: ../data/lxinput.ui.h:6
-msgid "Delay before each key starts repeating"
-msgstr "השהיה בטרם החזרה לאחר לחיצה על תו"
-
-#: ../data/lxinput.ui.h:7
-msgid "Fast"
-msgstr "מהירה"
-
-#: ../data/lxinput.ui.h:8
-msgid "High"
-msgstr "גבוהה"
-
-#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "העדפות התקן קלט"
 
-#: ../data/lxinput.ui.h:10
-msgid "Interval between each key repeat"
-msgstr "משך ההשהיה עד לחזרה לאחר לחיצה על תו"
-
-#: ../data/lxinput.ui.h:11
-msgid "Keyboard"
-msgstr "מקלדת"
-
-#: ../data/lxinput.ui.h:12
-msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "מותאם לשמאליים (החלפה בין הלחצן השמאלי לימני בעכבר)"
-
-#: ../data/lxinput.ui.h:13
-msgid "Long"
-msgstr "ארוכה"
-
-#: ../data/lxinput.ui.h:14
-msgid "Low"
-msgstr "נמוכה"
-
-#: ../data/lxinput.ui.h:15
-msgid "Mouse"
-msgstr "עכבר"
-
-#: ../data/lxinput.ui.h:16
-msgid "Repeat delay:"
-msgstr "השהיה עד לחזרה:"
-
-#: ../data/lxinput.ui.h:17
-msgid "Repeat interval:"
-msgstr "משך ההמתנה בין החזרות:"
-
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
 msgstr "רגישות:"
 
-#: ../data/lxinput.ui.h:19
-msgid "Short"
-msgstr "קצרה"
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "גבוהה"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "נמוכה"
+
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "מהירה"
+
+#: ../data/lxinput.ui.h:6
 msgid "Slow"
 msgstr "איטית"
 
-#: ../data/lxinput.ui.h:21
-msgid "Touch Pad"
-msgstr "משטח מגע"
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "האצה:"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>תנועה</b>"
+
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "מותאם לשמאליים (החלפה בין הלחצן השמאלי לימני בעכבר)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "עכבר"
+
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "השהיה בטרם החזרה לאחר לחיצה על תו"
+
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "השהיה עד לחזרה:"
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "משך ההשהיה עד לחזרה לאחר לחיצה על תו"
+
+#: ../data/lxinput.ui.h:14
+msgid "Long"
+msgstr "ארוכה"
+
+#: ../data/lxinput.ui.h:15
+msgid "Short"
+msgstr "קצרה"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat interval:"
+msgstr "משך ההמתנה בין החזרות:"
+
+#: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
 msgstr "ניתן להקליד את בתיבת הטקסט שלהלן כדי לבדוק את הגדרות המקלדת שלך"
 
-#: ../data/lxinput.desktop.in.h:1
-msgid "Configure keyboard, mouse, and other input devices"
-msgstr "הגדרת המקלדת, העכבר והתקני קלט נוספים"
+#: ../data/lxinput.ui.h:18
+msgid "<b>Character Repeat</b>"
+msgstr "<b>חזרה על התווים</b>"
 
-#: ../data/lxinput.desktop.in.h:2
+#: ../data/lxinput.ui.h:19
+msgid "Beep when there is an error of keyboard input"
+msgstr "ישמע צפצוף כאשר מתרחשת שגיאה בקלט המקלדת"
+
+#: ../data/lxinput.ui.h:20
+msgid "<b>Keyboard layout</b>"
+msgstr "<b>פריסת המקלדת</b>"
+
+#: ../data/lxinput.ui.h:21
+msgid "Keyboard"
+msgstr "מקלדת"
+
+#: ../data/lxinput.ui.h:22
+msgid "Touch Pad"
+msgstr "משטח מגע"
+
+#: ../data/lxinput.desktop.in.h:1
 msgid "Keyboard and Mouse"
 msgstr "מקלדת ועכבר"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "הגדרת המקלדת, העכבר והתקני קלט נוספים"
 
 #~ msgid "input-keyboard"
 #~ msgstr "מקלדת"

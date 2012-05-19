@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"POT-Creation-Date: 2012-05-20 00:19+0200\n"
 "PO-Revision-Date: 2010-07-06 12:17+0100\n"
 "Last-Translator: Ivan Masár <helix84@centrum.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
@@ -17,102 +17,102 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../data/lxinput.ui.h:1
-msgid "<b>Character Repeat</b>"
-msgstr "<b>Opakovanie znakov</b>"
-
-#: ../data/lxinput.ui.h:2
-#, fuzzy
-msgid "<b>Keyboard layout</b>"
-msgstr "Klávesnica a myš"
-
-#: ../data/lxinput.ui.h:3
-msgid "<b>Motion</b>"
-msgstr "<b>Pohyb</b>"
-
-#: ../data/lxinput.ui.h:4
-msgid "Acceleration:"
-msgstr "Zrýchľovanie:"
-
-#: ../data/lxinput.ui.h:5
-msgid "Beep when there is an error of keyboard input"
-msgstr "Pípnutie pri chybe vstupu z klávesnice"
-
-#: ../data/lxinput.ui.h:6
-msgid "Delay before each key starts repeating"
-msgstr "Oneskorenie pred začatím opakovania klávesu"
-
-#: ../data/lxinput.ui.h:7
-msgid "Fast"
-msgstr "Rýchle"
-
-#: ../data/lxinput.ui.h:8
-msgid "High"
-msgstr "Vysoké"
-
-#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "Nastavenia vstupného zariadenia"
 
-#: ../data/lxinput.ui.h:10
-msgid "Interval between each key repeat"
-msgstr "Interval medzi jednotlivými opakovaniami klávesu"
-
-#: ../data/lxinput.ui.h:11
-msgid "Keyboard"
-msgstr "Klávesnica"
-
-#: ../data/lxinput.ui.h:12
-msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Pre ľaváka (vymeniť pravé a ľavé tlačilo myši)"
-
-#: ../data/lxinput.ui.h:13
-msgid "Long"
-msgstr "Dlhé"
-
-#: ../data/lxinput.ui.h:14
-msgid "Low"
-msgstr "Nízke"
-
-#: ../data/lxinput.ui.h:15
-msgid "Mouse"
-msgstr "Myš"
-
-#: ../data/lxinput.ui.h:16
-msgid "Repeat delay:"
-msgstr "Oneskorenie opakovania:"
-
-#: ../data/lxinput.ui.h:17
-msgid "Repeat interval:"
-msgstr "Interval opakovania:"
-
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
 msgstr "Citlivosť:"
 
-#: ../data/lxinput.ui.h:19
-msgid "Short"
-msgstr "Krátke"
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "Vysoké"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "Nízke"
+
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "Rýchle"
+
+#: ../data/lxinput.ui.h:6
 msgid "Slow"
 msgstr "Pomalé"
 
-#: ../data/lxinput.ui.h:21
-msgid "Touch Pad"
-msgstr "Touchpad"
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "Zrýchľovanie:"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>Pohyb</b>"
+
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "Pre ľaváka (vymeniť pravé a ľavé tlačilo myši)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "Myš"
+
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "Oneskorenie pred začatím opakovania klávesu"
+
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "Oneskorenie opakovania:"
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "Interval medzi jednotlivými opakovaniami klávesu"
+
+#: ../data/lxinput.ui.h:14
+msgid "Long"
+msgstr "Dlhé"
+
+#: ../data/lxinput.ui.h:15
+msgid "Short"
+msgstr "Krátke"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat interval:"
+msgstr "Interval opakovania:"
+
+#: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
 msgstr ""
 "Ak chcete otestovať svoje nastavenia klávesnice, píšte do nasledovného poľa"
 
-#: ../data/lxinput.desktop.in.h:1
-msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Nastaviť klávesnicu, myš a ostatné vstupné zariadenia"
+#: ../data/lxinput.ui.h:18
+msgid "<b>Character Repeat</b>"
+msgstr "<b>Opakovanie znakov</b>"
 
-#: ../data/lxinput.desktop.in.h:2
+#: ../data/lxinput.ui.h:19
+msgid "Beep when there is an error of keyboard input"
+msgstr "Pípnutie pri chybe vstupu z klávesnice"
+
+#: ../data/lxinput.ui.h:20
+#, fuzzy
+msgid "<b>Keyboard layout</b>"
+msgstr "Klávesnica a myš"
+
+#: ../data/lxinput.ui.h:21
+msgid "Keyboard"
+msgstr "Klávesnica"
+
+#: ../data/lxinput.ui.h:22
+msgid "Touch Pad"
+msgstr "Touchpad"
+
+#: ../data/lxinput.desktop.in.h:1
 msgid "Keyboard and Mouse"
 msgstr "Klávesnica a myš"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "Nastaviť klávesnicu, myš a ostatné vstupné zariadenia"
 
 #, fuzzy
 #~ msgid "input-keyboard"

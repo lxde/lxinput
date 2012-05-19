@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"POT-Creation-Date: 2012-05-20 00:19+0200\n"
 "PO-Revision-Date: 2011-08-07 16:46+0200\n"
 "Last-Translator: Мікалай <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,102 +15,102 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxinput.ui.h:1
-msgid "<b>Character Repeat</b>"
-msgstr "<b>Паўтарэнне сімвалаў</b>"
-
-#: ../data/lxinput.ui.h:2
-msgid "<b>Keyboard layout</b>"
-msgstr "Раскладка клавіятуры"
-
-#: ../data/lxinput.ui.h:3
-msgid "<b>Motion</b>"
-msgstr "<b>Рух</b>"
-
-#: ../data/lxinput.ui.h:4
-msgid "Acceleration:"
-msgstr "Паскарэнне:"
-
-#: ../data/lxinput.ui.h:5
-msgid "Beep when there is an error of keyboard input"
-msgstr "Гукавы сігнал, калі ёсць памылкі ўводу даных з клавіятуры"
-
-#: ../data/lxinput.ui.h:6
-msgid "Delay before each key starts repeating"
-msgstr "Затрымка перад паўтарэннем кожнай клавішы"
-
-#: ../data/lxinput.ui.h:7
-msgid "Fast"
-msgstr "Хутка"
-
-#: ../data/lxinput.ui.h:8
-msgid "High"
-msgstr "Высока"
-
-#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "Настаўленні прылады ўводу"
 
-#: ../data/lxinput.ui.h:10
-msgid "Interval between each key repeat"
-msgstr "Інтэрвал паміж паўтарэннем кожнай клавішы"
-
-#: ../data/lxinput.ui.h:11
-msgid "Keyboard"
-msgstr "Клавіятура"
-
-#: ../data/lxinput.ui.h:12
-msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Для ляўшэй (Змяніць дзеянні левай і правай кнопак мышы)"
-
-#: ../data/lxinput.ui.h:13
-msgid "Long"
-msgstr "Доўга"
-
-#: ../data/lxinput.ui.h:14
-msgid "Low"
-msgstr "Нізка"
-
-#: ../data/lxinput.ui.h:15
-msgid "Mouse"
-msgstr "Мыш"
-
-#: ../data/lxinput.ui.h:16
-msgid "Repeat delay:"
-msgstr "Затрымка паўтарэння:"
-
-#: ../data/lxinput.ui.h:17
-msgid "Repeat interval:"
-msgstr "Інтэрвал паўтарэння:"
-
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
 msgstr "Адчувальнасць:"
 
-#: ../data/lxinput.ui.h:19
-msgid "Short"
-msgstr "Коратка"
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "Высока"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "Нізка"
+
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "Хутка"
+
+#: ../data/lxinput.ui.h:6
 msgid "Slow"
 msgstr "Павольна"
 
-#: ../data/lxinput.ui.h:21
-msgid "Touch Pad"
-msgstr "Тачпад"
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "Паскарэнне:"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>Рух</b>"
+
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "Для ляўшэй (Змяніць дзеянні левай і правай кнопак мышы)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "Мыш"
+
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "Затрымка перад паўтарэннем кожнай клавішы"
+
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "Затрымка паўтарэння:"
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "Інтэрвал паміж паўтарэннем кожнай клавішы"
+
+#: ../data/lxinput.ui.h:14
+msgid "Long"
+msgstr "Доўга"
+
+#: ../data/lxinput.ui.h:15
+msgid "Short"
+msgstr "Коратка"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat interval:"
+msgstr "Інтэрвал паўтарэння:"
+
+#: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Увядзіце тэкст у гэтым полі для праверкі вашых настаўленняў клавіятуры"
 
-#: ../data/lxinput.desktop.in.h:1
-msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Наставіць клавіятуру, мыш і іншыя прылады ўводу"
+#: ../data/lxinput.ui.h:18
+msgid "<b>Character Repeat</b>"
+msgstr "<b>Паўтарэнне сімвалаў</b>"
 
-#: ../data/lxinput.desktop.in.h:2
+#: ../data/lxinput.ui.h:19
+msgid "Beep when there is an error of keyboard input"
+msgstr "Гукавы сігнал, калі ёсць памылкі ўводу даных з клавіятуры"
+
+#: ../data/lxinput.ui.h:20
+msgid "<b>Keyboard layout</b>"
+msgstr "Раскладка клавіятуры"
+
+#: ../data/lxinput.ui.h:21
+msgid "Keyboard"
+msgstr "Клавіятура"
+
+#: ../data/lxinput.ui.h:22
+msgid "Touch Pad"
+msgstr "Тачпад"
+
+#: ../data/lxinput.desktop.in.h:1
 msgid "Keyboard and Mouse"
 msgstr "Клавіятура і мыш"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "Наставіць клавіятуру, мыш і іншыя прылады ўводу"

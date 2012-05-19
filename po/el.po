@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"POT-Creation-Date: 2012-05-20 00:19+0200\n"
 "PO-Revision-Date: 2011-06-17 11:39+0200\n"
 "Last-Translator: George <forfolias@gmail.com>\n"
 "Language-Team: Greek <LL@li.org>\n"
@@ -21,101 +21,101 @@ msgstr ""
 "X-Poedit-Country: GREECE\n"
 
 #: ../data/lxinput.ui.h:1
-msgid "<b>Character Repeat</b>"
-msgstr "<b>Επανάληψη χαρακτήρα</b>"
-
-#: ../data/lxinput.ui.h:2
-msgid "<b>Keyboard layout</b>"
-msgstr "<b>Διάταξη πληκτρολογίου</b>"
-
-#: ../data/lxinput.ui.h:3
-msgid "<b>Motion</b>"
-msgstr "<b>Κίνηση</b>"
-
-#: ../data/lxinput.ui.h:4
-msgid "Acceleration:"
-msgstr "Επιτάχυνση:"
-
-#: ../data/lxinput.ui.h:5
-msgid "Beep when there is an error of keyboard input"
-msgstr "Κουδούνισμα σε περίπτωση σφάλματος κατά την πληκτρολόγηση"
-
-#: ../data/lxinput.ui.h:6
-msgid "Delay before each key starts repeating"
-msgstr "Καθυστέριση πριν την επανάληψη του πλήκτρου"
-
-#: ../data/lxinput.ui.h:7
-msgid "Fast"
-msgstr "Γρήγορα"
-
-#: ../data/lxinput.ui.h:8
-msgid "High"
-msgstr "Υψηλή"
-
-#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "Ιδιότητες συσκευής εισόδου"
 
-#: ../data/lxinput.ui.h:10
-msgid "Interval between each key repeat"
-msgstr "Διάστημα μεταξύ επανάληψης πλήκτρου"
-
-#: ../data/lxinput.ui.h:11
-msgid "Keyboard"
-msgstr "Πληκτρολόγιο"
-
-#: ../data/lxinput.ui.h:12
-msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Αριστερόχειρας (Εναλλαγή αριστερού και δεξιού κουμπιού του ποντικιού)"
-
-#: ../data/lxinput.ui.h:13
-msgid "Long"
-msgstr "Μεγάλο"
-
-#: ../data/lxinput.ui.h:14
-msgid "Low"
-msgstr "Χαμηλή"
-
-#: ../data/lxinput.ui.h:15
-msgid "Mouse"
-msgstr "Ποντίκι"
-
-#: ../data/lxinput.ui.h:16
-msgid "Repeat delay:"
-msgstr "Καθυστέρηση επανάληψης:"
-
-#: ../data/lxinput.ui.h:17
-msgid "Repeat interval:"
-msgstr "Διάστημα επανάληψης:"
-
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
 msgstr "Ευαισθησία:"
 
-#: ../data/lxinput.ui.h:19
-msgid "Short"
-msgstr "Μικρό"
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "Υψηλή"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "Χαμηλή"
+
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "Γρήγορα"
+
+#: ../data/lxinput.ui.h:6
 msgid "Slow"
 msgstr "Αργά"
 
-#: ../data/lxinput.ui.h:21
-msgid "Touch Pad"
-msgstr "Touch Pad"
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "Επιτάχυνση:"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>Κίνηση</b>"
+
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "Αριστερόχειρας (Εναλλαγή αριστερού και δεξιού κουμπιού του ποντικιού)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "Ποντίκι"
+
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "Καθυστέριση πριν την επανάληψη του πλήκτρου"
+
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "Καθυστέρηση επανάληψης:"
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "Διάστημα μεταξύ επανάληψης πλήκτρου"
+
+#: ../data/lxinput.ui.h:14
+msgid "Long"
+msgstr "Μεγάλο"
+
+#: ../data/lxinput.ui.h:15
+msgid "Short"
+msgstr "Μικρό"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat interval:"
+msgstr "Διάστημα επανάληψης:"
+
+#: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
 msgstr ""
 "Πληκτρολογίστε στο παρόν κουτάκι για να δοκιμάστε τις ρυθμίσεις πληκτρολογίου"
 
-#: ../data/lxinput.desktop.in.h:1
-msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Ρυθμίσεις πληκτρολογίου, ποντικιού και άλλων συσκευών εισόδου"
+#: ../data/lxinput.ui.h:18
+msgid "<b>Character Repeat</b>"
+msgstr "<b>Επανάληψη χαρακτήρα</b>"
 
-#: ../data/lxinput.desktop.in.h:2
+#: ../data/lxinput.ui.h:19
+msgid "Beep when there is an error of keyboard input"
+msgstr "Κουδούνισμα σε περίπτωση σφάλματος κατά την πληκτρολόγηση"
+
+#: ../data/lxinput.ui.h:20
+msgid "<b>Keyboard layout</b>"
+msgstr "<b>Διάταξη πληκτρολογίου</b>"
+
+#: ../data/lxinput.ui.h:21
+msgid "Keyboard"
+msgstr "Πληκτρολόγιο"
+
+#: ../data/lxinput.ui.h:22
+msgid "Touch Pad"
+msgstr "Touch Pad"
+
+#: ../data/lxinput.desktop.in.h:1
 msgid "Keyboard and Mouse"
 msgstr "Πληκτρολόγιο και ποντίκι"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "Ρυθμίσεις πληκτρολογίου, ποντικιού και άλλων συσκευών εισόδου"
 
 #~ msgid "input-keyboard"
 #~ msgstr "Πληκτρολόγιο"

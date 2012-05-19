@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"POT-Creation-Date: 2012-05-20 00:19+0200\n"
 "PO-Revision-Date: 2009-06-09 02:57+0200\n"
 "Last-Translator: Payne Samad Loh <sploh77@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,117 +17,117 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 1.1.0\n"
 
+# by phyz
 #: ../data/lxinput.ui.h:1
-msgid "<b>Character Repeat</b>"
-msgstr "<b>Karekter Berulang</b>"
-
-# by Phyz
-#: ../data/lxinput.ui.h:2
-#, fuzzy
-msgid "<b>Keyboard layout</b>"
-msgstr "Papan Kunci"
-
-#: ../data/lxinput.ui.h:3
-msgid "<b>Motion</b>"
-msgstr "<b>Mosi</b>"
-
-#: ../data/lxinput.ui.h:4
-msgid "Acceleration:"
-msgstr "Akselerasi:"
-
-# by phyz
-#: ../data/lxinput.ui.h:5
-msgid "Beep when there is an error of keyboard input"
-msgstr "Bunyi Beep bila ada ralat pada input papan kekunci"
-
-# by Phyz
-#: ../data/lxinput.ui.h:6
-msgid "Delay before each key starts repeating"
-msgstr "Sela masa sebelum setiap kekunci bermula berulang-ulang"
-
-# by Phyz
-#: ../data/lxinput.ui.h:7
-msgid "Fast"
-msgstr "Pantas"
-
-# by Phyz
-#: ../data/lxinput.ui.h:8
-msgid "High"
-msgstr "Tinggi"
-
-# by phyz
-#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "Input Peranti Kesukaan"
 
-#: ../data/lxinput.ui.h:10
-msgid "Interval between each key repeat"
-msgstr "Ulangan interval antara setiap kunci"
-
-# by Phyz
-#: ../data/lxinput.ui.h:11
-msgid "Keyboard"
-msgstr "Papan Kunci"
-
-# by Phyz
-#: ../data/lxinput.ui.h:12
-msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Tangan kidal (Tukarkan kiri dan kanan butang tetikus)"
-
-#: ../data/lxinput.ui.h:13
-msgid "Long"
-msgstr "Panjang"
-
-#: ../data/lxinput.ui.h:14
-msgid "Low"
-msgstr "Rendah"
-
-#: ../data/lxinput.ui.h:15
-msgid "Mouse"
-msgstr "Tetikus"
-
-# by Phyz
-#: ../data/lxinput.ui.h:16
-msgid "Repeat delay:"
-msgstr "Ulang Sela:"
-
-#: ../data/lxinput.ui.h:17
-msgid "Repeat interval:"
-msgstr "Ulang Interval:"
-
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
 msgstr "Kepekaan:"
 
 # by Phyz
-#: ../data/lxinput.ui.h:19
-msgid "Short"
-msgstr "Pendek"
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "Tinggi"
+
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "Rendah"
 
 # by Phyz
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "Pantas"
+
+# by Phyz
+#: ../data/lxinput.ui.h:6
 msgid "Slow"
 msgstr "Perlahan"
 
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "Akselerasi:"
+
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>Mosi</b>"
+
+# by Phyz
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "Tangan kidal (Tukarkan kiri dan kanan butang tetikus)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "Tetikus"
+
+# by Phyz
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "Sela masa sebelum setiap kekunci bermula berulang-ulang"
+
+# by Phyz
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "Ulang Sela:"
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "Ulangan interval antara setiap kunci"
+
+#: ../data/lxinput.ui.h:14
+msgid "Long"
+msgstr "Panjang"
+
+# by Phyz
+#: ../data/lxinput.ui.h:15
+msgid "Short"
+msgstr "Pendek"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat interval:"
+msgstr "Ulang Interval:"
+
+# by Phyz
+#: ../data/lxinput.ui.h:17
+msgid "Type in the following box to test your keyboard settings"
+msgstr "Taip di dalam petak yang tersedia untuk menguji tetapan papan kekunci"
+
+#: ../data/lxinput.ui.h:18
+msgid "<b>Character Repeat</b>"
+msgstr "<b>Karekter Berulang</b>"
+
+# by phyz
+#: ../data/lxinput.ui.h:19
+msgid "Beep when there is an error of keyboard input"
+msgstr "Bunyi Beep bila ada ralat pada input papan kekunci"
+
+# by Phyz
+#: ../data/lxinput.ui.h:20
+#, fuzzy
+msgid "<b>Keyboard layout</b>"
+msgstr "Papan Kunci"
+
 # by Phyz
 #: ../data/lxinput.ui.h:21
+msgid "Keyboard"
+msgstr "Papan Kunci"
+
+# by Phyz
+#: ../data/lxinput.ui.h:22
 msgid "Touch Pad"
 msgstr "Pad Sesentuh"
 
 # by Phyz
-#: ../data/lxinput.ui.h:22
-msgid "Type in the following box to test your keyboard settings"
-msgstr "Taip di dalam petak yang tersedia untuk menguji tetapan papan kekunci"
-
 #: ../data/lxinput.desktop.in.h:1
-msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
-
-# by Phyz
-#: ../data/lxinput.desktop.in.h:2
 #, fuzzy
 msgid "Keyboard and Mouse"
 msgstr "Papan Kunci"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr ""
 
 # by Phyz
 #, fuzzy

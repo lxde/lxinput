@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput-id\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"POT-Creation-Date: 2012-05-20 00:19+0200\n"
 "PO-Revision-Date: 2011-07-06 19:25+0200\n"
 "Last-Translator: Rahman Yusri Aftian <aftian@yahoo.com>\n"
 "Language-Team: LANGUAGE <id@li.org>\n"
@@ -19,100 +19,100 @@ msgstr ""
 "X-Generator: Pootle 2.0.5\n"
 
 #: ../data/lxinput.ui.h:1
-msgid "<b>Character Repeat</b>"
-msgstr "<b>Karakter Repeat</b>"
-
-#: ../data/lxinput.ui.h:2
-msgid "<b>Keyboard layout</b>"
-msgstr "<b>Letak Papak Ketik</b>"
-
-#: ../data/lxinput.ui.h:3
-msgid "<b>Motion</b>"
-msgstr "<b>Motion</b>"
-
-#: ../data/lxinput.ui.h:4
-msgid "Acceleration:"
-msgstr "Akselerasi:"
-
-#: ../data/lxinput.ui.h:5
-msgid "Beep when there is an error of keyboard input"
-msgstr "Bunyi Sekali apabila terjadi galat pada masukan papan ketik"
-
-#: ../data/lxinput.ui.h:6
-msgid "Delay before each key starts repeating"
-msgstr "Penundaan sebelum masing-masing  kunci mengulangi"
-
-#: ../data/lxinput.ui.h:7
-msgid "Fast"
-msgstr "Cepat"
-
-#: ../data/lxinput.ui.h:8
-msgid "High"
-msgstr "Tinggi"
-
-#: ../data/lxinput.ui.h:9
 msgid "Input Device Preferences"
 msgstr "Masukkan Prefensi Alat"
 
-#: ../data/lxinput.ui.h:10
-msgid "Interval between each key repeat"
-msgstr "Interval antara masing-masing kunci pengulangan"
-
-#: ../data/lxinput.ui.h:11
-msgid "Keyboard"
-msgstr "Papan Ketik"
-
-#: ../data/lxinput.ui.h:12
-msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Tangan Kiri (Menukar tombol mouse benar dan ditinggalkan)"
-
-#: ../data/lxinput.ui.h:13
-msgid "Long"
-msgstr "Panjang"
-
-#: ../data/lxinput.ui.h:14
-msgid "Low"
-msgstr "Lemah"
-
-#: ../data/lxinput.ui.h:15
-msgid "Mouse"
-msgstr "Mouse"
-
-#: ../data/lxinput.ui.h:16
-msgid "Repeat delay:"
-msgstr "Pengulangan Penundaan:"
-
-#: ../data/lxinput.ui.h:17
-msgid "Repeat interval:"
-msgstr "Pengulangan Interval:"
-
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
 msgstr "Tingkat Sensitif:"
 
-#: ../data/lxinput.ui.h:19
-msgid "Short"
-msgstr "Pendek:"
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "Tinggi"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "Lemah"
+
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "Cepat"
+
+#: ../data/lxinput.ui.h:6
 msgid "Slow"
 msgstr "Lambat"
 
-#: ../data/lxinput.ui.h:21
-msgid "Touch Pad"
-msgstr "Touch Pad"
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "Akselerasi:"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>Motion</b>"
+
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "Tangan Kiri (Menukar tombol mouse benar dan ditinggalkan)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "Mouse"
+
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "Penundaan sebelum masing-masing  kunci mengulangi"
+
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "Pengulangan Penundaan:"
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "Interval antara masing-masing kunci pengulangan"
+
+#: ../data/lxinput.ui.h:14
+msgid "Long"
+msgstr "Panjang"
+
+#: ../data/lxinput.ui.h:15
+msgid "Short"
+msgstr "Pendek:"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat interval:"
+msgstr "Pengulangan Interval:"
+
+#: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Tipe yang berikut untuk menguji papan tombol mu menentukan"
 
-#: ../data/lxinput.desktop.in.h:1
-msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Tata papan tik, tetikus, dan perangkat masukan lain"
+#: ../data/lxinput.ui.h:18
+msgid "<b>Character Repeat</b>"
+msgstr "<b>Karakter Repeat</b>"
 
-#: ../data/lxinput.desktop.in.h:2
+#: ../data/lxinput.ui.h:19
+msgid "Beep when there is an error of keyboard input"
+msgstr "Bunyi Sekali apabila terjadi galat pada masukan papan ketik"
+
+#: ../data/lxinput.ui.h:20
+msgid "<b>Keyboard layout</b>"
+msgstr "<b>Letak Papak Ketik</b>"
+
+#: ../data/lxinput.ui.h:21
+msgid "Keyboard"
+msgstr "Papan Ketik"
+
+#: ../data/lxinput.ui.h:22
+msgid "Touch Pad"
+msgstr "Touch Pad"
+
+#: ../data/lxinput.desktop.in.h:1
 msgid "Keyboard and Mouse"
 msgstr "Papan Ketik dan Tetikus"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "Tata papan tik, tetikus, dan perangkat masukan lain"
 
 #~ msgid "input-keyboard"
 #~ msgstr "Papan Ketik"

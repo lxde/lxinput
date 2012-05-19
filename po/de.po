@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-29 15:08+0200\n"
+"POT-Creation-Date: 2012-05-20 00:19+0200\n"
 "PO-Revision-Date: 2012-03-05 01:19+0200\n"
 "Last-Translator: Christoph <christoph.wickert@googlemail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,104 +18,104 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.0.5\n"
 
-#: ../data/lxinput.ui.h:1
-msgid "<b>Character Repeat</b>"
-msgstr "<b>Tastendruckwiederholung</b>"
-
-#: ../data/lxinput.ui.h:2
-msgid "<b>Keyboard layout</b>"
-msgstr "<b>Tastaurbelegung</b>"
-
-#: ../data/lxinput.ui.h:3
-msgid "<b>Motion</b>"
-msgstr "<b>Bewegung</b>"
-
-#: ../data/lxinput.ui.h:4
-msgid "Acceleration:"
-msgstr "Beschleunigung:"
-
-#: ../data/lxinput.ui.h:5
-msgid "Beep when there is an error of keyboard input"
-msgstr "Bei Fehlern der Tastatureingabe einen Ton ausgeben"
-
-#: ../data/lxinput.ui.h:6
-msgid "Delay before each key starts repeating"
-msgstr "Verzögerung nach der eine Taste wiederholt wird"
-
-# Beschleunigung ist hoch, nicht schnell
-#: ../data/lxinput.ui.h:7
-msgid "Fast"
-msgstr "Hoch"
-
-#: ../data/lxinput.ui.h:8
-msgid "High"
-msgstr "Hoch"
-
 # Eingabegeräteeinstellungen?
-#: ../data/lxinput.ui.h:9
+#: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"
 msgstr "Einstellungen der Eingabegeräte"
 
-#: ../data/lxinput.ui.h:10
-msgid "Interval between each key repeat"
-msgstr "Pause zwischen den Wiederholungen eines Tastendrucks"
-
-#: ../data/lxinput.ui.h:11
-msgid "Keyboard"
-msgstr "Tastatur"
-
-#: ../data/lxinput.ui.h:12
-msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Linkshändisch (Linke und rechte Maustaste vertauschen)"
-
-#: ../data/lxinput.ui.h:13
-msgid "Long"
-msgstr "Lang"
-
-#: ../data/lxinput.ui.h:14
-msgid "Low"
-msgstr "Gering"
-
-#: ../data/lxinput.ui.h:15
-msgid "Mouse"
-msgstr "Maus"
-
-#: ../data/lxinput.ui.h:16
-msgid "Repeat delay:"
-msgstr "Verzögerung:"
-
-#: ../data/lxinput.ui.h:17
-msgid "Repeat interval:"
-msgstr "Intervall:"
-
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
 msgstr "Empfindlichkeit:"
 
-#: ../data/lxinput.ui.h:19
-msgid "Short"
-msgstr "Kurz"
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "Hoch"
+
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "Gering"
+
+# Beschleunigung ist hoch, nicht schnell
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "Hoch"
 
 # Beschleunigung ist gering/niedrig, nicht langsam
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:6
 msgid "Slow"
 msgstr "Gering"
 
-#: ../data/lxinput.ui.h:21
-msgid "Touch Pad"
-msgstr "Touchpad"
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "Beschleunigung:"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>Bewegung</b>"
+
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "Linkshändisch (Linke und rechte Maustaste vertauschen)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "Maus"
+
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "Verzögerung nach der eine Taste wiederholt wird"
+
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "Verzögerung:"
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "Pause zwischen den Wiederholungen eines Tastendrucks"
+
+#: ../data/lxinput.ui.h:14
+msgid "Long"
+msgstr "Lang"
+
+#: ../data/lxinput.ui.h:15
+msgid "Short"
+msgstr "Kurz"
+
+#: ../data/lxinput.ui.h:16
+msgid "Repeat interval:"
+msgstr "Intervall:"
+
+#: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Zum Testen der Tastatureinstellungen in dem Feld tippen"
 
-#: ../data/lxinput.desktop.in.h:1
-msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Maus, Tastatur und andere Eingabegeräte konfigurieren"
+#: ../data/lxinput.ui.h:18
+msgid "<b>Character Repeat</b>"
+msgstr "<b>Tastendruckwiederholung</b>"
 
-#: ../data/lxinput.desktop.in.h:2
+#: ../data/lxinput.ui.h:19
+msgid "Beep when there is an error of keyboard input"
+msgstr "Bei Fehlern der Tastatureingabe einen Ton ausgeben"
+
+#: ../data/lxinput.ui.h:20
+msgid "<b>Keyboard layout</b>"
+msgstr "<b>Tastaurbelegung</b>"
+
+#: ../data/lxinput.ui.h:21
+msgid "Keyboard"
+msgstr "Tastatur"
+
+#: ../data/lxinput.ui.h:22
+msgid "Touch Pad"
+msgstr "Touchpad"
+
+#: ../data/lxinput.desktop.in.h:1
 msgid "Keyboard and Mouse"
 msgstr "Tastatur und Maus"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "Maus, Tastatur und andere Eingabegeräte konfigurieren"
 
 #~ msgid "input-keyboard"
 #~ msgstr "Tastatur"
