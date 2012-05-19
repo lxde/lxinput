@@ -23,9 +23,8 @@ msgid "<b>Character Repeat</b>"
 msgstr "<b>تكرار المحارف</b>"
 
 #: ../data/lxinput.ui.h:2
-#, fuzzy
 msgid "<b>Keyboard layout</b>"
-msgstr "لوحة المفاتيح والفأرة"
+msgstr "<b>تخطيط لوحة المفاتيح</b>"
 
 #: ../data/lxinput.ui.h:3
 msgid "<b>Motion</b>"
