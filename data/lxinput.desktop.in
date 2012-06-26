@@ -6,5 +6,5 @@ Exec=lxinput
 _Comment=Configure keyboard, mouse, and other input devices
 StartupNotify=true
 Terminal=false
-Categories=GTK;Settings;HardwareSettings;
-OnlyShowIn=LXDE;
+Categories=GTK;Settings;HardwareSettings;X-LXDE-Settings;
+NotShow=GNOME;KDE;XFCE;
