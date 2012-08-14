@@ -96,7 +96,7 @@ msgstr "Emetti un beep per gli errori di input da tastiera"
 
 #: ../data/lxinput.ui.h:20
 msgid "<b>Keyboard layout</b>"
-msgstr "<b>Disposizone tastiera</b>"
+msgstr "<b>Disposizione tastiera</b>"
 
 #: ../data/lxinput.ui.h:21
 msgid "Keyboard"
@@ -112,8 +112,4 @@ msgstr "Tastiera e Mouse"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Configura tastiera, mouse, ed altri dispositivi di imput"
-
-#, fuzzy
-#~ msgid "input-keyboard"
-#~ msgstr "Tastiera"
+msgstr "Configura tastiera, mouse, ed altri dispositivi di input"
