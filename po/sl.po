@@ -1,7 +1,7 @@
 # Slovenian translation of lxinput.
-# Copyright (C) 2011 Free Software Foundation, Inc.
+# Copyright (C) 2011 - 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the lxinput package.
-# Klemen Košir <klemen.kosir@gmx.com>, 2011.
+# Klemen Košir <klemen913@gmail.com>, 2011 - 2013.
 #
 msgid ""
 msgstr ""
