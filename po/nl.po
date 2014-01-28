@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the 
 # lxinput package.
 # Pjotr, 2011.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-13 23:51+0100\n"
-"PO-Revision-Date: 2011-09-08 11:34+0200\n"
-"Last-Translator: Pjotr\n"
+"PO-Revision-Date: 2014-01-28 14:29+0000\n"
+"Last-Translator: Pjotr <pjotrvertaalt@gmail.com>\n"
 "Language-Team: Dutch\n"
-"Language: nl (Dutch)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1390919381.0\n"
 
 #: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"
@@ -68,7 +69,7 @@ msgstr "Vertraging voor herhaling:"
 
 #: ../data/lxinput.ui.h:13
 msgid "Interval between each key repeat"
-msgstr "Interval tussen elke toetsherhaling"
+msgstr "Tussenpoze tussen elke toetsherhaling"
 
 #: ../data/lxinput.ui.h:14
 msgid "Long"
@@ -80,7 +81,7 @@ msgstr "Kort"
 
 #: ../data/lxinput.ui.h:16
 msgid "Repeat interval:"
-msgstr "Herhalingsinterval:"
+msgstr "Herhalingstussenpoze:"
 
 #: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
