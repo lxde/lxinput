@@ -2,13 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-13 23:51+0100\n"
-"PO-Revision-Date: 2013-08-12 20:09+0000\n"
+"PO-Revision-Date: 2014-03-16 13:27+0000\n"
 "Last-Translator: Julien <Julius22@laposte.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -17,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1376338173.0\n"
+"X-POOTLE-MTIME: 1394976434.0\n"
 
 #: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"
@@ -53,7 +52,7 @@ msgstr "<b>Mouvement</b>"
 
 #: ../data/lxinput.ui.h:9
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Gaucher (Inverse les boutons droit et gauche de la souris)"
+msgstr "Gaucher (inverse les boutons droit et gauche de la souris)"
 
 #: ../data/lxinput.ui.h:10
 msgid "Mouse"
