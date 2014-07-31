@@ -1,22 +1,24 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+#
 # Ahmad Farghal <ahmad.farghal@gmail.com>, 2009.
 # Tareq Al Jurf <taljurf@fedoraproject.org>, 2010.
-#
+# Safa Alfulaij <safa1996alfulaij@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: lxde.lxinput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-13 23:51+0100\n"
-"PO-Revision-Date: 2010-07-11 01:18+0300\n"
-"Last-Translator: Tareq Al Jurf <taljurf@fedoraproject.org>\n"
-"Language-Team: Arabic <trans-ar@lists.fedoraproject.org>\n"
+"PO-Revision-Date: 2014-07-10 22:57+0300\n"
+"Last-Translator: Safa Alfulaij <safa1996alfulaij@gmail.com>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && "
+"n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"
@@ -40,7 +42,7 @@ msgstr "سريع"
 
 #: ../data/lxinput.ui.h:6
 msgid "Slow"
-msgstr "بطئ"
+msgstr "بطيء"
 
 #: ../data/lxinput.ui.h:7
 msgid "Acceleration:"
@@ -52,39 +54,43 @@ msgstr "<b>الحركة</b>"
 
 #: ../data/lxinput.ui.h:9
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "فأرة عسراء (تبديل زري الفأرة الأيمن والأيسر)"
+msgstr "فأرة عسراء (بدّل زريّ الفأرة الأيمن والأيسر)"
 
 #: ../data/lxinput.ui.h:10
 msgid "Mouse"
-msgstr "الفأرة"
+msgstr "فأرة"
 
 #: ../data/lxinput.ui.h:11
+#, fuzzy
 msgid "Delay before each key starts repeating"
 msgstr "مدة الانتظار قبل تكرار الحرف"
 
 #: ../data/lxinput.ui.h:12
 msgid "Repeat delay:"
-msgstr "زمن تأخير التكرار:"
+msgstr "تأخير التكرار:"
 
 #: ../data/lxinput.ui.h:13
+#, fuzzy
 msgid "Interval between each key repeat"
 msgstr "الفاصل بين كل تكرار والذي يليه"
 
 #: ../data/lxinput.ui.h:14
+#, fuzzy
 msgid "Long"
 msgstr "طويلة"
 
 #: ../data/lxinput.ui.h:15
+#, fuzzy
 msgid "Short"
 msgstr "قصيرة"
 
 #: ../data/lxinput.ui.h:16
 msgid "Repeat interval:"
-msgstr "المسافة بين التكرار:"
+msgstr "فترة التكرار:"
 
 #: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
-msgstr "اكتب في الصندوق التالي لتختبر إعدادات لوحة المفاتيح"
+msgstr "اطبع في المربع التالي لتختبر إعدادات لوحة المفاتيح"
 
 #: ../data/lxinput.ui.h:18
 msgid "<b>Character Repeat</b>"
@@ -92,7 +98,7 @@ msgstr "<b>تكرار المحارف</b>"
 
 #: ../data/lxinput.ui.h:19
 msgid "Beep when there is an error of keyboard input"
-msgstr "أصدر صفارة عند حدوث خطأ متعلق بالإدخال من لوحة المفاتيح"
+msgstr "أصدِر جرسًا عند حدوث خطأ متعلّق بالإدخال من لوحة المفاتيح"
 
 #: ../data/lxinput.ui.h:20
 msgid "<b>Keyboard layout</b>"
@@ -112,7 +118,7 @@ msgstr "لوحة المفاتيح والفأرة"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr "اضبط لوحة المفاتيح، الفأرة وأجهزة الإدخال الأخرى"
+msgstr "اضبط لوحة المفاتيح، والفأرة وأجهزة الإدخال الأخرى"
 
 #, fuzzy
 #~ msgid "input-keyboard"
