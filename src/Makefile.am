@@ -1,4 +1,4 @@
-INCLUDES = \
+AM_CPPFLAGS = \
 	-DPACKAGE_DATA_DIR=\""$(datadir)"/lxinput\" \
 	-DPACKAGE_LOCALE_DIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \
 	$(GTK_CFLAGS) \
