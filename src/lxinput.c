@@ -335,6 +335,27 @@ int main(int argc, char** argv)
         /* FIXME: is this needed? */
         /* g_spawn_command_line_sync("lxde-settings-daemon reload", NULL, NULL, NULL, NULL); */
 
+        /* also save settings into autostart file for non-lxsession sessions */
+        g_free(user_config_file);
+        rel_path = g_build_filename(g_get_user_config_dir(), "autostart", NULL);
+        user_config_file = g_build_filename(rel_path, "LXinput-setup.desktop", NULL);
+        if (g_mkdir_with_parents(rel_path, 0755) == 0)
+        {
+            str = g_strdup_printf("[Desktop Entry]\n"
+                                  "Type=Application\n"
+                                  "Name=%s\n"
+                                  "Comment=%s\n"
+                                  "Hidden=true\n"
+                                  "Exec=xset m %d/10 %d r rate %d %d b %s\n"
+                                  "NotShowIn=GNOME;KDE;XFCE;\n",
+                                  _("LXInput autostart"),
+                                  _("Setup keyboard and mouse using settings done in LXInput"),
+                                  /* FIXME: how to setup left-handed mouse? */
+                                  accel, threshold, delay, interval,
+                                  beep ? "on" : "off");
+            g_file_set_contents(user_config_file, str, -1, NULL);
+            g_free(str);
+        }
     }
     else
     {
