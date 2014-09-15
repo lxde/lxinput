@@ -109,7 +109,7 @@
                                 <property name="can_focus">True</property>
                                 <property name="update_policy">discontinuous</property>
                                 <property name="adjustment">mouse_accel_adj</property>
-                                <property name="digits">0</property>
+                                <property name="digits">1</property>
                                 <property name="value_pos">right</property>
                               </object>
                               <packing>
@@ -127,6 +127,7 @@
                                 <property name="adjustment">mouse_threshold_adj</property>
                                 <property name="digits">0</property>
                                 <property name="value_pos">right</property>
+                                <property name="inverted">True</property>
                               </object>
                               <packing>
                                 <property name="left_attach">2</property>
@@ -650,17 +651,17 @@
     <property name="page_size">10</property>
   </object>
   <object class="GtkAdjustment" id="mouse_accel_adj">
-    <property name="lower">10</property>
-    <property name="upper">110</property>
-    <property name="value">20</property>
-    <property name="step_increment">10</property>
-    <property name="page_increment">10</property>
-    <property name="page_size">10</property>
+    <property name="lower">1.0</property>
+    <property name="upper">10.5</property>
+    <property name="value">2.0</property>
+    <property name="step_increment">0.5</property>
+    <property name="page_increment">0.5</property>
+    <property name="page_size">0.5</property>
   </object>
   <object class="GtkAdjustment" id="mouse_threshold_adj">
-    <property name="lower">10</property>
+    <property name="lower">1</property>
     <property name="upper">110</property>
-    <property name="value">100</property>
+    <property name="value">10</property>
     <property name="step_increment">10</property>
     <property name="page_increment">10</property>
     <property name="page_size">10</property>

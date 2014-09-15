@@ -55,7 +55,7 @@ static gboolean beep = TRUE, old_beep = TRUE;
 
 static void on_mouse_accel_changed(GtkRange* range, gpointer user_data)
 {
-    accel = (int)gtk_range_get_value(range);
+    accel = (int)(gtk_range_get_value(range) * 10);
     XChangePointerControl(GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), True, False,
                              accel, 10, 0);
 }
@@ -63,7 +63,7 @@ static void on_mouse_accel_changed(GtkRange* range, gpointer user_data)
 static void on_mouse_threshold_changed(GtkRange* range, gpointer user_data)
 {
     /* threshold = 110 - sensitivity. The lower the threshold, the higher the sensitivity */
-    threshold = 110 - (int)gtk_range_get_value(range);
+    threshold = (int)gtk_range_get_value(range);
     XChangePointerControl(GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), False, True,
                              0, 10, threshold);
 }
@@ -278,8 +278,8 @@ int main(int argc, char** argv)
     load_settings();
 
     /* init the UI */
-    gtk_range_set_value(mouse_accel, accel);
-    gtk_range_set_value(mouse_threshold, 110-threshold);
+    gtk_range_set_value(mouse_accel, (gdouble)accel / 10.0);
+    gtk_range_set_value(mouse_threshold, threshold);
     gtk_toggle_button_set_active(mouse_left_handed, left_handed);
 
     gtk_range_set_value(kb_delay, delay);
