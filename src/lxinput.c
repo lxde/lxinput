@@ -346,7 +346,7 @@ int main(int argc, char** argv)
                                   "Name=%s\n"
                                   "Comment=%s\n"
                                   "Hidden=true\n"
-                                  "Exec=xset m %d/10 %d r rate %d %d b %s\n"
+                                  "Exec=sh -c 'xset m %d/10 %d r rate %d %d b %s'\n"
                                   "NotShowIn=GNOME;KDE;XFCE;\n",
                                   _("LXInput autostart"),
                                   _("Setup keyboard and mouse using settings done in LXInput"),
