@@ -122,12 +122,14 @@ static void on_kb_beep_toggle(GtkToggleButton* btn, gpointer user_data)
     XChangeKeyboardControl(GDK_DISPLAY_XDISPLAY(gdk_display_get_default()), KBBellPercent, &values);
 }
 
+/*
 static gboolean on_change_val(GtkRange *range, GtkScrollType scroll,
                                  gdouble value, gpointer user_data)
 {
     int interval = GPOINTER_TO_INT(user_data);
     return FALSE;
 }
+*/
 
 static const gchar* detect_keymap_program()
 {
@@ -220,7 +222,6 @@ static void load_settings()
 int main(int argc, char** argv)
 {
     GtkBuilder* builder;
-    GError* err = NULL;
     char* str = NULL;
 
     GKeyFile* kf = g_key_file_new();
@@ -302,7 +303,6 @@ int main(int argc, char** argv)
     if( gtk_dialog_run( (GtkDialog*)dlg ) == GTK_RESPONSE_OK )
     {
         gsize len;
-        char* buf;
 
         if(!g_key_file_load_from_file(kf, user_config_file, G_KEY_FILE_KEEP_COMMENTS|G_KEY_FILE_KEEP_TRANSLATIONS, NULL))
         {
