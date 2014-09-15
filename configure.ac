@@ -6,6 +6,7 @@ AM_CONFIG_HEADER(config.h)
 # Support silent build rules. Disable by either passing --disable-silent-rules
 # to configure or passing V=1 to make
 AM_SILENT_RULES([yes])
+AC_CONFIG_MACRO_DIR([.])
 
 AM_MAINTAINER_MODE([enable])
 

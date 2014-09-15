@@ -1,3 +1,5 @@
+ACLOCAL_AMFLAGS = -I .
+
 NULL=
 
 SUBDIRS = src po man
