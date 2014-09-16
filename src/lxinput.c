@@ -1,7 +1,10 @@
 /*
  *      lxinput.c
  *
- *      Copyright 2009 PCMan <pcman.tw@gmail.com>
+ *      Copyright 2009-2011 PCMan <pcman.tw@gmail.com>
+ *      Copyright 2009 martyj19 <martyj19@comcast.net>
+ *      Copyright 2011-2013 Julien Lavergne <julien.lavergne@gmail.com>
+ *      Copyright 2014 Andriy Grytsenko <andrej@rep.kiev.ua>
  *
  *      This program is free software; you can redistribute it and/or modify
  *      it under the terms of the GNU General Public License as published by
