@@ -23,6 +23,7 @@ icons_DATA= \
 EXTRA_DIST = \
 	$(ui_DATA) \
 	$(desktop_DATA) \
+	$(desktop_in_files) \
 	$(icons_DATA) \
 	$(NULL)
 
