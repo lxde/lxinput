@@ -345,7 +345,7 @@ int main(int argc, char** argv)
                                   "Type=Application\n"
                                   "Name=%s\n"
                                   "Comment=%s\n"
-                                  "Hidden=true\n"
+                                  "NoDisplay=true\n"
                                   "Exec=sh -c 'xset m %d/10 %d r rate %d %d b %s'\n"
                                   "NotShowIn=GNOME;KDE;XFCE;\n",
                                   _("LXInput autostart"),
