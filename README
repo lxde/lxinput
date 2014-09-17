@@ -1,1 +1,3 @@
 LXInput is a small program used to configure keyboard and mouse for LXDE.
+
+Notes for compilation: it requires intltool 0.40.0 and GTK+ 2.12 or newer.
