@@ -297,9 +297,9 @@ int main(int argc, char** argv)
     g_signal_connect(mouse_left_handed, "toggled", G_CALLBACK(on_left_handed_toggle), NULL);
 
     set_range_stops(kb_delay, 10);
-    g_signal_connect(kb_delay, "value-changed", G_CALLBACK(on_kb_range_changed), &kb_delay);
+    g_signal_connect(kb_delay, "value-changed", G_CALLBACK(on_kb_range_changed), &delay);
     set_range_stops(kb_interval, 10);
-    g_signal_connect(kb_interval, "value-changed", G_CALLBACK(on_kb_range_changed), &kb_interval);
+    g_signal_connect(kb_interval, "value-changed", G_CALLBACK(on_kb_range_changed), &interval);
     g_signal_connect(kb_beep, "toggled", G_CALLBACK(on_kb_beep_toggle), NULL);
     g_signal_connect(kb_layout, "clicked", G_CALLBACK(on_kb_layout_clicked), NULL);
 
