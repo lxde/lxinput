@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:51+0100\n"
-"PO-Revision-Date: 2012-05-18 11:28-0000\n"
+"POT-Creation-Date: 2014-09-15 20:06+0300\n"
+"PO-Revision-Date: 2014-10-26 22:26+0000\n"
 "Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
@@ -16,9 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
-"X-Poedit-Language: Portuguese\n"
-"X-Poedit-Country: PORTUGAL\n"
+"X-Generator: Pootle 2.6.0-rc2\n"
+"X-POOTLE-MTIME: 1414362361.000000\n"
+
+#: ../src/lxinput.c:351
+msgid "LXInput autostart"
+msgstr "Arranque automático LXInput"
+
+#: ../src/lxinput.c:352
+msgid "Setup keyboard and mouse using settings done in LXInput"
+msgstr "Configurar definições do teclado e rato através do LXInput"
 
 #: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"
