@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:51+0100\n"
+"POT-Creation-Date: 2014-09-15 20:06+0300\n"
 "PO-Revision-Date: 2012-05-01 14:57+0600\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
@@ -18,6 +18,14 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Language: Kazakh\n"
 "X-Poedit-Country: KAZAKHSTAN\n"
+
+#: ../src/lxinput.c:351
+msgid "LXInput autostart"
+msgstr ""
+
+#: ../src/lxinput.c:352
+msgid "Setup keyboard and mouse using settings done in LXInput"
+msgstr ""
 
 #: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"

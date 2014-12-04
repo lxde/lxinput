@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:51+0100\n"
+"POT-Creation-Date: 2014-09-15 20:06+0300\n"
 "PO-Revision-Date: 2009-07-27 19:46+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
@@ -17,6 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 0.3\n"
+
+#: ../src/lxinput.c:351
+msgid "LXInput autostart"
+msgstr ""
+
+#: ../src/lxinput.c:352
+msgid "Setup keyboard and mouse using settings done in LXInput"
+msgstr ""
 
 #: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"

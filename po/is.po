@@ -119,4 +119,3 @@ msgstr "Lyklaborð og mús"
 #: ../data/lxinput.desktop.in.h:2
 msgid "Configure keyboard, mouse, and other input devices"
 msgstr ""
-

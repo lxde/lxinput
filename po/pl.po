@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:51+0100\n"
+"POT-Creation-Date: 2014-09-15 20:06+0300\n"
 "PO-Revision-Date: 2013-09-04 13:05+0000\n"
 "Last-Translator: Piotr <strebski@o2.pl>\n"
 "Language-Team: Polish <>\n"
@@ -20,6 +20,14 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1378299952.0\n"
+
+#: ../src/lxinput.c:351
+msgid "LXInput autostart"
+msgstr ""
+
+#: ../src/lxinput.c:352
+msgid "Setup keyboard and mouse using settings done in LXInput"
+msgstr ""
 
 #: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"
