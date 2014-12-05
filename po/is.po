@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-15 20:06+0300\n"
-"PO-Revision-Date: 2014-12-04 15:47+0000\n"
+"PO-Revision-Date: 2014-12-05 13:46+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -22,11 +22,11 @@ msgstr "Sjálfræsing LXInput"
 
 #: ../src/lxinput.c:352
 msgid "Setup keyboard and mouse using settings done in LXInput"
-msgstr ""
+msgstr "Stilla lyklaborð og mús með stillingum gerðum í LXInput"
 
 #: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"
-msgstr ""
+msgstr "Stillingar inntakstækja"
 
 #: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
@@ -66,7 +66,7 @@ msgstr "Mús"
 
 #: ../data/lxinput.ui.h:11
 msgid "Delay before each key starts repeating"
-msgstr ""
+msgstr "Bið áður en lykill endurtekur sig"
 
 #: ../data/lxinput.ui.h:12
 msgid "Repeat delay:"
@@ -74,7 +74,7 @@ msgstr "Endurtekningartöf:"
 
 #: ../data/lxinput.ui.h:13
 msgid "Interval between each key repeat"
-msgstr ""
+msgstr "Tími milli endurtekningar á lyklaslætti"
 
 #: ../data/lxinput.ui.h:14
 msgid "Long"
@@ -90,15 +90,15 @@ msgstr "Endurtekningarbil:"
 
 #: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
-msgstr ""
+msgstr "Skrifaðu í efirfarandi reit til að prófa lyklaborðið"
 
 #: ../data/lxinput.ui.h:18
 msgid "<b>Character Repeat</b>"
-msgstr ""
+msgstr "<b>Endurtekning stafa</b>"
 
 #: ../data/lxinput.ui.h:19
 msgid "Beep when there is an error of keyboard input"
-msgstr ""
+msgstr "Pípa þegar upp kemur villa í lyklaborðsinntaki"
 
 #: ../data/lxinput.ui.h:20
 msgid "<b>Keyboard layout</b>"
@@ -118,4 +118,6 @@ msgstr "Lyklaborð og mús"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr ""
+msgstr "Stilla lyklaborð, mús og önnur inntakstæki"
+
+
