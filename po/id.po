@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: lxinput-id\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-15 20:06+0300\n"
-"PO-Revision-Date: 2014-09-04 13:56+0000\n"
+"PO-Revision-Date: 2014-12-05 09:05+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: LANGUAGE <id@li.org>\n"
 "Language: id\n"
@@ -15,16 +15,18 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.6.0-rc1\n"
-"X-POOTLE-MTIME: 1409838969.000000\n"
+"X-Generator: Pootle 2.6.0-rc2\n"
+"X-POOTLE-MTIME: 1417770352.000000\n"
 
 #: ../src/lxinput.c:351
 msgid "LXInput autostart"
-msgstr ""
+msgstr "LXInput mulai otomatis"
 
 #: ../src/lxinput.c:352
 msgid "Setup keyboard and mouse using settings done in LXInput"
 msgstr ""
+"Menyiapkan papan tik dan tetikus memakai pengaturan yang dilakukan dalam "
+"LXInput"
 
 #: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"
