@@ -107,7 +107,6 @@
                                 <property name="width_request">100</property>
                                 <property name="visible">True</property>
                                 <property name="can_focus">True</property>
-                                <property name="update_policy">discontinuous</property>
                                 <property name="adjustment">mouse_accel_adj</property>
                                 <property name="digits">1</property>
                                 <property name="value_pos">right</property>
@@ -123,7 +122,6 @@
                                 <property name="width_request">100</property>
                                 <property name="visible">True</property>
                                 <property name="can_focus">True</property>
-                                <property name="update_policy">discontinuous</property>
                                 <property name="adjustment">mouse_threshold_adj</property>
                                 <property name="digits">0</property>
                                 <property name="value_pos">right</property>
@@ -247,6 +245,19 @@
                 <property name="can_focus">False</property>
                 <property name="spacing">6</property>
                 <child>
+                  <object class="GtkImage" id="image1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="pixel_size">16</property>
+                    <property name="icon_name">input-mouse</property>
+                  </object>
+                  <packing>
+                    <property name="expand">True</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+                <child>
                   <object class="GtkLabel" id="label1">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
@@ -312,7 +323,6 @@
                                     <property name="width_request">100</property>
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
-                                    <property name="update_policy">discontinuous</property>
                                     <property name="adjustment">kb_daley_adj</property>
                                     <property name="digits">0</property>
                                     <property name="value_pos">right</property>
@@ -329,7 +339,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="tooltip_text" translatable="yes">Interval between each key repeat</property>
-                                    <property name="update_policy">discontinuous</property>
                                     <property name="adjustment">kb_interval_adj</property>
                                     <property name="digits">0</property>
                                     <property name="value_pos">right</property>
@@ -623,16 +632,6 @@
       <action-widget response="-6">cancel</action-widget>
       <action-widget response="-5">ok</action-widget>
     </action-widgets>
-  </object>
-  <object class="GtkImage" id="image1">
-    <property name="visible">True</property>
-    <property name="can_focus">False</property>
-    <property name="icon_name">input-keyboard</property>
-  </object>
-  <object class="GtkImage" id="image10">
-    <property name="visible">True</property>
-    <property name="can_focus">False</property>
-    <property name="icon_name">input-keyboard</property>
   </object>
   <object class="GtkAdjustment" id="kb_daley_adj">
     <property name="lower">100</property>
