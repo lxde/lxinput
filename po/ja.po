@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lxinput 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-15 20:06+0300\n"
-"PO-Revision-Date: 2014-12-15 21:21+0000\n"
+"PO-Revision-Date: 2014-12-21 01:23+0000\n"
 "Last-Translator: rago1975 <take1975@kumamoto.email.ne.jp>\n"
 "Language-Team: ja_JP <LL@li.org>\n"
 "Language: ja\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.6.0-rc2\n"
-"X-POOTLE-MTIME: 1418678494.000000\n"
+"X-POOTLE-MTIME: 1419125021.000000\n"
 
 #: ../src/lxinput.c:351
 msgid "LXInput autostart"
@@ -54,7 +54,7 @@ msgstr "遅い"
 
 #: ../data/lxinput.ui.h:7
 msgid "Acceleration:"
-msgstr "加速:"
+msgstr "アクセレーション:"
 
 #: ../data/lxinput.ui.h:8
 msgid "<b>Motion</b>"
