@@ -349,13 +349,14 @@ int main(int argc, char** argv)
                                   "Name=%s\n"
                                   "Comment=%s\n"
                                   "NoDisplay=true\n"
-                                  "Exec=sh -c 'xset m %d/10 %d r rate %d %d b %s'\n"
+                                  "Exec=sh -c 'xset m %d/10 %d r rate %d %d b %s%s'\n"
                                   "NotShowIn=GNOME;KDE;XFCE;\n",
                                   _("LXInput autostart"),
                                   _("Setup keyboard and mouse using settings done in LXInput"),
                                   /* FIXME: how to setup left-handed mouse? */
                                   accel, threshold, delay, interval,
-                                  beep ? "on" : "off");
+                                  beep ? "on" : "off",
+                                  left_handed ? ";xmodmap -e \"pointer = 3 2 1\"" : "");
             g_file_set_contents(user_config_file, str, -1, NULL);
             g_free(str);
         }
