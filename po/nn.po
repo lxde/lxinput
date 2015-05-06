@@ -17,6 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 0.3\n"
+"X-Pootle-Path: /nn/lxinput/po/nn.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../src/lxinput.c:351
 msgid "LXInput autostart"

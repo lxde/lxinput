@@ -19,6 +19,8 @@ msgstr ""
 "X-Generator: Pootle 2.0.5\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
+"X-Pootle-Path: /el/lxinput/po/el.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../src/lxinput.c:351
 msgid "LXInput autostart"

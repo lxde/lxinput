@@ -13,8 +13,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+"X-Pootle-Path: /is/lxinput/po/is.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../src/lxinput.c:351
 msgid "LXInput autostart"
@@ -119,5 +121,3 @@ msgstr "Lyklaborð og mús"
 #: ../data/lxinput.desktop.in.h:2
 msgid "Configure keyboard, mouse, and other input devices"
 msgstr "Stilla lyklaborð, mús og önnur inntakstæki"
-
-

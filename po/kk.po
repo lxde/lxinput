@@ -18,6 +18,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Language: Kazakh\n"
 "X-Poedit-Country: KAZAKHSTAN\n"
+"X-Pootle-Path: /kk/lxinput/po/kk.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: ../src/lxinput.c:351
 msgid "LXInput autostart"

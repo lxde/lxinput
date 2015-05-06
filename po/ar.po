@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: lxde.lxinput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-15 20:06+0300\n"
-"PO-Revision-Date: 2014-11-28 05:53+0000\n"
-"Last-Translator: <safa1996alfulaij@gmail.com>\n"
+"PO-Revision-Date: 2015-04-10 16:03+0000\n"
+"Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -18,20 +18,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Pootle 2.6.0-rc2\n"
-"X-POOTLE-MTIME: 1417154034.000000\n"
+"X-Generator: Pootle 2.7.0-alpha1\n"
+"X-POOTLE-MTIME: 1428681795.000000\n"
+"X-Pootle-Path: /ar/lxinput/po/ar.po\n"
+"X-Pootle-Revision: 595\n"
 
 #: ../src/lxinput.c:351
 msgid "LXInput autostart"
-msgstr ""
+msgstr "بدء دخل‌لكسدي الآليّ"
 
 #: ../src/lxinput.c:352
 msgid "Setup keyboard and mouse using settings done in LXInput"
-msgstr ""
+msgstr "أعدّ لوحة المفاتيح والفأرة باستخدام الإعدادات في دخل‌لكسدي"
 
 #: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"
-msgstr "تفضيلات أجهزة الدَّخْل"
+msgstr "تفضيلات أجهزة الدّخل"
 
 #: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
@@ -105,7 +107,7 @@ msgstr "<b>تكرار المحارف</b>"
 
 #: ../data/lxinput.ui.h:19
 msgid "Beep when there is an error of keyboard input"
-msgstr "أصدِر جرسًا عند حدوث خطأ متعلّق بدَخْل لوحة المفاتيح"
+msgstr "أصدر جرسًا عند حدوث خطأ متعلّق بدخل لوحة المفاتيح"
 
 #: ../data/lxinput.ui.h:20
 msgid "<b>Keyboard layout</b>"
@@ -125,7 +127,7 @@ msgstr "لوحة المفاتيح والفأرة"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr "اضبط لوحة المفاتيح، والفأرة وأجهزة الدَّخْل الأخرى"
+msgstr "اضبط لوحة المفاتيح، والفأرة وأجهزة الدّخل الأخرى"
 
 #, fuzzy
 #~ msgid "input-keyboard"
