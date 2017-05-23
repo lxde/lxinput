@@ -8,24 +8,25 @@ msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-15 20:06+0300\n"
-"PO-Revision-Date: 2015-08-17 01:29+0000\n"
-"Last-Translator: Anonymous Pootle User\n"
+"PO-Revision-Date: 2017-05-23 02:06+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
 "Language: kk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.7\n"
-"X-POOTLE-MTIME: 1439774940.035761\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1495505167.679301\n"
 
 #: ../src/lxinput.c:351
 msgid "LXInput autostart"
-msgstr ""
+msgstr "LXInput автожөнелтуі"
 
 #: ../src/lxinput.c:352
 msgid "Setup keyboard and mouse using settings done in LXInput"
 msgstr ""
+"LXInput ішінде жасалған баптауларды қолданып, пернетақта және тышқанды баптау"
 
 #: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"
