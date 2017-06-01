@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-15 20:06+0300\n"
-"PO-Revision-Date: 2015-08-17 01:29+0000\n"
-"Last-Translator: Anonymous Pootle User\n"
+"PO-Revision-Date: 2017-05-31 22:01+0000\n"
+"Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -17,20 +17,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-POOTLE-MTIME: 1439774940.333355\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1496268071.164458\n"
 
 #: ../src/lxinput.c:351
 msgid "LXInput autostart"
-msgstr ""
+msgstr "LXInput automatinis paleidimas"
 
 #: ../src/lxinput.c:352
 msgid "Setup keyboard and mouse using settings done in LXInput"
-msgstr ""
+msgstr "Nustatyti klaviatūrą ir pelę, naudojant LXInput atliktus nustatymus"
 
 #: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"
-msgstr "Įvesties įrenginio parinktys"
+msgstr "Įvesties įrenginio nuostatos"
 
 #: ../data/lxinput.ui.h:2
 msgid "Sensitivity:"
@@ -46,15 +46,15 @@ msgstr "Mažas"
 
 #: ../data/lxinput.ui.h:5
 msgid "Fast"
-msgstr "Greita"
+msgstr "Greitas"
 
 #: ../data/lxinput.ui.h:6
 msgid "Slow"
-msgstr "Lėta"
+msgstr "Lėtas"
 
 #: ../data/lxinput.ui.h:7
 msgid "Acceleration:"
-msgstr "Akseleracija:"
+msgstr "Pagreitis:"
 
 #: ../data/lxinput.ui.h:8
 msgid "<b>Motion</b>"
@@ -62,8 +62,7 @@ msgstr "<b>Judesys</b>"
 
 #: ../data/lxinput.ui.h:9
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr ""
-"Sukeisti kairiojo ir dešiniojo pelės mygtuko funkcijas (kairiarankiams)"
+msgstr "Kairiarankiams (Sukeisti kairiojo ir dešiniojo pelės mygtuko funkcijas)"
 
 #: ../data/lxinput.ui.h:10
 msgid "Mouse"
@@ -71,15 +70,15 @@ msgstr "Pelė"
 
 #: ../data/lxinput.ui.h:11
 msgid "Delay before each key starts repeating"
-msgstr "Uždelsimas prieš kartojant klavišus"
+msgstr "Delsa prieš kartojant klavišus"
 
 #: ../data/lxinput.ui.h:12
 msgid "Repeat delay:"
-msgstr "Pakartojimo užlaikymas:"
+msgstr "Kartojimo delsa:"
 
 #: ../data/lxinput.ui.h:13
 msgid "Interval between each key repeat"
-msgstr "Intervalas prieš klavišų pakartojimą"
+msgstr "Intervalas tarp klavišų kartojimų"
 
 #: ../data/lxinput.ui.h:14
 msgid "Long"
@@ -91,12 +90,11 @@ msgstr "Trumpas"
 
 #: ../data/lxinput.ui.h:16
 msgid "Repeat interval:"
-msgstr "Pakartojimo intervalas:"
+msgstr "Kartojimo intervalas:"
 
 #: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
-msgstr ""
-"Čia galite įvesti tekstą ir taip išbandyti jūsų klaviatūros nustatymams"
+msgstr "Čia galite įvesti tekstą ir taip išbandyti savo klaviatūros nustatymus"
 
 #: ../data/lxinput.ui.h:18
 msgid "<b>Character Repeat</b>"
@@ -104,7 +102,7 @@ msgstr "<b>Simbolių kartojimas</b>"
 
 #: ../data/lxinput.ui.h:19
 msgid "Beep when there is an error of keyboard input"
-msgstr "Supypsėti įvykus klaviatūros įvesties klaidai"
+msgstr "Pyptelėti, įvykus klaviatūros įvesties klaidai"
 
 #: ../data/lxinput.ui.h:20
 msgid "<b>Keyboard layout</b>"
@@ -116,7 +114,7 @@ msgstr "Klaviatūra"
 
 #: ../data/lxinput.ui.h:22
 msgid "Touch Pad"
-msgstr "Touchpad"
+msgstr "Jutiklinis kilimėlis"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Keyboard and Mouse"
@@ -124,7 +122,7 @@ msgstr "Klaviatūra ir pelė"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Konfigūruoti klaviatūrą, pelę ir kitus įvedimo įrenginius"
+msgstr "Konfigūruoti klaviatūrą, pelę ir kitus įvesties įrenginius"
 
 #~ msgid "input-keyboard"
 #~ msgstr "Klaviatūra"
