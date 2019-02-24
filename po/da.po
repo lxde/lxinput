@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: LXInput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-15 20:06+0300\n"
-"PO-Revision-Date: 2017-05-22 19:11+0000\n"
+"PO-Revision-Date: 2018-10-01 23:07+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1495480309.261223\n"
+"X-POOTLE-MTIME: 1538435278.035342\n"
 
 #: ../src/lxinput.c:351
 msgid "LXInput autostart"
@@ -121,4 +121,4 @@ msgstr "Tastatur og mus"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Konfigurer tastatur, mus og andre inddataenheder"
+msgstr "Konfigurer tastatur, mus og andre inputenheder"

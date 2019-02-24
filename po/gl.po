@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-15 20:06+0300\n"
-"PO-Revision-Date: 2014-11-28 07:53+0000\n"
+"PO-Revision-Date: 2019-02-22 09:34+0000\n"
 "Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
 "Language-Team: Proxecto Trasno <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.7\n"
-"X-POOTLE-MTIME: 1417161203.000000\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1550828062.103302\n"
 
 #: ../src/lxinput.c:351
 msgid "LXInput autostart"
@@ -60,7 +60,7 @@ msgstr "<b>Movemento</b>"
 
 #: ../data/lxinput.ui.h:9
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Zurdo (Intercambiar os botóns esquerdo e dereito do rato)"
+msgstr "Manicho (Intercambiar os botóns esquerdo e dereito do rato)"
 
 #: ../data/lxinput.ui.h:10
 msgid "Mouse"

@@ -8,24 +8,24 @@ msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-15 20:06+0300\n"
-"PO-Revision-Date: 2015-08-17 01:29+0000\n"
-"Last-Translator: Anonymous Pootle User\n"
+"PO-Revision-Date: 2018-12-13 17:36+0000\n"
+"Last-Translator: mirek <mirek@cnl.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Pootle 2.7\n"
-"X-POOTLE-MTIME: 1439774942.078926\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1544722578.216075\n"
 
 #: ../src/lxinput.c:351
 msgid "LXInput autostart"
-msgstr ""
+msgstr "LXInput automatické spustenie"
 
 #: ../src/lxinput.c:352
 msgid "Setup keyboard and mouse using settings done in LXInput"
-msgstr ""
+msgstr "Nastaviť klávesnicu a myš pomocou nastavení vykonaných v LXInput"
 
 #: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"
@@ -105,9 +105,8 @@ msgid "Beep when there is an error of keyboard input"
 msgstr "Pípnutie pri chybe vstupu z klávesnice"
 
 #: ../data/lxinput.ui.h:20
-#, fuzzy
 msgid "<b>Keyboard layout</b>"
-msgstr "Klávesnica a myš"
+msgstr "<b>Rozloženie klávesnice</b>"
 
 #: ../data/lxinput.ui.h:21
 msgid "Keyboard"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-15 20:06+0300\n"
-"PO-Revision-Date: 2017-06-28 16:05+0000\n"
+"PO-Revision-Date: 2018-10-01 14:36+0000\n"
 "Last-Translator: Davidmp <rbndavid@gmail.com>\n"
 "Language-Team: LXDE Catalan translators group\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1498665956.079861\n"
+"X-POOTLE-MTIME: 1538404616.462223\n"
 
 #: ../src/lxinput.c:351
 msgid "LXInput autostart"
@@ -25,7 +25,7 @@ msgstr "Autoinici d'LXInput"
 
 #: ../src/lxinput.c:352
 msgid "Setup keyboard and mouse using settings done in LXInput"
-msgstr "Configura el teclat i ratolí amb els paràmetres fets a LXInput"
+msgstr "Estableix el teclat i ratolí amb la configuració feta a LXInput"
 
 #: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"
@@ -93,7 +93,7 @@ msgstr "Repeteix l'interval:"
 
 #: ../data/lxinput.ui.h:17
 msgid "Type in the following box to test your keyboard settings"
-msgstr "Escriviu text a l'àrea següent per provar els paràmetres del teclat"
+msgstr "Escriviu text a l'àrea següent per provar la configuració del teclat"
 
 #: ../data/lxinput.ui.h:18
 msgid "<b>Character Repeat</b>"
@@ -121,7 +121,7 @@ msgstr "Teclat i ratolí"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Configureu el teclat, ratolí i altres dispositius d'entrada"
+msgstr "Configureu el teclat, el ratolí i altres dispositius d'entrada"
 
 #, fuzzy
 #~ msgid "input-keyboard"
