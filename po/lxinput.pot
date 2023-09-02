@@ -3,26 +3,25 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-15 20:06+0300\n"
-"PO-Revision-Date: 2015-08-17 01:29+0000\n"
-"Last-Translator: Anonymous Pootle User\n"
+"POT-Creation-Date: 2023-09-02 02:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: templates\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 2.7\n"
-"X-POOTLE-MTIME: 1439774942.808308\n"
 
-#: ../src/lxinput.c:351
+#: ../src/lxinput.c:353
 msgid "LXInput autostart"
 msgstr ""
 
-#: ../src/lxinput.c:352
+#: ../src/lxinput.c:354
 msgid "Setup keyboard and mouse using settings done in LXInput"
 msgstr ""
 
@@ -79,38 +78,50 @@ msgid "Interval between each key repeat"
 msgstr ""
 
 #: ../data/lxinput.ui.h:14
+msgctxt "interval"
 msgid "Long"
 msgstr ""
 
 #: ../data/lxinput.ui.h:15
+msgctxt "interval"
 msgid "Short"
 msgstr ""
 
 #: ../data/lxinput.ui.h:16
-msgid "Repeat interval:"
+msgctxt "delay"
+msgid "Long"
 msgstr ""
 
 #: ../data/lxinput.ui.h:17
-msgid "Type in the following box to test your keyboard settings"
+msgctxt "delay"
+msgid "Short"
 msgstr ""
 
 #: ../data/lxinput.ui.h:18
-msgid "<b>Character Repeat</b>"
+msgid "Repeat interval:"
 msgstr ""
 
 #: ../data/lxinput.ui.h:19
-msgid "Beep when there is an error of keyboard input"
+msgid "Type in the following box to test your keyboard settings"
 msgstr ""
 
 #: ../data/lxinput.ui.h:20
-msgid "<b>Keyboard layout</b>"
+msgid "<b>Character Repeat</b>"
 msgstr ""
 
 #: ../data/lxinput.ui.h:21
-msgid "Keyboard"
+msgid "Beep when there is an error of keyboard input"
 msgstr ""
 
 #: ../data/lxinput.ui.h:22
+msgid "<b>Keyboard layout</b>"
+msgstr ""
+
+#: ../data/lxinput.ui.h:23
+msgid "Keyboard"
+msgstr ""
+
+#: ../data/lxinput.ui.h:24
 msgid "Touch Pad"
 msgstr ""
 
