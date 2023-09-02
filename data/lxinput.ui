@@ -355,7 +355,7 @@
                                   <object class="GtkLabel" id="label3">
                                     <property name="visible">True</property>
                                     <property name="can_focus">False</property>
-                                    <property name="label" translatable="yes">Long</property>
+                                    <property name="label" translatable="yes" context="interval">Long</property>
                                   </object>
                                   <packing>
                                     <property name="left_attach">3</property>
@@ -370,7 +370,7 @@
                                   <object class="GtkLabel" id="label7">
                                     <property name="visible">True</property>
                                     <property name="can_focus">False</property>
-                                    <property name="label" translatable="yes">Short</property>
+                                    <property name="label" translatable="yes" context="interval">Short</property>
                                   </object>
                                   <packing>
                                     <property name="left_attach">1</property>
@@ -385,7 +385,7 @@
                                   <object class="GtkLabel" id="label8">
                                     <property name="visible">True</property>
                                     <property name="can_focus">False</property>
-                                    <property name="label" translatable="yes">Long</property>
+                                    <property name="label" translatable="yes" context="delay">Long</property>
                                   </object>
                                   <packing>
                                     <property name="left_attach">3</property>
@@ -398,7 +398,7 @@
                                   <object class="GtkLabel" id="label9">
                                     <property name="visible">True</property>
                                     <property name="can_focus">False</property>
-                                    <property name="label" translatable="yes">Short</property>
+                                    <property name="label" translatable="yes" context="delay">Short</property>
                                   </object>
                                   <packing>
                                     <property name="left_attach">1</property>
