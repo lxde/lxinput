@@ -1,30 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Ingo Brückl, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-15 20:06+0300\n"
-"PO-Revision-Date: 2014-11-30 15:00+0000\n"
-"Last-Translator: Daniel Winzen <d@winzen4.de>\n"
+"POT-Creation-Date: 2023-09-02 02:51+0200\n"
+"PO-Revision-Date: 2023-09-02 03:21+0200\n"
+"Last-Translator: Ingo Brückl <ib@oddnet.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.7\n"
 "X-POOTLE-MTIME: 1417359603.000000\n"
 
-#: ../src/lxinput.c:351
+#: ../src/lxinput.c:353
 msgid "LXInput autostart"
 msgstr "LXInput Autostart"
 
-#: ../src/lxinput.c:352
+#: ../src/lxinput.c:354
 msgid "Setup keyboard and mouse using settings done in LXInput"
-msgstr "Tastatur und Maus mit den Einstellungen in LXInput einrichten"
+msgstr "Tastatur und Maus mit den Vorgaben aus LXInput einstellen"
 
 # Eingabegeräteeinstellungen?
 #: ../data/lxinput.ui.h:1
@@ -63,7 +62,7 @@ msgstr "<b>Bewegung</b>"
 
 #: ../data/lxinput.ui.h:9
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Linkshändisch (Linke und rechte Maustaste vertauschen)"
+msgstr "Linkshändermaus (linke und rechte Maustaste vertauschen)"
 
 #: ../data/lxinput.ui.h:10
 msgid "Mouse"
@@ -71,7 +70,7 @@ msgstr "Maus"
 
 #: ../data/lxinput.ui.h:11
 msgid "Delay before each key starts repeating"
-msgstr "Verzögerung nach der eine Taste wiederholt wird"
+msgstr "Verzögerung, nach der eine Taste wiederholt wird"
 
 #: ../data/lxinput.ui.h:12
 msgid "Repeat delay:"
@@ -79,41 +78,53 @@ msgstr "Verzögerung:"
 
 #: ../data/lxinput.ui.h:13
 msgid "Interval between each key repeat"
-msgstr "Pause zwischen den Wiederholungen eines Tastendrucks"
+msgstr "Pause zwischen den Wiederholungen einer gedrückten Taste"
 
 #: ../data/lxinput.ui.h:14
+msgctxt "interval"
+msgid "Long"
+msgstr "Langsam"
+
+#: ../data/lxinput.ui.h:15
+msgctxt "interval"
+msgid "Short"
+msgstr "Schnell"
+
+#: ../data/lxinput.ui.h:16
+msgctxt "delay"
 msgid "Long"
 msgstr "Lang"
 
-#: ../data/lxinput.ui.h:15
+#: ../data/lxinput.ui.h:17
+msgctxt "delay"
 msgid "Short"
 msgstr "Kurz"
 
-#: ../data/lxinput.ui.h:16
-msgid "Repeat interval:"
-msgstr "Intervall:"
-
-#: ../data/lxinput.ui.h:17
-msgid "Type in the following box to test your keyboard settings"
-msgstr "Zum Testen der Tastatureinstellungen in dem Feld tippen"
-
 #: ../data/lxinput.ui.h:18
-msgid "<b>Character Repeat</b>"
-msgstr "<b>Tastendruckwiederholung</b>"
+msgid "Repeat interval:"
+msgstr "Wiederholung:"
 
 #: ../data/lxinput.ui.h:19
-msgid "Beep when there is an error of keyboard input"
-msgstr "Bei Fehlern der Tastatureingabe einen Ton ausgeben"
+msgid "Type in the following box to test your keyboard settings"
+msgstr "Hier können Sie die Tastatureinstellung überprüfen:"
 
 #: ../data/lxinput.ui.h:20
-msgid "<b>Keyboard layout</b>"
-msgstr "<b>Tastaurbelegung</b>"
+msgid "<b>Character Repeat</b>"
+msgstr "<b>Tastenwiederholung</b>"
 
 #: ../data/lxinput.ui.h:21
+msgid "Beep when there is an error of keyboard input"
+msgstr "Signalton bei einer fehlerhaften Tastatureingabe"
+
+#: ../data/lxinput.ui.h:22
+msgid "<b>Keyboard layout</b>"
+msgstr "<b>Tastaturbelegung</b>"
+
+#: ../data/lxinput.ui.h:23
 msgid "Keyboard"
 msgstr "Tastatur"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:24
 msgid "Touch Pad"
 msgstr "Touchpad"
 
@@ -123,7 +134,4 @@ msgstr "Tastatur und Maus"
 
 #: ../data/lxinput.desktop.in.h:2
 msgid "Configure keyboard, mouse, and other input devices"
-msgstr "Maus, Tastatur und andere Eingabegeräte konfigurieren"
-
-#~ msgid "input-keyboard"
-#~ msgstr "Tastatur"
+msgstr "Konfiguration von Tastatur und Maus"
