@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-15 20:06+0300\n"
+"POT-Creation-Date: 2023-09-02 02:51+0200\n"
 "PO-Revision-Date: 2015-08-17 01:28+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,16 +15,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Pootle 2.7\n"
 "X-POOTLE-MTIME: 1439774936.790526\n"
 
-#: ../src/lxinput.c:351
+#: ../src/lxinput.c:353
 msgid "LXInput autostart"
 msgstr ""
 
-#: ../src/lxinput.c:352
+#: ../src/lxinput.c:354
 msgid "Setup keyboard and mouse using settings done in LXInput"
 msgstr ""
 
@@ -81,38 +81,58 @@ msgid "Interval between each key repeat"
 msgstr "Інтэрвал паміж паўтарэннем кожнай клавішы"
 
 #: ../data/lxinput.ui.h:14
+#, fuzzy
+#| msgid "Long"
+msgctxt "interval"
 msgid "Long"
 msgstr "Доўга"
 
 #: ../data/lxinput.ui.h:15
+#, fuzzy
+#| msgid "Short"
+msgctxt "interval"
 msgid "Short"
 msgstr "Коратка"
 
 #: ../data/lxinput.ui.h:16
+#, fuzzy
+#| msgid "Long"
+msgctxt "delay"
+msgid "Long"
+msgstr "Доўга"
+
+#: ../data/lxinput.ui.h:17
+#, fuzzy
+#| msgid "Short"
+msgctxt "delay"
+msgid "Short"
+msgstr "Коратка"
+
+#: ../data/lxinput.ui.h:18
 msgid "Repeat interval:"
 msgstr "Інтэрвал паўтарэння:"
 
-#: ../data/lxinput.ui.h:17
+#: ../data/lxinput.ui.h:19
 msgid "Type in the following box to test your keyboard settings"
 msgstr "Увядзіце тэкст у гэтым полі для праверкі вашых настаўленняў клавіятуры"
 
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:20
 msgid "<b>Character Repeat</b>"
 msgstr "<b>Паўтарэнне сімвалаў</b>"
 
-#: ../data/lxinput.ui.h:19
+#: ../data/lxinput.ui.h:21
 msgid "Beep when there is an error of keyboard input"
 msgstr "Гукавы сігнал, калі ёсць памылкі ўводу даных з клавіятуры"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:22
 msgid "<b>Keyboard layout</b>"
 msgstr "Раскладка клавіятуры"
 
-#: ../data/lxinput.ui.h:21
+#: ../data/lxinput.ui.h:23
 msgid "Keyboard"
 msgstr "Клавіятура"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:24
 msgid "Touch Pad"
 msgstr "Тачпад"
 

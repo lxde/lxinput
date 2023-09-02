@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-15 20:06+0300\n"
+"POT-Creation-Date: 2023-09-02 02:51+0200\n"
 "PO-Revision-Date: 2015-08-17 01:29+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: Urdu <makki.ma@gmail.com>\n"
@@ -21,11 +21,11 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-POOTLE-MTIME: 1439774943.803769\n"
 
-#: ../src/lxinput.c:351
+#: ../src/lxinput.c:353
 msgid "LXInput autostart"
 msgstr ""
 
-#: ../src/lxinput.c:352
+#: ../src/lxinput.c:354
 msgid "Setup keyboard and mouse using settings done in LXInput"
 msgstr ""
 
@@ -82,39 +82,59 @@ msgid "Interval between each key repeat"
 msgstr "ہر کلید کے دہراؤ کے درمیان وقفہ"
 
 #: ../data/lxinput.ui.h:14
+#, fuzzy
+#| msgid "Long"
+msgctxt "interval"
 msgid "Long"
 msgstr "طویل"
 
 #: ../data/lxinput.ui.h:15
+#, fuzzy
+#| msgid "Short"
+msgctxt "interval"
 msgid "Short"
 msgstr "قصیر"
 
 #: ../data/lxinput.ui.h:16
+#, fuzzy
+#| msgid "Long"
+msgctxt "delay"
+msgid "Long"
+msgstr "طویل"
+
+#: ../data/lxinput.ui.h:17
+#, fuzzy
+#| msgid "Short"
+msgctxt "delay"
+msgid "Short"
+msgstr "قصیر"
+
+#: ../data/lxinput.ui.h:18
 msgid "Repeat interval:"
 msgstr "دہراؤ وقفہ:"
 
-#: ../data/lxinput.ui.h:17
+#: ../data/lxinput.ui.h:19
 msgid "Type in the following box to test your keyboard settings"
 msgstr "اپنے کیبورد کی ترتیبات دیکھنے کے لیے ذیل کے بکس میں لکھیں"
 
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:20
 msgid "<b>Character Repeat</b>"
 msgstr "<b>حروف کا دہراؤ</b>"
 
-#: ../data/lxinput.ui.h:19
+#: ../data/lxinput.ui.h:21
 msgid "Beep when there is an error of keyboard input"
 msgstr "کیبورد کے ماداخل میں غلطی پر بیپ دیں"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:22
 #, fuzzy
 msgid "<b>Keyboard layout</b>"
 msgstr "کیبورڈ"
 
-#: ../data/lxinput.ui.h:21
+#: ../data/lxinput.ui.h:23
 msgid "Keyboard"
 msgstr "کیبورڈ"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:24
 msgid "Touch Pad"
 msgstr "ٹچ پیڈ"
 

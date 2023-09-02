@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-15 20:06+0300\n"
+"POT-Creation-Date: 2023-09-02 02:51+0200\n"
 "PO-Revision-Date: 2015-08-17 01:29+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -19,11 +19,11 @@ msgstr ""
 "X-Generator: Pootle 2.7\n"
 "X-POOTLE-MTIME: 1439774943.358823\n"
 
-#: ../src/lxinput.c:351
+#: ../src/lxinput.c:353
 msgid "LXInput autostart"
 msgstr ""
 
-#: ../src/lxinput.c:352
+#: ../src/lxinput.c:354
 msgid "Setup keyboard and mouse using settings done in LXInput"
 msgstr ""
 
@@ -80,39 +80,59 @@ msgid "Interval between each key repeat"
 msgstr "ھەر بىر كۇنۇپكىنىڭ قايتىلىنىشى ئارىسىدىكى ئىنتېرۋال"
 
 #: ../data/lxinput.ui.h:14
+#, fuzzy
+#| msgid "Long"
+msgctxt "interval"
 msgid "Long"
 msgstr "ئۇزۇن"
 
 #: ../data/lxinput.ui.h:15
+#, fuzzy
+#| msgid "Short"
+msgctxt "interval"
 msgid "Short"
 msgstr "قىسقا"
 
 #: ../data/lxinput.ui.h:16
+#, fuzzy
+#| msgid "Long"
+msgctxt "delay"
+msgid "Long"
+msgstr "ئۇزۇن"
+
+#: ../data/lxinput.ui.h:17
+#, fuzzy
+#| msgid "Short"
+msgctxt "delay"
+msgid "Short"
+msgstr "قىسقا"
+
+#: ../data/lxinput.ui.h:18
 msgid "Repeat interval:"
 msgstr "قايتىلاش ئىنتېرۋالى:"
 
-#: ../data/lxinput.ui.h:17
+#: ../data/lxinput.ui.h:19
 msgid "Type in the following box to test your keyboard settings"
 msgstr ""
 "كۇنۇپكا تەڭشىكىنى سىناش ئۈچۈن تۆۋەندىكى كۆزنەكچىگە كىرگۈزۈش ئېلىپ بېرىڭ"
 
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:20
 msgid "<b>Character Repeat</b>"
 msgstr "<b>ھەرپ قايتىلاش</b>"
 
-#: ../data/lxinput.ui.h:19
+#: ../data/lxinput.ui.h:21
 msgid "Beep when there is an error of keyboard input"
 msgstr "ھەرپتاختىدىن كىرگۈزگەندە خاتالىق كۆرۈلسە زىل چال"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:22
 msgid "<b>Keyboard layout</b>"
 msgstr "<b>ھەرپتاختا جايلاشتۇرۇلۇشى</b>"
 
-#: ../data/lxinput.ui.h:21
+#: ../data/lxinput.ui.h:23
 msgid "Keyboard"
 msgstr "ھەرپتاختا"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:24
 msgid "Touch Pad"
 msgstr "سەزگۈر تاختا"
 

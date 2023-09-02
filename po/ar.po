@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxde.lxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-15 20:06+0300\n"
+"POT-Creation-Date: 2023-09-02 02:51+0200\n"
 "PO-Revision-Date: 2015-04-10 16:03+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
@@ -21,11 +21,11 @@ msgstr ""
 "X-Generator: Pootle 2.7\n"
 "X-POOTLE-MTIME: 1428681795.000000\n"
 
-#: ../src/lxinput.c:351
+#: ../src/lxinput.c:353
 msgid "LXInput autostart"
 msgstr "بدء دخل‌لكسدي الآليّ"
 
-#: ../src/lxinput.c:352
+#: ../src/lxinput.c:354
 msgid "Setup keyboard and mouse using settings done in LXInput"
 msgstr "أعدّ لوحة المفاتيح والفأرة باستخدام الإعدادات في دخل‌لكسدي"
 
@@ -83,39 +83,53 @@ msgstr "الفترة بين كلّ تكرار للمفاتيح"
 
 #: ../data/lxinput.ui.h:14
 #, fuzzy
+msgctxt "interval"
 msgid "Long"
 msgstr "طويلة"
 
 #: ../data/lxinput.ui.h:15
 #, fuzzy
+msgctxt "interval"
 msgid "Short"
 msgstr "قصيرة"
 
 #: ../data/lxinput.ui.h:16
+#, fuzzy
+msgctxt "delay"
+msgid "Long"
+msgstr "طويلة"
+
+#: ../data/lxinput.ui.h:17
+#, fuzzy
+msgctxt "delay"
+msgid "Short"
+msgstr "قصيرة"
+
+#: ../data/lxinput.ui.h:18
 msgid "Repeat interval:"
 msgstr "فترة التّكرار:"
 
-#: ../data/lxinput.ui.h:17
+#: ../data/lxinput.ui.h:19
 msgid "Type in the following box to test your keyboard settings"
 msgstr "اكتب في المربّع التّالي لتختبر إعدادات لوحة المفاتيح"
 
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:20
 msgid "<b>Character Repeat</b>"
 msgstr "<b>تكرار المحارف</b>"
 
-#: ../data/lxinput.ui.h:19
+#: ../data/lxinput.ui.h:21
 msgid "Beep when there is an error of keyboard input"
 msgstr "أصدر جرسًا عند حدوث خطأ متعلّق بدخل لوحة المفاتيح"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:22
 msgid "<b>Keyboard layout</b>"
 msgstr "<b>تخطيط لوحة المفاتيح</b>"
 
-#: ../data/lxinput.ui.h:21
+#: ../data/lxinput.ui.h:23
 msgid "Keyboard"
 msgstr "لوحة المفاتيح"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:24
 msgid "Touch Pad"
 msgstr "لوحة اللمس"
 

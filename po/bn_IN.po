@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-15 20:06+0300\n"
+"POT-Creation-Date: 2023-09-02 02:51+0200\n"
 "PO-Revision-Date: 2015-08-17 01:28+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,11 @@ msgstr ""
 "X-Generator: Pootle 2.7\n"
 "X-POOTLE-MTIME: 1439774937.211295\n"
 
-#: ../src/lxinput.c:351
+#: ../src/lxinput.c:353
 msgid "LXInput autostart"
 msgstr ""
 
-#: ../src/lxinput.c:352
+#: ../src/lxinput.c:354
 msgid "Setup keyboard and mouse using settings done in LXInput"
 msgstr ""
 
@@ -81,39 +81,60 @@ msgstr "প্রতি কী-এর মধ্যবর্তী বিরা�
 
 # বিরাম সম্পন্ন ?
 #: ../data/lxinput.ui.h:14
+#, fuzzy
+#| msgid "Long"
+msgctxt "interval"
 msgid "Long"
 msgstr "লম্বা"
 
 #: ../data/lxinput.ui.h:15
+#, fuzzy
+#| msgid "Short"
+msgctxt "interval"
 msgid "Short"
 msgstr "ছোট"
 
+# বিরাম সম্পন্ন ?
 #: ../data/lxinput.ui.h:16
+#, fuzzy
+#| msgid "Long"
+msgctxt "delay"
+msgid "Long"
+msgstr "লম্বা"
+
+#: ../data/lxinput.ui.h:17
+#, fuzzy
+#| msgid "Short"
+msgctxt "delay"
+msgid "Short"
+msgstr "ছোট"
+
+#: ../data/lxinput.ui.h:18
 msgid "Repeat interval:"
 msgstr "পুনরাবৃত্তির সময়সীমা:"
 
-#: ../data/lxinput.ui.h:17
+#: ../data/lxinput.ui.h:19
 msgid "Type in the following box to test your keyboard settings"
 msgstr "কী-বোর্ড এর সেটিং পরীক্ষা করার জন্য এইটি টাইপ করুন"
 
-#: ../data/lxinput.ui.h:18
+#: ../data/lxinput.ui.h:20
 msgid "<b>Character Repeat</b>"
 msgstr "<b>অক্ষর পুনরাবৃত্তি</b>"
 
-#: ../data/lxinput.ui.h:19
+#: ../data/lxinput.ui.h:21
 msgid "Beep when there is an error of keyboard input"
 msgstr "কীবোর্ড ইনপুটে ত্রুটিতে আওয়াজ করা হবে"
 
-#: ../data/lxinput.ui.h:20
+#: ../data/lxinput.ui.h:22
 #, fuzzy
 msgid "<b>Keyboard layout</b>"
 msgstr "কী-বোর্ড এবং মাউস"
 
-#: ../data/lxinput.ui.h:21
+#: ../data/lxinput.ui.h:23
 msgid "Keyboard"
 msgstr "কী-বোর্ড"
 
-#: ../data/lxinput.ui.h:22
+#: ../data/lxinput.ui.h:24
 msgid "Touch Pad"
 msgstr "টাচ-প্যাড"
 
