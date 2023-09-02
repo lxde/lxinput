@@ -78,14 +78,16 @@ AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package.])
 if test x"$enable_man" = x"yes"; then
     AC_PATH_PROG([XSLTPROC], [xsltproc])
     if test -z "$XSLTPROC"; then
-        enable_man=no
+        AC_MSG_ERROR([xsltproc is required to regenerate the pre-built man page; consider --disable-man])
     fi
 
     dnl check for DocBook DTD and stylesheets in the local catalog.
     JH_CHECK_XML_CATALOG([-//OASIS//DTD DocBook XML V4.1.2//EN],
-        [DocBook XML DTD V4.1.2], [], enable_man=no)
+        [DocBook XML DTD V4.1.2], [], AC_MSG_ERROR([DocBook XML DTD is required to regenerate the pre-built man page; consider --disable-man]))
     JH_CHECK_XML_CATALOG([http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl],
-        [DocBook XSL Stylesheets >= 1.70.1], [], enable_man=no)
+        [DocBook XSL Stylesheets >= 1.70.1], [], AC_MSG_ERROR([DocBook XSL Stylesheets are required to regenerate the pre-built man page; consider --disable-man]))
+
+    rm -f $srcdir/man/lxinput.1
 fi
 
 AM_CONDITIONAL(ENABLE_REGENERATE_MAN, test "x$enable_man" != "xno")
