@@ -5,6 +5,7 @@
  *      Copyright 2009 martyj19 <martyj19@comcast.net>
  *      Copyright 2011-2013 Julien Lavergne <julien.lavergne@gmail.com>
  *      Copyright 2014 Andriy Grytsenko <andrej@rep.kiev.ua>
+ *      Copyright 2023 Ingo Brückl
  *
  *      This program is free software; you can redistribute it and/or modify
  *      it under the terms of the GNU General Public License as published by
@@ -45,7 +46,7 @@ static GtkRange *kb_delay;
 static GtkRange *kb_interval;
 static GtkToggleButton* kb_beep;
 static GtkButton* kb_layout;
-static GtkLabel* kb_layout_label;
+static GtkFrame* kb_layout_frame;
 
 static int accel = 20, old_accel = 20;
 static int threshold = 10, old_threshold = 10;
@@ -265,10 +266,9 @@ int main(int argc, char** argv)
     const gchar *program = detect_keymap_program();
     if (program == NULL)
     {
-        /* Hide the button if there is no program to set keymap */
-        kb_layout_label = (GtkLabel*)gtk_builder_get_object(builder,"keyboard_layout_label");
-        gtk_widget_set_visible(GTK_WIDGET(kb_layout_label), FALSE);
-        gtk_widget_set_visible(GTK_WIDGET(kb_layout), FALSE);
+        /* Hide the frame if there is no program to set keymap */
+        kb_layout_frame = (GtkFrame*)gtk_builder_get_object(builder,"keyboard_layout_frame");
+        gtk_widget_set_visible(GTK_WIDGET(kb_layout_frame), FALSE);
     }
     else
     {
