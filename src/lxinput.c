@@ -81,7 +81,7 @@ static void on_kb_range_changed(GtkRange* range, int* val)
 
 /* This function is taken from Gnome's control-center 2.6.0.3 (gnome-settings-mouse.c) and was modified*/
 #define DEFAULT_PTR_MAP_SIZE 128
-static void set_left_handed_mouse()
+static void set_left_handed_mouse(void)
 {
     unsigned char *buttons;
     gint n_buttons, i;
@@ -115,7 +115,7 @@ static void set_left_handed_mouse()
 static void on_left_handed_toggle(GtkToggleButton* btn, gpointer user_data)
 {
     left_handed = gtk_toggle_button_get_active(btn);
-    set_left_handed_mouse(left_handed);
+    set_left_handed_mouse();
 }
 
 static void on_kb_beep_toggle(GtkToggleButton* btn, gpointer user_data)
