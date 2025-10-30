@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-02 02:51+0200\n"
-"PO-Revision-Date: 2018-10-01 14:36+0000\n"
+"PO-Revision-Date: 2025-10-30 12:37+0100\n"
 "Last-Translator: Davidmp <rbndavid@gmail.com>\n"
 "Language-Team: LXDE Catalan translators group\n"
 "Language: ca\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.8\n"
+"X-Generator: Poedit 3.6\n"
 "X-POOTLE-MTIME: 1538404616.462223\n"
 
 #: ../src/lxinput.c:353
@@ -25,7 +25,7 @@ msgstr "Autoinici d'LXInput"
 
 #: ../src/lxinput.c:354
 msgid "Setup keyboard and mouse using settings done in LXInput"
-msgstr "Estableix el teclat i ratolí amb la configuració feta a LXInput"
+msgstr "Estableix el teclat i ratolí amb la configuració feta a l'LXInput"
 
 #: ../data/lxinput.ui.h:1
 msgid "Input Device Preferences"
@@ -37,11 +37,11 @@ msgstr "Sensibilitat:"
 
 #: ../data/lxinput.ui.h:3
 msgid "High"
-msgstr "Alt"
+msgstr "Alta"
 
 #: ../data/lxinput.ui.h:4
 msgid "Low"
-msgstr "Baix"
+msgstr "Baixa"
 
 #: ../data/lxinput.ui.h:5
 msgid "Fast"
@@ -53,7 +53,7 @@ msgstr "Lent"
 
 #: ../data/lxinput.ui.h:7
 msgid "Acceleration:"
-msgstr "Acceleració"
+msgstr "Acceleració:"
 
 #: ../data/lxinput.ui.h:8
 msgid "<b>Motion</b>"
@@ -61,7 +61,7 @@ msgstr "<b>Moviment</b>"
 
 #: ../data/lxinput.ui.h:9
 msgid "Left handed (Swap left and right mouse buttons)"
-msgstr "Esquerrà (intercanvia els botons dret i esquerra del ratolí)"
+msgstr "Esquerrà (intercanvia els botons dret i esquerre del ratolí)"
 
 #: ../data/lxinput.ui.h:10
 msgid "Mouse"
@@ -73,47 +73,39 @@ msgstr "Retard abans de començar a repetir una tecla"
 
 #: ../data/lxinput.ui.h:12
 msgid "Repeat delay:"
-msgstr "Repeteix la demora:"
+msgstr "Retard de la repetició:"
 
 #: ../data/lxinput.ui.h:13
 msgid "Interval between each key repeat"
 msgstr "Interval entre la repetició de tecles"
 
 #: ../data/lxinput.ui.h:14
-#, fuzzy
-#| msgid "Long"
 msgctxt "interval"
 msgid "Long"
 msgstr "Llarg"
 
 #: ../data/lxinput.ui.h:15
-#, fuzzy
-#| msgid "Short"
 msgctxt "interval"
 msgid "Short"
 msgstr "Curt"
 
 #: ../data/lxinput.ui.h:16
-#, fuzzy
-#| msgid "Long"
 msgctxt "delay"
 msgid "Long"
 msgstr "Llarg"
 
 #: ../data/lxinput.ui.h:17
-#, fuzzy
-#| msgid "Short"
 msgctxt "delay"
 msgid "Short"
 msgstr "Curt"
 
 #: ../data/lxinput.ui.h:18
 msgid "Repeat interval:"
-msgstr "Repeteix l'interval:"
+msgstr "Interval de repetició:"
 
 #: ../data/lxinput.ui.h:19
 msgid "Type in the following box to test your keyboard settings"
-msgstr "Escriviu text a l'àrea següent per provar la configuració del teclat"
+msgstr "Escriviu text a l'àrea següent per provar la configuració del teclat."
 
 #: ../data/lxinput.ui.h:20
 msgid "<b>Character Repeat</b>"
@@ -121,7 +113,7 @@ msgstr "<b>Repetició de caràcters</b>"
 
 #: ../data/lxinput.ui.h:21
 msgid "Beep when there is an error of keyboard input"
-msgstr "Pita quan es detecti un error en l'entrada de teclat"
+msgstr "Pita quan es detecti un error a l'entrada del teclat"
 
 #: ../data/lxinput.ui.h:22
 msgid "<b>Keyboard layout</b>"
@@ -133,7 +125,7 @@ msgstr "Teclat"
 
 #: ../data/lxinput.ui.h:24
 msgid "Touch Pad"
-msgstr "Touchpad"
+msgstr "Ratolí tàctil"
 
 #: ../data/lxinput.desktop.in.h:1
 msgid "Keyboard and Mouse"
