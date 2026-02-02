@@ -1,0 +1,134 @@
+# Georgian translation for lxinput.
+# Copyright (C) 2026 lxinput authors.
+# This file is distributed under the same license as the lxinput package.
+# Ekaterine Papava <papava.e@gtu.ge>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxinput\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-02 02:51+0200\n"
+"PO-Revision-Date: 2026-02-02 13:04+0100\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#: ../src/lxinput.c:353
+msgid "LXInput autostart"
+msgstr "LXInput-ის ავტოგაშვება"
+
+#: ../src/lxinput.c:354
+msgid "Setup keyboard and mouse using settings done in LXInput"
+msgstr "კლავიატურისა და თაგუნას მორგება LXInput-ში მორგებული პარამეტრებით"
+
+#: ../data/lxinput.ui.h:1
+msgid "Input Device Preferences"
+msgstr "შეყვანის მოწყობილობის მორგება"
+
+#: ../data/lxinput.ui.h:2
+msgid "Sensitivity:"
+msgstr "მგრძნობიარობა:"
+
+#: ../data/lxinput.ui.h:3
+msgid "High"
+msgstr "მაღალი"
+
+#: ../data/lxinput.ui.h:4
+msgid "Low"
+msgstr "დაბალი"
+
+#: ../data/lxinput.ui.h:5
+msgid "Fast"
+msgstr "სწრაფი"
+
+#: ../data/lxinput.ui.h:6
+msgid "Slow"
+msgstr "ნელი"
+
+#: ../data/lxinput.ui.h:7
+msgid "Acceleration:"
+msgstr "აჩქარება:"
+
+#: ../data/lxinput.ui.h:8
+msgid "<b>Motion</b>"
+msgstr "<b>მოძრაობა</b>"
+
+#: ../data/lxinput.ui.h:9
+msgid "Left handed (Swap left and right mouse buttons)"
+msgstr "ცაცია (თაგუნას მარჯვენა და მარცხენა ღილაკების მიმოცვლა)"
+
+#: ../data/lxinput.ui.h:10
+msgid "Mouse"
+msgstr "თაგუნა"
+
+#: ../data/lxinput.ui.h:11
+msgid "Delay before each key starts repeating"
+msgstr "დაყოვნება, სანამ თითოეული ღილაკი გამეორებას დაიწყებს"
+
+#: ../data/lxinput.ui.h:12
+msgid "Repeat delay:"
+msgstr "გამეორების დაყოვნება:"
+
+#: ../data/lxinput.ui.h:13
+msgid "Interval between each key repeat"
+msgstr "ინტერვალი თითოეული ღილაკის გამეორებას შორის"
+
+#: ../data/lxinput.ui.h:14
+msgctxt "interval"
+msgid "Long"
+msgstr "გრძელი"
+
+#: ../data/lxinput.ui.h:15
+msgctxt "interval"
+msgid "Short"
+msgstr "მოკლე"
+
+#: ../data/lxinput.ui.h:16
+msgctxt "delay"
+msgid "Long"
+msgstr "გრძელი"
+
+#: ../data/lxinput.ui.h:17
+msgctxt "delay"
+msgid "Short"
+msgstr "მოკლე"
+
+#: ../data/lxinput.ui.h:18
+msgid "Repeat interval:"
+msgstr "გამეორების ინტერვალი:"
+
+#: ../data/lxinput.ui.h:19
+msgid "Type in the following box to test your keyboard settings"
+msgstr "აკრიფეთ შემდეგ ველში თქვენი კლავიატურის პარამეტრების შესამოწმებლად"
+
+#: ../data/lxinput.ui.h:20
+msgid "<b>Character Repeat</b>"
+msgstr "<b>სიმბოლოს გამეორება</b>"
+
+#: ../data/lxinput.ui.h:21
+msgid "Beep when there is an error of keyboard input"
+msgstr "პიპინი კლავიატურიდან შეყვანის შეცდომის არსებობისას"
+
+#: ../data/lxinput.ui.h:22
+msgid "<b>Keyboard layout</b>"
+msgstr "<b>კლავიატურის განლაგება</b>"
+
+#: ../data/lxinput.ui.h:23
+msgid "Keyboard"
+msgstr "კლავიატურა"
+
+#: ../data/lxinput.ui.h:24
+msgid "Touch Pad"
+msgstr "სენსორული პანელი"
+
+#: ../data/lxinput.desktop.in.h:1
+msgid "Keyboard and Mouse"
+msgstr "კლავიატურა და თაგუნა"
+
+#: ../data/lxinput.desktop.in.h:2
+msgid "Configure keyboard, mouse, and other input devices"
+msgstr "მოირგეთ კლავიატურა, თაგუნა და სხვა შეყვანის მოწყობილობები"
