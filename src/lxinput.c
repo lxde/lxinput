@@ -350,7 +350,7 @@ int main(int argc, char** argv)
                                   "Comment=%s\n"
                                   "NoDisplay=true\n"
                                   "Exec=sh -c 'xset m %d/10 %d r rate %d %d b %s%s'\n"
-                                  "NotShowIn=GNOME;KDE;XFCE;\n",
+                                  "NotShowIn=GNOME;KDE;XFCE;MATE;Budgie;COSMIC;Enlightenment;LXQt;X-Cinnamon;\n",
                                   _("LXInput autostart"),
                                   _("Setup keyboard and mouse using settings done in LXInput"),
                                   /* FIXME: how to setup left-handed mouse? */
