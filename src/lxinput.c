@@ -247,6 +247,24 @@ int main(int argc, char** argv)
 
     gtk_icon_theme_prepend_search_path(gtk_icon_theme_get_default(), PACKAGE_DATA_DIR);
 
+#if GTK_CHECK_VERSION(3, 0, 0)
+    /* check if not running under X11 */
+    if (!GDK_IS_X11_DISPLAY(gdk_display_get_default()))
+    {
+        GtkWidget *dialog = gtk_message_dialog_new(
+            NULL,
+            GTK_DIALOG_MODAL,
+            GTK_MESSAGE_ERROR,
+            GTK_BUTTONS_OK,
+            _("This tool can be used only under X11.")
+        );
+
+        gtk_dialog_run(GTK_DIALOG(dialog));
+        gtk_widget_destroy(dialog);
+        return 1;
+    }
+#endif
+
     /* build the UI */
     builder = gtk_builder_new();
 
